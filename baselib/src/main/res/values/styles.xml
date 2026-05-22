@@ -1,0 +1,7 @@
+<resources>
+    <style name="App_Dialog_Bottom_Animation" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_slid_up</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_slid_down</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+</resources>

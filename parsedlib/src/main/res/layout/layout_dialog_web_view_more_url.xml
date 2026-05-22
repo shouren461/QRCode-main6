@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:theme="@style/WebViewTheme">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/qr_dp_16"
+        app:cardBackgroundColor="@color/web_view_page_bg"
+        app:cardCornerRadius="@dimen/qr_dp_16">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/view_copy_link"
+                style="@style/FontBlack"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qr_dp_50"
+                android:background="?attr/selectableItemBackground"
+                android:drawableStart="@drawable/web_view_svg_copy"
+                android:drawablePadding="@dimen/qr_dp_15"
+                android:paddingVertical="@dimen/qr_dp_13"
+                android:paddingStart="@dimen/qr_dp_16"
+                android:paddingEnd="@dimen/qr_dp_60"
+                android:text="@string/action_copy"
+                android:textColor="@color/web_view_search_text"
+                android:textSize="@dimen/qr_sp_16" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/view_share"
+                style="@style/FontBlack"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qr_dp_50"
+                android:background="?attr/selectableItemBackground"
+                android:drawableStart="@drawable/web_view_svg_share"
+                android:drawablePadding="@dimen/qr_dp_15"
+                android:paddingVertical="@dimen/qr_dp_13"
+                android:paddingStart="@dimen/qr_dp_16"
+                android:paddingEnd="@dimen/qr_dp_60"
+                android:text="@string/share"
+                android:textColor="@color/web_view_search_text"
+                android:textSize="@dimen/qr_sp_16" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/view_faq"
+                style="@style/FontBlack"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qr_dp_50"
+                android:background="?attr/selectableItemBackground"
+                android:drawableStart="@drawable/web_view_svg_faq"
+                android:drawablePadding="@dimen/qr_dp_15"
+                android:paddingVertical="@dimen/qr_dp_13"
+                android:paddingStart="@dimen/qr_dp_16"
+                android:paddingEnd="@dimen/qr_dp_60"
+                android:text="@string/faq"
+                android:textColor="@color/web_view_search_text"
+                android:textSize="@dimen/qr_sp_16" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

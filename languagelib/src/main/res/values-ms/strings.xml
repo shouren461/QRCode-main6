@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">Perkhidmatan Google Paid tidak tersedia buat masa ini atau tidak tersedia di negara anda, anda boleh terus menggunakan aplikasi kecuali membayar untuk mengalih keluar iklan.</string>
+    <string name="purchased_failed_title">Tidak boleh membuat pembelian</string>
+    <string name="fb_btn_submit">Serah</string>
+    <string name="fb_thx_feedback_tip">Kami akan membetulkannya dalam versi akan datang. Maaf atas kesulitan ini.</string>
+    <string name="fb_thx_feedback_title">Terima kasih atas maklum balas anda</string>
+    <string name="fb_please_tell_more">Beritahu kami lebih banyak maklumat supaya kami dapat mencari dan menyelesaikan masalah anda dengan lebih cepat (sekurang-kurangnya %s aksara)</string>
+    <string name="fb_tell_us_your_problem">Beritahu kami masalah yang anda hadapi</string>
+    <string name="fb_type">Jenis</string>
+    <string name="fb_ok">OK</string>
+    <string name="fb_button_cancel">Batal</string>
+    <string name="fb_choose_to_submit">Sila pilih satu item untuk serahkan</string>
+    <string name="button_cancel">Batal</string>
+    <string name="action_ok">OK</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Lokasi</string>
+    <string name="parse_format_title_email_address">E-mel</string>
+    <string name="parse_format_title_sms">SMS</string>
+    <string name="parse_format_title_text">Teks</string>
+    <string name="parse_format_title_address_book">Kenalan</string>
+    <string name="parse_format_title_tel">Tel</string>
+    <string name="parse_format_title_isbn">Buku</string>
+    <string name="parse_format_title_product">Produk</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_calendar">Kalendar</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_result_content_geo">Geo:</string>
+    <string name="parse_format_title_barcode">Kod Bar</string>
+    <string name="parse_action_title_add_contacts">Tambah ke kenalan</string>
+    <string name="parse_action_title_add_event">Tambah ke acara</string>
+    <string name="parse_result_content_lng">Lng:</string>
+    <string name="parse_result_content_lat">Lat:</string>
+    <string name="parse_action_title_navigation">Navigasi</string>
+    <string name="parse_result_content_tel">Tel:</string>
+    <string name="parse_action_title_call">Panggil</string>
+    <string name="parse_result_content_email">E-mel:</string>
+    <string name="parse_result_content_name">Nama:</string>
+    <string name="parse_action_title_copy">Salin</string>
+    <string name="parse_action_title_nutrient_analyse">Analisis nutrisi</string>
+    <string name="parse_action_title_shop_now">Belanja sekarang</string>
+    <string name="parse_result_content_address">Alamat:</string>
+    <string name="parse_result_content_nickname">Nama Panggilan:</string>
+    <string name="parse_result_content_org">Org:</string>
+    <string name="parse_action_title_history_price">Sejarah harga</string>
+    <string name="parse_result_content_title">Gelaran:</string>
+    <string name="parse_result_content_birthday">Hari Lahir:</string>
+    <string name="parse_result_content_to">Kepada:</string>
+    <string name="parse_result_content_cc">SK:</string>
+    <string name="parse_result_content_bcc">SKS:</string>
+    <string name="parse_result_content_subject">Tajuk:</string>
+    <string name="parse_result_content_body">Kandungan:</string>
+    <string name="parse_result_content_ssid">Nama rangkaian:</string>
+    <string name="parse_result_content_type">Jenis keselamatan:</string>
+    <string name="parse_action_title_show_on_map">Tunjuk pada peta</string>
+    <string name="parse_action_title_copy_password">Salin kata laluan</string>
+    <string name="parse_action_title_send_email">Hantar e-mel</string>
+    <string name="parse_action_title_product_search">Carian produk</string>
+    <string name="parse_action_title_book_search">Carian buku</string>
+    <string name="parse_action_title_web_search">Carian Google</string>
+    <string name="parse_action_title_send_sms">Hantar SMS</string>
+    <string name="parse_action_title_send_mms">Hantar MMS</string>
+    <string name="parse_result_content_note">Nota:</string>
+    <string name="parse_result_content_start">Mula:</string>
+    <string name="parse_result_content_end">Tamat:</string>
+    <string name="lh_button_ok">OK</string>
+    <string name="parse_result_content_summary">Tajuk:</string>
+    <string name="parse_action_title_share">Kongsi</string>
+    <string name="parse_result_content_password">Kata laluan:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_action_title_open">Buka</string>
+    <string name="lh_intent_failed">Maaf, aplikasi yang diminta tidak dapat dilancarkan.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Disebabkan sekatan sistem, peranti Android 10 dan lebih tinggi perlu disambung <b>secara manual</b> ke Wi-Fi]]></string>
+    <string name="lh_open_wifi_settings">Buka tetapan Wi-Fi</string>
+    <string name="lh_choose_wifi">Pilih Wi-Fi untuk disambung</string>
+    <string name="lh_paste_password">Tampalkan kata laluan (disalin automatik)</string>
+    <string name="parse_action_title_connect_to_network">Sambung ke Wi-Fi</string>
+    <string name="lh_wifi_disabled">Wi-Fi dinyahdayakan</string>
+    <string name="lh_wifi_disabled_des">Untuk menyambung ke Wi-Fi, anda perlu mendayakannya dahulu.</string>
+    <string name="lh_enable_wifi">Dayakan Wi-Fi</string>
+    <string name="lh_tip">Petua</string>
+    <string name="lh_required_permission_1">1.Buka Tetapan</string>
+    <string name="lh_required_permission_2">2.Ketik Kebenaran</string>
+    <string name="lh_required_permission_turn_on_storage">3.Hidupkan Storan</string>
+    <string name="lh_button_cancel">Batal</string>
+
+    <string name="action_copy">Salin pautan</string>
+    <string name="copied_to_clipboard">Disalin ke papan klip</string>
+    <string name="different_engine_more_info">Cuba enjin carian yang berbeza untuk mendapatkan lebih banyak maklumat yang berguna!</string>
+    <string name="no_internet_des">Tiada sambungan internet. Sila cuba sebentar lagi.</string>
+    <string name="x_link_open">Pautan %s dikesan, mahu buka?</string>
+    <string name="parse_action_view_in_store">Lihat di Kedai</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+
+    <string name="loading">Pemuatan…</string>
+    <string name="remaining_space">Baki ruang: %s</string>
+    <string name="free_space_needed">Ruang diperlukan: %s (disarankan)</string>
+    <string name="free_space_to_ensure">Kosongkan sedikit ruang untuk memastikan aplikasi berfungsi dengan baik.</string>
+    <string name="free_up_space">Kosongkan ruang</string>
+    <string name="no_enough_storage">Tidak cukup storan</string>
+    <string name="click_share_option">1. Pilih teks dalam aplikasi lain dan klik butang \&#34;Kongsi\&#34;</string>
+    <string name="then_select_generate">2. Pilih \&#34;%s\&#34;</string>
+    <string name="use_share">Gunakan pilihan \&#34;Kongsi\&#34; untuk menjanakan kod QR</string>
+    <string name="qr_code_not_found">Tiada kod QR/kod bar ditemui</string>
+    <string name="album_permission_hint">Kebenaran galeri diperlukan untuk mengimbas kod QR/kod bar dalam Galeri.</string>
+    <string name="required_permission_turn_on_camera">3.Hidupkan Kamera</string>
+    <string name="qr_code_not_found_hint">Pastikan kod QR/kod bar adalah jelas dan berada sepenuhnya di dalam bingkai</string>
+    <string name="msg_intent_failed">Maaf, aplikasi yang diminta tidak dapat dilancarkan.</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="feedback">Maklum Balas</string>
+    <string name="why_need_permissions">Mengapakah kami memerlukan kebenaran?</string>
+    <string name="permission_required">Kebenaran Diperlukan</string>
+    <string name="required_permission_1">1.Buka Tetapan</string>
+    <string name="required_permission_2">2.Ketik Kebenaran</string>
+    <string name="required_permission_turn_on_storage">3.Hidupkan Storan</string>
+    <string name="open_settings">Buka Tetapan</string>
+    <string name="td_feedback_email_title">%s Maklum Balas</string>
+    <string name="tap_again_to_exit">Ketik sekali lagi untuk keluar</string>
+    <string name="clear_history">Kosongkan sejarah?</string>
+    <string name="generate_qr_code">Janakan Kod QR</string>
+    <string name="camera_problem_restart">Maaf, kamera Android menghadapi masalah. Sila periksa dan mulakan semula aplikasi.</string>
+    <string name="good">Bagus</string>
+    <string name="camera_permission_des">Kebenaran kamera diperlukan untuk mengimbas kod QR/kod bar.</string>
+    <string name="storage_permission_save_images">Keizinan storan diperlukan untuk menyimpan imej.</string>
+    <string name="not_good">Tidak juga</string>
+    <string name="delete_sure">Adakah anda pasti mahu memadam?</string>
+    <string name="satisfied_scan_ask">Adakah anda berpuas hati dengan hasil imbasan?</string>
+    <string name="browse_from_gallery">Pilih daripada galeri</string>
+    <string name="capture">Ambil foto</string>
+    <string name="scan_image_how_to_2">Pilih \"Imbas imej\"</string>
+    <string name="scan_image_title">Cara yang lebih mudah untuk mengimbas imej dari mana sahaja:</string>
+    <string name="scan_image_how_to_1">Pilih imej dalam aplikasi lain dan klik butang \"Kongsi\"</string>
+    <string name="got_it">FAHAM</string>
+    <string name="share">Kongsi</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Tidak dapat menyambung ke Wi-Fi?#\n1. Pastikan anda berada <b>dalam kawasan liputan Wi-Fi</b> dan nama pengguna dan kata laluan Wi-Fi adalah betul.\n\nJika anda masih tidak dapat menyambung, sila tanya penyedia kod QR sama ada kata laluan tersebut telah ditukar.\n\n2. Jika hasil imbasan dipaparkan sebagai teks, anda perlu <b>sambung ke Wi-Fi secara manual</b> dalam tetapan rangkaian telefon anda berdasarkan nama Wi-Fi dan kata laluan yang disediakan dalam teks.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Kod tidak boleh dibaca?#\n1. Untuk mendapatkan hasil pengimbasan yang tepat, sila pastikan kod tersebut memenuhi ciri berikut:\n\t\ta. kontras yang tinggi dan <b>tidak kabur</b>.\n\t\tb. <b>tiada pantulan cahaya atau bayang</b> pada kod.\n\t\tc. <b>lengkap</b>, tanpa bahagian yang hilang.\n\n2. Jika anda menggunakan telefon biasa, pengimbasan mungkin sangat sukar atau bahkan mustahil kerana kualiti kamera yang rendah.\n\nAnda boleh cuba mengambil foto menggunakan aplikasi kamera anda, kemudian buka aplikasi kami dan ketik \'Imbas daripada galeri\' untuk menyelesaikan masalah ini.\n\n3. Jika anda masih tidak mendapat hasil semasa mengimbas kod bar atau kod QR, sila hantar e-mel melalui %sMaklum Balas%s kepada kami, kami akan menyelesaikan masalah tersebut untuk anda secepat mungkin.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Tukar gambar kepada kod QR?#\nFungsi akan dilancarkan tidak lama lagi…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Ada masalah dengan pautan yang anda dapat?#\n1. Aplikasi ini tidak boleh menukar kandungan kod QR, jadi jika anda tidak boleh membuka laman web ini, kemungkinan besar terdapat masalah dengan <b>laman web itu sendiri</b>. Malangnya, tiada apa yang boleh kami lakukan mengenai hal tersebut.\n\n2. Mungkin juga pencipta kod QR memasukkan <b>pautan yang salah</b> atau kod QR telah <b>luput</b>, menyebabkan anda tidak dapat membuka laman web. Jika boleh, cuba anda sahkan ketepatan kod QR dengan pencipta.\n\n3. Secara khususnya, beberapa pautan web perlu dibuka di bawah keadaan khas, contohnya, ia perlu dibuka menggunakan <b>aplikasi tertentu</b>. Sila ikut arahan penyedia kod QR.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Perlukan lebih banyak maklumat?#\nAda terlalu banyak maklumat tersedia dan kami mungkin tidak dapat memberikan maklumat yang anda inginkan pada setiap masa. Anda boleh menyemak maklumat lanjut melalui <b>Carian web</b>.\n\nJika Carian web masih tidak dapat membantu anda mencari maklumat yang anda cari, mungkin kod itu sendiri mengandungi maklumat yang terhad. Harap anda faham.]]></string>
+    <string name="scanner_not_working">Pengimbas tidak berfungsi?</string>
+    <string name="view_faq">Lihat Soalan Lazim</string>
+    <string name="description">Huraian</string>
+    <string name="save">Simpan</string>
+    <string name="all_day">Sepanjang hari</string>
+    <string name="start">Mula</string>
+    <string name="location">Lokasi</string>
+    <string name="copy">Salin</string>
+    <string name="avoid_reflections"><![CDATA[Elakkan <b>balikan</b> cahaya atau <b>bayang</b> pada kod]]> </string>
+    <string name="make_phone_face"><![CDATA[Pastikan telefon anda menghadap kod <b>tanpa condong</b>]]> </string>
+    <string name="qr_link_tips_1">Aplikasi ini hanya boleh membantu anda membaca pautan web (URL) daripada kod QR, kami tidak mengetahui kandungan tepat pautan web tersebut.</string>
+    <string name="qr_link_tips_2">Jika anda mempunyai sebarang soalan tentang pautan tersebut, sila hubungi pemilik kod QR ini untuk maklumat lanjut, terima kasih!</string>
+    <string name="tip">Petua</string>
+    <string name="retry">Cuba lagi</string>
+    <string name="web_search">Carian web</string>
+    <string name="point_your_camera">Halakan kamera anda pada kod untuk imbasan automatik</string>
+    <string name="product_guide_hint">Beberapa produk belum dimasukkan ke pustaka produk. Anda boleh mengetik Carian Web untuk mendapatkan lebih banyak maklumat produk.</string>
+    <string name="search_for_more_information">Ketik Carian Web untuk lebih banyak maklumat</string>
+    <string name="faq">Soalan Lazim</string>
+    <string name="amazon_shopping">Membeli Belah Amazon</string>
+
+    <string name="hint_title">Tajuk</string>
+    <string name="result_email_address">E-mel</string>
+    <string name="result_tel">Tel</string>
+    <!-- 问 -->
+    <string name="enter_your_youtube_channel_id">Masukkan ID Saluran Youtube</string>
+    <string name="enter_youtube_url">Masukkan URL Youtube</string>
+    <string name="saved_to_gallery">Disimpan ke Galeri</string>
+    <string name="toast_text_null">Sila masukkan kandungan dahulu</string>
+    <string name="ok">OK</string>
+    <string name="no_history">Tiada sejarah</string>
+    <string name="channel_id">ID Saluran</string>
+    <string name="enter_youtube_video_id">Masukkan ID Video Youtube</string>
+    <!-- 问 -->
+    <string name="video_id">ID Video</string>
+    <string name="result_bar_code">Kod Bar</string>
+
+    <string name="search">Carian</string>
+    <string name="td_tip">Tip</string>
+    <string name="no_thanks_1">Tidak, terima kasih</string>
+    <string name="try_now_button">Cuba sekarang</string>
+    <string name="barcode_scan_fail_tip">Jika imbasan gagal, anda boleh cuba memasukkan nombor kod bar secara manual untuk mencari.</string>
+    <string name="input_invalid_no_content_tip">Sila masukkan nombor</string>
+
+    <string name="rename">Nama semula</string>
+
+    <string name="still_have_problems_1">Masih ada masalah</string>
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/feedback_page_bg"
+    android:orientation="vertical"
+    android:theme="@style/FeedbackTheme">
+
+    <LinearLayout
+        android:id="@+id/ll_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_height="@dimen/qr_dp_46">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/actionBarItemBackground"
+            android:scaleType="center"
+            android:tint="@color/feedback_text_first"
+            app:srcCompat="@drawable/feedback_svg_back"
+            tools:layout_height="@dimen/qr_dp_46"
+            tools:layout_width="@dimen/qr_dp_46" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FontBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="@dimen/qr_dp_8"
+            android:text="@string/feedback"
+            android:textColor="@color/feedback_text_first"
+            android:textSize="@dimen/qr_sp_18" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toTopOf="@id/tv_submit"
+        app:layout_constraintTop_toBottomOf="@id/ll_toolbar"
+        app:layout_constraintVertical_weight="1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_title"
+                android:layout_width="@dimen/qr_dp_60"
+                android:layout_height="@dimen/qr_dp_60"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/feedback_svc_feedback"
+                tools:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_title"
+                style="@style/FontBlack"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qr_dp_20"
+                android:text="@string/fb_tell_us_your_problem"
+                android:textColor="@color/feedback_text_first"
+                android:textSize="@dimen/qr_sp_18"
+                app:layout_constraintEnd_toEndOf="@id/guide_end"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@id/guide_start"
+                app:layout_constraintTop_toBottomOf="@id/iv_title"
+                tools:text="Tell us the problem you encountered" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_reason"
+                style="@style/FontBold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qr_dp_18"
+                android:text="@string/fb_type"
+                android:textColor="@color/faq_text_second"
+                android:textSize="@dimen/qr_sp_14"
+                app:layout_constraintStart_toStartOf="@id/guide_start"
+                app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_reason"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="@id/guide_end"
+                app:layout_constraintStart_toStartOf="@id/guide_start"
+                app:layout_constraintTop_toBottomOf="@id/tv_reason"
+                tools:itemCount="3"
+                tools:listitem="@layout/layout_adapter_feedback_reason" />
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_warning"
+                style="@style/FontBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qr_dp_10"
+                android:drawablePadding="@dimen/qr_dp_6"
+                android:paddingHorizontal="@dimen/qr_dp_3"
+                android:paddingVertical="@dimen/qr_dp_5"
+                android:text="@string/fb_choose_to_submit"
+                android:textColor="@color/feedback_warning"
+                android:visibility="gone"
+                app:drawableStartCompat="@drawable/feedback_svg_warning"
+                app:layout_constraintEnd_toEndOf="@id/guide_end"
+                app:layout_constraintStart_toStartOf="@id/guide_start"
+                app:layout_constraintTop_toBottomOf="@id/rv_reason"
+                tools:visibility="visible" />
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_input"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/qr_dp_20"
+                android:background="@drawable/feedback_input_bg"
+                android:gravity="start"
+                android:hint="@string/fb_please_tell_more"
+                android:minHeight="@dimen/qr_dp_160"
+                android:paddingStart="@dimen/qr_dp_18"
+                android:paddingTop="@dimen/qr_dp_10"
+                android:paddingEnd="@dimen/qr_dp_18"
+                android:paddingBottom="@dimen/qr_dp_60"
+                android:textColor="@color/feedback_et_text"
+                android:textColorHint="@color/feedback_et_hint"
+                android:textSize="@dimen/qr_sp_13"
+                app:layout_constraintEnd_toEndOf="@id/guide_end"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@id/guide_start"
+                app:layout_constraintTop_toBottomOf="@id/tv_warning" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_photo"
+                android:layout_width="@dimen/qr_dp_40"
+                android:layout_height="@dimen/qr_dp_40"
+                android:layout_margin="@dimen/qr_dp_14"
+                android:background="@drawable/bg_corner_9"
+                android:padding="@dimen/qr_dp_6"
+                app:layout_constraintBottom_toBottomOf="@id/et_input"
+                app:layout_constraintStart_toStartOf="@id/et_input"
+                app:srcCompat="@drawable/feedback_ic_camera" />
+
+            <LinearLayout
+                android:id="@+id/view_photo_select"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/qr_dp_40"
+                android:background="@drawable/bg_corner_9"
+                android:orientation="horizontal"
+                android:padding="@dimen/qr_dp_10"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@id/iv_photo"
+                app:layout_constraintStart_toStartOf="@id/iv_photo"
+                app:layout_constraintTop_toTopOf="@id/iv_photo"
+                tools:ignore="UselessParent"
+                tools:visibility="visible">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="@dimen/qr_dp_16"
+                    android:layout_height="@dimen/qr_dp_16"
+                    android:layout_gravity="start"
+                    android:tint="@color/themeColor"
+                    app:srcCompat="@drawable/feedback_ic_photo" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_feedback_img_name"
+                    style="@style/FontBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginStart="@dimen/qr_dp_5"
+                    android:ellipsize="end"
+                    android:maxEms="16"
+                    android:singleLine="true"
+                    android:text="feed_back.jpg"
+                    android:textColor="@color/faq_image_file_name"
+                    android:textSize="@dimen/qr_sp_13"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_start"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="22dp" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guide_end"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.944" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_submit"
+        style="@style/FontBlack"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/qr_dp_50"
+        android:layout_marginTop="@dimen/qr_dp_4"
+        android:layout_marginBottom="@dimen/qr_dp_18"
+        android:background="@drawable/bg_button_state_enable"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/fb_btn_submit"
+        android:textColor="@color/feedback_text_first"
+        android:textSize="@dimen/qr_sp_20"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sv_content"
+        app:layout_constraintWidth_percent="0.9"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

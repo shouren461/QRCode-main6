@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">Dịch vụ thanh toán Google hiện chưa khả dụng hoặc không có ở quốc gia của bạn, bạn có thể tiếp tục sử dụng ứng dụng mà không cần thanh toán để xóa bỏ quảng cáo.</string>
+    <string name="purchased_failed_title">Không thể mua được</string>
+    <string name="fb_btn_submit">Gửi đi</string>
+    <string name="fb_ok">OK</string>
+    <string name="fb_thx_feedback_tip">Chúng tôi sẽ khắc phục vấn đề này trong phiên bản tương lai. Xin lỗi về sự bất tiện này.</string>
+    <string name="fb_thx_feedback_title">Cám ơn về phản hồi của bạn</string>
+    <string name="fb_please_tell_more">Vui lòng cho chúng tôi biết thêm chi tiết để chúng tôi có thể xác định và giải quyết vấn đề của bạn nhanh hơn (ít nhất %s ký tự)</string>
+    <string name="fb_tell_us_your_problem">Cho chúng tôi biết vấn đề mà bạn đã gặp</string>
+    <string name="fb_type">Loại</string>
+    <string name="fb_button_cancel">Hủy bỏ</string>
+    <string name="fb_choose_to_submit">Vui lòng chọn một câu trả lời để gửi</string>
+    <string name="button_cancel">Hủy bỏ</string>
+    <string name="action_ok">OK</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Vị trí</string>
+    <string name="parse_format_title_tel">Điện thoại</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_calendar">Lịch</string>
+    <string name="parse_format_title_isbn">Sách</string>
+    <string name="parse_format_title_product">Sản phẩm</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_sms">Tin nhắn SMS</string>
+    <string name="parse_format_title_text">Văn bản</string>
+    <string name="parse_format_title_address_book">Liên hệ</string>
+    <string name="parse_format_title_email_address">E-mail</string>
+    <string name="parse_result_content_geo">Địa lý:</string>
+    <string name="parse_format_title_barcode">Mã vạch</string>
+    <string name="parse_action_title_add_contacts">Thêm vào liên lạc</string>
+    <string name="parse_action_title_add_event">Thêm vào các sự kiện</string>
+    <string name="parse_result_content_lng">Kinh độ:</string>
+    <string name="parse_result_content_lat">Vĩ độ:</string>
+    <string name="parse_action_title_navigation">Điều hướng</string>
+    <string name="parse_result_content_tel">Điện thoại:</string>
+    <string name="parse_action_title_call">Gọi điện</string>
+    <string name="parse_result_content_email">E-mail:</string>
+    <string name="parse_result_content_name">Tên:</string>
+    <string name="parse_action_title_copy">Sao chép</string>
+    <string name="parse_action_title_history_price">Lịch sử giá cả</string>
+    <string name="parse_result_content_address">Địa chỉ nhà:</string>
+    <string name="parse_result_content_nickname">Tên nick:</string>
+    <string name="parse_result_content_org">Tổ chức:</string>
+    <string name="parse_result_content_title">Tiêu đề:</string>
+    <string name="parse_result_content_birthday">Sinh nhật:</string>
+    <string name="parse_result_content_to">Đến:</string>
+    <string name="parse_result_content_cc">CC:</string>
+    <string name="parse_result_content_bcc">BCC:</string>
+    <string name="parse_result_content_subject">Chủ đề:</string>
+    <string name="parse_result_content_body">Nội dung:</string>
+    <string name="parse_result_content_ssid">Tên mạng:</string>
+    <string name="parse_result_content_type">Loại bảo mật:</string>
+    <string name="parse_action_title_copy_password">Sao chép mật khẩu</string>
+    <string name="parse_action_title_show_on_map">Hiển thị trên bản đồ</string>
+    <string name="parse_action_title_send_email">Gửi email</string>
+    <string name="parse_action_title_product_search">Tìm kiếm sản phẩm</string>
+    <string name="parse_action_title_book_search">Tìm kiếm sách</string>
+    <string name="parse_action_title_web_search">Tìm kiếm Google</string>
+    <string name="parse_action_title_send_sms">Gửi tin nhắn SMS</string>
+    <string name="parse_action_title_send_mms">Gửi MMS</string>
+    <string name="parse_action_title_nutrient_analyse">Phân tích dinh dưỡng</string>
+    <string name="parse_action_title_shop_now">Mua sắm ngay</string>
+    <string name="parse_result_content_note">Chú thích:</string>
+    <string name="parse_result_content_start">Bắt đầu:</string>
+    <string name="parse_result_content_end">Kết thúc:</string>
+    <string name="lh_button_ok">OK</string>
+    <string name="parse_result_content_summary">Chủ đề:</string>
+    <string name="parse_action_title_share">Chia sẻ</string>
+    <string name="parse_result_content_password">Mật khẩu:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_action_title_open">Mở</string>
+    <string name="lh_intent_failed">Xin lỗi, ứng dụng được yêu cầu không thể được khởi chạy.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Do giới hạn hệ thống, các thiết bị Android 10 trở lên cần kết nối với Wi-Fi <b>một cách thủ công</b>]]></string>
+    <string name="lh_open_wifi_settings">Mở cài đặt Wi-Fi</string>
+    <string name="lh_choose_wifi">Chọn Wi-Fi để kết nối</string>
+    <string name="lh_paste_password">Dán mật khẩu(được sao chép tự động)</string>
+    <string name="parse_action_title_connect_to_network">Kết nối với Wi-Fi</string>
+    <string name="lh_wifi_disabled">Wi-Fi bị tắt</string>
+    <string name="lh_wifi_disabled_des">Để kết nối với Wi-Fi, trước tiên bạn cần bật Wi-Fi.</string>
+    <string name="lh_enable_wifi">Bật Wi-Fi</string>
+    <string name="lh_tip">Gợi ý</string>
+    <string name="lh_required_permission_1">1.Mở cài đặt</string>
+    <string name="lh_required_permission_2">2.Nhấn cho phép</string>
+    <string name="lh_required_permission_turn_on_storage">3. Bật lưu trữ</string>
+    <string name="lh_button_cancel">Hủy bỏ</string>
+
+    <string name="action_copy">Sao chép liên kết</string>
+    <string name="copied_to_clipboard">Sao chép vào bộ nhớ đệm tạm thời</string>
+    <string name="different_engine_more_info">Thử các công cụ tìm kiếm khác nhau để nhận thêm thông tin hữu ích!</string>
+    <string name="no_internet_des">Không có kết nối mạng. Vui lòng thử lại sau.</string>
+    <string name="x_link_open">Đã phát hiện liên kết %s, có mở không?</string>
+    <string name="parse_action_view_in_store">Xem trong Cửa Hàng</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="search">Tìm kiếm</string>
+    <string name="td_tip">Lời khuyên</string>
+    <string name="no_thanks_1">Không, cảm ơn</string>
+    <string name="try_now_button">Thử ngay</string>
+    <string name="barcode_scan_fail_tip">Nếu quét không thành công, bạn có thể thử nhập số mã vạch theo cách thủ công để tìm kiếm.</string>
+    <string name="input_invalid_no_content_tip">Vui lòng nhập số</string>
+    <string name="loading">Đang tải …</string>
+    <string name="result_bar_code">Mã vạch</string>
+    <string name="free_space_needed">Bộ nhớ cần thiết: %s (được khuyến nghị)</string>
+    <string name="free_up_space">Giải phóng không gian</string>
+    <string name="no_enough_storage">Không đủ bộ nhớ</string>
+    <string name="remaining_space">Bộ nhớ còn lại: %s</string>
+    <string name="free_space_to_ensure">Vui lòng giải phóng một chút dung lượng để đảm bảo ứng dụng hoạt động đúng cách.</string>
+    <string name="qr_code_not_found">Không tìm thấy mã QR/mã vạch</string>
+    <string name="album_permission_hint">Cần có sự cho phép của Thư viện để quét mã QR/mã vạch trong Thư viện.</string>
+    <string name="required_permission_turn_on_camera">3. Bật Máy ảnh</string>
+    <string name="qr_code_not_found_hint">Đảm bảo mã QR/mã vạch rõ ràng và hoàn toàn bên trong khung</string>
+    <string name="msg_intent_failed">Xin lỗi, ứng dụng được yêu cầu không thể được khởi chạy.</string>
+    <string name="yes">Vâng</string>
+    <string name="no">Không</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="why_need_permissions">Tại sao chúng tôi cần sự cho phép?</string>
+    <string name="permission_required">Yêu cầu cho phép</string>
+    <string name="required_permission_1">1.Mở cài đặt</string>
+    <string name="required_permission_2">2.Nhấn cho phép</string>
+    <string name="required_permission_turn_on_storage">3. Bật lưu trữ</string>
+    <string name="open_settings">Mở cài đặt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="td_feedback_email_title">Phản hồi cho %s</string>
+    <string name="tap_again_to_exit">Nhấn một lần nữa để thoát</string>
+    <string name="clear_history">Xóa lịch sử?</string>
+    <string name="camera_problem_restart">Xin lỗi, máy ảnh Android gặp sự cố. Vui lòng kiểm tra, rồi khởi động lại ứng dụng.</string>
+    <string name="delete_sure">Bạn có chắc muốn xóa không?</string>
+    <string name="good">Tốt</string>
+    <string name="camera_permission_des">Cần có sự cho phép của máy ảnh để quét mã QR/mã vạch.</string>
+    <string name="storage_permission_save_images">Cần có sự cho phép lưu trữ để lưu hình ảnh.</string>
+    <string name="not_good">Không thực sự hài lòng</string>
+    <string name="satisfied_scan_ask">Bạn có hài lòng với kết quả quét không?</string>
+    <string name="browse_from_gallery">Chọn từ bộ sưu tập</string>
+    <string name="capture">Chụp một tấm ảnh</string>
+    <string name="scan_image_title">Một cách dễ dàng hơn để quét ảnh từ bất kỳ đâu:</string>
+    <string name="scan_image_how_to_1">Chọn ảnh trong các ứng dụng khác và nhấp vào nút \"Chia sẻ\"</string>
+    <string name="scan_image_how_to_2">Chọn \"Quét ảnh\"</string>
+    <string name="got_it">ĐÃ HIỂU</string>
+    <string name="location">Vị trí</string>
+    <string name="all_day">Cả ngày</string>
+    <string name="copy">Sao chép</string>
+    <string name="description">Phần mô tả</string>
+    <string name="save">Lưu</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Không thể kết nối Wi-Fi?#\n1. Hãy đảm bảo rằng bạn đang <b>ở trong vùng phủ sóng Wi-Fi</b>, và tên người dùng cũng như mật khẩu Wi-Fi chính xác.\n\nNếu bạn vẫn không thể kết nối, vui lòng hỏi nhà cung cấp mã QR xem mật khẩu đã được thay đổi hay chưa.\n\n2. Nếu kết quả quét được hiển thị dưới dạng văn bản, bạn cần <b>kết nối Wi-Fi thủ công</b> trong mục cài đặt mạng của điện thoại dựa trên tên Wi-Fi và mật khẩu được cung cấp trong văn bản.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Không thể đọc được mã?#\n1. Để có được kết quả quét chính xác, vui lòng đảm bảo rằng mã đáp ứng các đặc điểm sau:\n\t\ta. độ tương phản phong phú và <b>không bị mờ</b>.\n\t\tb. <b>không phản sáng hoặc đổ bóng</b> trên mã.\n\t\tc. <b>hoàn chỉnh</b>, không có phần nào bị thiếu.\n\n2. Nếu bạn đang sử dụng điện thoại đời cũ, việc quét có thể rất khó khăn hoặc thậm chí là không thể do chất lượng camera thấp.\n\nBạn có thể thử chụp ảnh bằng ứng dụng máy ảnh của mình, sau đó mở ứng dụng của chúng tôi và nhấn \'Quét từ thư viện\' để giải quyết vấn đề này.\n\n3. Nếu bạn vẫn không thể nhận được kết quả khi quét mã vạch hoặc mã QR, vui lòng gửi email %sphản hồi%s cho chúng tôi, chúng tôi sẽ giải quyết vấn đề của bạn trong thời gian sớm nhất.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Chuyển đổi ảnh thành mã QR?#\nChức năng này sẽ sớm được ra mắt…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Có vấn đề với liên kết bạn nhận được? #\n1. Ứng dụng này không thể thay đổi nội dung của mã QR, vì vậy nếu bạn không thể mở trang web này, nhiều khả năng có vấn đề với <b>chính trang web</b>. Không may là chúng tôi không thể hỗ trợ vấn đề này.\n\n2. Cũng có thể người tạo mã QR đã nhập <b>sai liên kết</b> hoặc mã QR đã <b>hết hạn</b>, khiến bạn không thể mở trang web. Nếu có thể, bạn có thể cố gắng xác nhận tính chính xác của mã QR với người tạo ra nó.\n\n3. Đặc biệt, một số liên kết web cần được mở trong điều kiện đặc biệt, ví dụ, chúng cần được mở bằng một <b>ứng dụng nhất định</b>. Vui lòng làm theo hướng dẫn của nhà cung cấp mã QR.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Cần thêm thông tin?#\nCó quá nhiều thông tin và chúng tôi có thể không đủ khả năng để lúc nào cũng cung cấp được thông tin bạn muốn. Bạn có thể tra cứu thêm thông tin thông qua <b>Tìm kiếm trên mạng</b>.\n\nNếu Tìm kiếm trên mạng vẫn không thể giúp bạn tìm thấy thông tin bạn đang tìm kiếm, có thể bản thân mã chứa thông tin hạn chế. Vui lòng thông cảm.]]></string>
+    <string name="scanner_not_working">Máy quét không hoạt động?</string>
+    <string name="view_faq">Xem Câu Hỏi Thường Gặp</string>
+    <string name="qr_link_tips_1">Ứng dụng này chỉ có thể giúp bạn đọc liên kết web (URL) từ mã QR, chúng tôi không biết nội dung chính xác của liên kết web.</string>
+    <string name="qr_link_tips_2">Nếu bạn có bất kỳ câu hỏi nào về liên kết, vui lòng liên hệ với chủ sở hữu của mã QR này để biết thêm thông tin, xin cảm ơn!</string>
+    <string name="tip">Gợi ý</string>
+    <string name="faq">Hỏi đáp</string>
+    <string name="retry">Thử lại</string>
+    <string name="web_search">Tìm kiếm trên mạng</string>
+    <string name="avoid_reflections"><![CDATA[Tránh ánh sáng <b>phản chiếu</b> hoặc <b>đổ bóng</b> trên mã]]></string>
+    <string name="make_phone_face"><![CDATA[Đặt điện thoại của bạn sao cho điện thoại hướng về phía mã <b>mà không cần đổ nghiêng</b>]]></string>
+    <string name="point_your_camera">Hướng máy ảnh của bạn về phía mã để tự động quét</string>
+    <string name="product_guide_hint">Một số sản phẩm chưa được nhập vào thư viện sản phẩm. Bạn có thể nhấn Tìm Kiếm Trên Mạng để tìm thêm thông tin sản phẩm.</string>
+    <string name="search_for_more_information">Nhấn Tìm Kiếm Trên Mạng để biết thêm thông tin</string>
+    <string name="start">Khởi đầu</string>
+    <string name="generate_qr_code">Tạo mã QR</string>
+    <string name="amazon_shopping">Mua sắm trên Amazon</string>
+    <string name="click_share_option">1. Chọn văn bản trong các ứng dụng khác và nhấp vào nút \&#34;Chia sẻ\&#34;</string>
+    <string name="then_select_generate">2. Chọn \&#34;%s\&#34;</string>
+    <string name="use_share">Sử dụng tùy chọn \&#34;Chia sẻ\&#34; để tạo mã QR</string>
+
+    <string name="hint_title">Tiêu đề</string>
+    <string name="result_email_address">E-mail</string>
+    <string name="result_tel">Điện thoại</string>
+    <string name="enter_your_youtube_channel_id">Nhập ID kênh Youtube</string>
+    <string name="enter_youtube_url">Nhập URL Youtube</string>
+    <string name="saved_to_gallery">Đã lưu vào Thư viện ảnh</string>
+    <string name="toast_text_null">Vui lòng nhập nội dung trước</string>
+    <string name="ok">OK</string>
+    <string name="no_history">Không có lịch sử</string>
+    <string name="channel_id">Kênh ID</string>
+    <string name="enter_youtube_video_id">Nhập ID video Youtube</string>
+    <string name="video_id">ID video</string>
+
+    <string name="rename">Đổi tên</string>
+
+    <string name="still_have_problems_1">Vẫn có vấn đề</string>
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

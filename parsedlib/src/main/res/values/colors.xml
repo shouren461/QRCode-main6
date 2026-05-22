@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- WebView -->
+    <color name="web_view_page_bg">#000000</color>
+    <color name="web_view_search_item_bg">#21252F</color>
+    <color name="web_view_svg">#FFFFFF</color>
+    <color name="web_view_search_text">#FFFFFF</color>
+    <color name="web_view_hint_text">#8A91A3</color>
+
+    <color name="dialog_wifi_bold">#4C6AFF</color>
+</resources>

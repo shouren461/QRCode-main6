@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cm_dp_78"
+    android:background="?attr/selectableItemBackground"
+    android:paddingStart="@dimen/cm_dp_10"
+    android:paddingEnd="@dimen/cm_dp_10">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_type"
+        android:layout_width="@dimen/cm_dp_48"
+        android:layout_height="@dimen/cm_dp_48"
+        android:background="@drawable/bg_history_icon"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vector_ic_result_address_book" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/cm_dp_16"
+        android:layout_marginEnd="@dimen/cm_dp_32"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_type"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_second_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="@string/roboto_medium"
+            android:lines="1"
+            android:textColor="#031C36"
+            android:textSize="@dimen/cm_sp_18"
+            tools:text="www.google.com?123456789123456789/*234234234234234" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/cm_dp_3"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="#9AA7B9"
+            android:textSize="@dimen/cm_sp_14"
+            tools:text="@string/result_product" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_right"
+        android:layout_width="@dimen/cm_dp_24"
+        android:layout_height="@dimen/cm_dp_24"
+        android:layout_alignParentEnd="true"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_chevron_right" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cb_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:longClickable="false"
+        android:theme="@style/MyCheckBox"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

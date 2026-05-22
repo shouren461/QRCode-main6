@@ -1,0 +1,108 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    namespace 'qrscanner.barcodescanner.barcodereader.qrcodereader'
+    compileSdkVersion compile_sdk_version.toInteger()
+    buildToolsVersion build_tools_version
+
+    defaultConfig {
+        applicationId "qrscanner.barcodescanner.barcodereader.qrcodereader.demo"
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        versionCode 64
+        versionName "2.4.6"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+
+        if (!isBundleFileExist) {
+            resValue "integer", "build_time", '1'
+        } else {
+            resValue "integer", "build_time", "${(int) ((Calendar.instance.getTimeInMillis() + 12 * 3600 * 1000) / 10000)}"
+        }
+    }
+
+    bundle {
+        language {
+            enableSplit = false
+        }
+        density {
+            enableSplit = false
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    viewBinding {
+        enabled = true
+    }
+
+    buildFeatures {
+        buildConfig true //升级到gradle 8.x 需要手动开启这个配置
+    }
+
+    packagingOptions {
+        exclude 'META-INF/**.version'
+        exclude '**.properties'
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+}
+
+dependencies {
+    api 'androidx.core:core-ktx:' + core_ktx_version
+    api 'androidx.appcompat:appcompat:' + appcompat_version
+    api "androidx.activity:activity-ktx:" + activity_version
+    api 'com.google.android.material:material:' + material_version
+    api 'androidx.constraintlayout:constraintlayout:' + constraintlayout_version
+
+    // google
+    api 'com.google.code.gson:gson:' + gson_version
+
+    // firebase
+    api platform('com.google.firebase:firebase-bom:' + bom_version)
+    api 'com.google.firebase:firebase-config'
+    api 'com.google.firebase:firebase-crashlytics'
+    api 'com.google.firebase:firebase-analytics'
+
+//    // Drojian
+//    api 'dev.in:RateUs:' + rate_version
+//    api 'dev.in.billing:Core:' + billing_version
+//    api account_package + '.safe:web:' + aes_version
+//    api('com.drojian.adconfig:QRCode_1:' + ad_version + adConfigTag) {
+//        exclude group: "com.android.support"
+//    }
+    api account_package + ".widget:Core_360:1.0.5"
+
+    api project(path: ':baselib')
+    api project(path: ':cameralib')
+    api project(path: ':createlib')
+    api project(path: ':googlevisionlib')
+    api project(path: ':languagelib')
+    api project(path: ':parsedlib')
+    api project(path: ':scanlib')
+    api project(path: ':ui360')
+    api project(path: ':viewlib')
+    api project(path: ':zxinglib')
+
+    // other
+    api 'com.airbnb.android:lottie:' + lottie_version
+}

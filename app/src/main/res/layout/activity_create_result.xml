@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="#F5F6FA"
+    tools:context=".page.create.result.CreateResultActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_toolbar_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4991FF"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/ll_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#4991FF"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_back"
+                android:layout_width="@dimen/cm_dp_55"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:background="?attr/actionBarItemBackground"
+                android:scaleType="center"
+                app:srcCompat="@drawable/vector_ic_back" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_like"
+                android:layout_width="@dimen/cm_dp_55"
+                android:layout_height="match_parent"
+                android:layout_toStartOf="@id/iv_close"
+                android:background="?attr/actionBarItemBackground"
+                android:scaleType="center"
+                app:srcCompat="@drawable/vector_ic_like" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_close"
+                android:layout_width="@dimen/cm_dp_55"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:background="?attr/actionBarItemBackground"
+                android:scaleType="center"
+                app:srcCompat="@drawable/ic_close_white" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_dp_2"
+        android:layout_below="@id/fl_toolbar_container"
+        android:alpha="0.2"
+        app:layout_constraintTop_toBottomOf="@+id/fl_toolbar_container" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_dp_100"
+        android:background="#4991FF"
+        app:layout_constraintTop_toBottomOf="@+id/fl_toolbar_container" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_divider">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="400dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/cm_dp_16"
+                android:layout_marginTop="@dimen/cm_dp_20"
+                android:layout_marginEnd="@dimen/cm_dp_16"
+                android:layout_marginBottom="@dimen/cm_dp_40"
+                android:orientation="vertical"
+                android:paddingStart="@dimen/cm_dp_51"
+                android:paddingEnd="@dimen/cm_dp_51"
+                app:cardCornerRadius="@dimen/cm_dp_6"
+                app:cardElevation="@dimen/cm_dp_8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/ll_catafory"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/cm_dp_28"
+                        android:background="@drawable/bg_creat_result_white"
+                        android:paddingStart="@dimen/cm_dp_51"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:id="@+id/layout_info"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintBottom_toTopOf="@id/tv_category"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/iv_icon"
+                            app:layout_constraintTop_toTopOf="@id/iv_icon"
+                            app:layout_constraintVertical_chainStyle="packed">
+
+                            <TextView
+                                android:id="@+id/tv_show_info"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/cm_dp_32"
+                                android:ellipsize="end"
+                                android:fontFamily="@string/roboto_medium"
+                                android:includeFontPadding="false"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="#0B1430"
+                                android:textSize="@dimen/cm_sp_20"
+                                tools:text="Xiaomi_2003" />
+                        </LinearLayout>
+
+
+                        <TextView
+                            android:id="@+id/tv_category"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/cm_dp_4"
+                            android:ellipsize="end"
+                            android:fontFamily="@string/roboto_medium"
+                            android:includeFontPadding="false"
+                            android:singleLine="true"
+                            android:textColor="#9EA5B6"
+                            android:textSize="@dimen/cm_sp_14"
+                            app:layout_constraintBottom_toBottomOf="@+id/iv_icon"
+                            app:layout_constraintStart_toStartOf="@+id/layout_info"
+                            app:layout_constraintTop_toBottomOf="@+id/layout_info"
+                            tools:text="Wi-Fi" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/iv_icon"
+                            android:layout_width="@dimen/cm_dp_60"
+                            android:layout_height="@dimen/cm_dp_60"
+                            android:padding="@dimen/cm_dp_6"
+                            app:layout_constraintStart_toStartOf="@+id/ll_catafory"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/ic_creat_wifi" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/iv_qr"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:layout_marginStart="@dimen/cm_dp_51"
+                        android:layout_marginTop="@dimen/cm_dp_102"
+                        android:layout_marginEnd="@dimen/cm_dp_51"
+                        android:layout_marginBottom="@dimen/cm_dp_35"
+                        android:background="@drawable/bg_creat_input_text"
+                        android:padding="@dimen/cm_dp_4"
+                        android:scaleType="fitXY"
+                        app:layout_constraintDimensionRatio="1:1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </FrameLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_create_result_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/cm_dp_16"
+        android:layout_marginEnd="@dimen/cm_dp_16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fl_toolbar_container"
+        app:layout_constraintVertical_bias="0.95">
+
+        <include
+            layout="@layout/layout_creat_result_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

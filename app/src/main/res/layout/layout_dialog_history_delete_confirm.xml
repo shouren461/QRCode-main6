@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/cm_dp_6"
+    android:id="@+id/main"
+    tools:layout_width="300dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cm_dp_64"
+            android:background="#F7F7F8"
+            android:fontFamily="@string/roboto_medium"
+            android:gravity="center"
+            android:text="@string/clear_history"
+            android:textColor="#333333"
+            android:textSize="@dimen/cm_sp_18" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/cm_dp_24"
+            android:layout_marginTop="@dimen/cm_dp_16"
+            android:layout_marginEnd="@dimen/cm_dp_24"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="@string/clear_history_hint"
+            android:textColor="#333333"
+            android:textSize="@dimen/cm_sp_15" />
+
+        <TextView
+            android:id="@+id/tv_positive"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cm_dp_46"
+            android:layout_marginStart="@dimen/cm_dp_30"
+            android:layout_marginTop="@dimen/cm_dp_30"
+            android:layout_marginEnd="@dimen/cm_dp_30"
+            android:background="@drawable/shape_delete_bt_bg"
+            android:elevation="@dimen/cm_dp_2"
+            android:fontFamily="@string/roboto_medium"
+            android:gravity="center"
+            android:text="@string/yes"
+            android:textAllCaps="true"
+            android:textColor="#4991FF"
+            android:textSize="@dimen/cm_sp_16" />
+
+        <TextView
+            android:id="@+id/tv_negative"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cm_dp_46"
+            android:layout_marginStart="@dimen/cm_dp_30"
+            android:layout_marginTop="@dimen/cm_dp_8"
+            android:layout_marginEnd="@dimen/cm_dp_30"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="@string/roboto_medium"
+            android:gravity="center"
+            android:text="@string/no"
+            android:textAllCaps="true"
+            android:textColor="#4991FF"
+            android:textSize="@dimen/cm_sp_16" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/cm_dp_12" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

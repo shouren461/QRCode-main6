@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="themeColor">#0188FE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="ripple">#4DFFFFFF</color>
+
+    <!-- Dialog -->
+    <color name="dialog_bg">#21252F</color>
+    <color name="dialog_text_first">#FFFFFF</color>
+    <color name="dialog_text_second">#8F9CBB</color>
+    <color name="dialog_text_button_positive">#FFFFFF</color>
+    <color name="dialog_text_button_negative">#9EA5B6</color>
+    <color name="button_enable">#4C6AFF</color>
+    <color name="button_disable">#800188FE</color>
+
+    <!-- FAQ -->
+    <color name="faq_page_bg">#000000</color>
+    <color name="faq_text_first">#FFFFFF</color> <!--FAQ第一文字颜色-->
+    <color name="faq_text_second">#8F9CBB</color> <!--FAQ第二文字颜色-->
+    <color name="faq_text_strong">#FFFFFF</color><!--FAQ关键字-->
+    <color name="faq_text_feedback">#4C6AFF</color><!--FAQ Feedback关键字-->
+    <color name="faq_svg_toolbar">#FFFFFF</color> <!--FAQ toolbar-->
+    <color name="faq_svg_item">#8F9CBB</color> <!--FAQ Item SVG颜色-->
+    <color name="faq_text_line">#0DFFFFFF</color>
+    <color name="faq_image_file_name">#242424</color>
+
+    <!-- Feedback -->
+    <color name="feedback_page_bg">#000000</color>
+    <color name="feedback_text_first">#FFFFFF</color> <!--FAQ第一文字颜色-->
+    <!--FAQ第二文字颜色-->
+    <!--FAQ toolbar-->
+    <!--FAQ Item SVG颜色-->
+    <color name="feedback_warning">#D8483F</color> <!--未选择原因点击提交时警告颜色-->
+    <color name="feedback_reason_bg_select">#3D56FF</color> <!--Reason选中背景色-->
+    <!--Reason未选背景色-->
+    <color name="feedback_reason_text_select">#FFFFFF</color> <!--Reason选中字体色-->
+    <color name="feedback_reason_text_unselect">#FFFFFF</color><!--Reason未选字体色-->
+    <!--Feedback输入框背景色-->
+    <color name="feedback_et_text">#FFFFFF</color><!--Feedback输入框字体颜色-->
+    <color name="feedback_et_hint">#707285</color><!--Feedback输入框提示文字颜色-->
+</resources>

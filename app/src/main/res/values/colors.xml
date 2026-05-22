@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#4991FF</color>
+    <color name="ripple">#4DFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+
+
+    <!-- ViewLib -->
+    <color name="dialog_bg">#FFFFFF</color>
+    <color name="dialog_text_first">#031C36</color>
+    <color name="dialog_text_second">#333333</color>
+    <color name="button_enable">#4991FF</color>
+    <color name="button_disable">#804991FF</color>
+    <color name="bottom_tab_selected_color">#4991FF</color>
+    <color name="bottom_tab_unselected_color">#9AA7B9</color>
+    <color name="feedback_reason_text_select">#ffffff</color>
+    <color name="feedback_reason_text_unselect">#242424</color>
+    <color name="feedback_page_bg">@color/white</color>
+</resources>

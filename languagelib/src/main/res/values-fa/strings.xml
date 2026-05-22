@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">خدمات Google Paid در حال حاضر کار نمی‌کند یا در کشور شما در دسترس نیست. می‌توانید بدون حذف آگهی‌ها به استفاده از این برنامه ادامه دهید.</string>
+    <string name="purchased_failed_title">خرید انجام نمی‌شود</string>
+    <string name="fb_btn_submit">ارسال</string>
+    <string name="fb_please_tell_more">لطفاً جزئیات بیشتری را در اختیارمان بگذارید تا بتوانیم مشکل شما را سریعتر بیابیم و حل کنیم (حداقل %s کاراکتر)</string>
+    <string name="fb_tell_us_your_problem">به ما بگویید با چه مشکلی مواجه شدید</string>
+    <string name="fb_type">نوع</string>
+    <string name="fb_ok">تأیید</string>
+    <string name="fb_button_cancel">لغو</string>
+    <string name="fb_thx_feedback_tip">این مشکل را در نسخه بعدی رفع می‌کنیم. به خاطر این مشکل متأسفیم.</string>
+    <string name="fb_thx_feedback_title">به خاطر نظر از شما سپاسگزاریم</string>
+    <string name="fb_choose_to_submit">لطفاً یک آیتم را برای ارسال انتخاب کنید</string>
+    <string name="action_ok">تأیید</string>
+    <string name="button_cancel">لغو</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">محل</string>
+    <string name="parse_format_title_email_address">ایمیل</string>
+    <string name="parse_format_title_uri">لینک</string>
+    <string name="parse_format_title_address_book">مخاطبین</string>
+    <string name="parse_format_title_sms">پیامک</string>
+    <string name="parse_format_title_tel">تلفن</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_isbn">کتاب</string>
+    <string name="parse_format_title_product">محصول</string>
+    <string name="parse_format_title_text">متن</string>
+    <string name="parse_format_title_calendar">تقویم</string>
+    <string name="parse_action_title_open">باز شود</string>
+    <string name="parse_result_content_birthday">تاریخ تولد:</string>
+    <string name="parse_result_content_password">رمز عبور:</string>
+    <string name="parse_action_title_share">اشتراک‌گذاری</string>
+    <string name="parse_action_title_nutrient_analyse">تحلیل تغذیه</string>
+    <string name="parse_action_title_shop_now">همین حالا خرید کنید</string>
+    <string name="parse_result_content_note">یادداشت:</string>
+    <string name="parse_result_content_name">نام:</string>
+    <string name="parse_result_content_nickname">نام مستعار:</string>
+    <string name="parse_result_content_start">شروع:</string>
+    <string name="parse_result_content_end">پایان:</string>
+    <string name="lh_button_ok">تأیید</string>
+    <string name="parse_action_title_history_price">سابقه قیمت</string>
+    <string name="parse_action_title_copy_password">کپی کردن رمز عبور</string>
+    <string name="parse_result_content_title">عنوان:</string>
+    <string name="parse_result_content_url">لینک:</string>
+    <string name="parse_action_title_copy">کپی شود</string>
+    <string name="parse_format_title_barcode">بارکد</string>
+    <string name="parse_action_title_add_contacts">افزودن به مخاطبین</string>
+    <string name="parse_action_title_show_on_map">نمایش روی نقشه</string>
+    <string name="parse_action_title_call">تماس</string>
+    <string name="parse_action_title_send_email">ارسال ایمیل</string>
+    <string name="parse_action_title_add_event">افزودن به رویدادها</string>
+    <string name="parse_action_title_navigation">پیمایش</string>
+    <string name="parse_action_title_product_search">جستجوی محصول</string>
+    <string name="parse_action_title_book_search">جستجوی کتاب</string>
+    <string name="parse_action_title_web_search">جستجوی گوگل</string>
+    <string name="parse_action_title_send_sms">ارسال پیامک</string>
+    <string name="parse_action_title_send_mms">ارسال ام ام اس</string>
+    <string name="parse_result_content_tel">تلفن:</string>
+    <string name="parse_result_content_email">ایمیل:</string>
+    <string name="parse_result_content_ssid">نام شبکه:</string>
+    <string name="parse_result_content_type">نوع امنیت:</string>
+    <string name="parse_result_content_lng">طول جغرافیایی:</string>
+    <string name="parse_result_content_lat">عرض جغرافیایی:</string>
+    <string name="parse_result_content_address">آدرس:</string>
+    <string name="parse_result_content_org">سازمان:</string>
+    <string name="parse_result_content_geo">جغرافیا:</string>
+    <string name="parse_result_content_summary">موضوع:</string>
+    <string name="parse_result_content_to">به:</string>
+    <string name="parse_result_content_cc">:CC</string>
+    <string name="parse_result_content_bcc">:BCC</string>
+    <string name="parse_result_content_subject">موضوع:</string>
+    <string name="parse_result_content_body">محتوا:</string>
+    <string name="lh_intent_failed">متاسفانه برنامه درخواستی راه اندازی نمی‌شود.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[به دلیل محدودیت‌های سیستم، دستگاه‌های اندروید 10 و نسخه‌های بالاتر باید <b>به صورت دستی</b> به وای فای متصل شوند.]]></string>
+    <string name="lh_open_wifi_settings">باز کردن تنظیمات وای فای</string>
+    <string name="lh_choose_wifi">برای اتصال، وای فای را انتخاب کنید</string>
+    <string name="lh_paste_password">رمز عبور را بچسبانید (به طور خودکار کپی شده)</string>
+    <string name="parse_action_title_connect_to_network">اتصال به وای فای</string>
+    <string name="lh_wifi_disabled">وای فای غیرفعال است</string>
+    <string name="lh_wifi_disabled_des">برای اتصال به وای فای، باید اول آن را فعال کنید.</string>
+    <string name="lh_enable_wifi">فعالسازی وای فای</string>
+    <string name="lh_tip">نکته</string>
+    <string name="lh_required_permission_1">1.تنظیمات را باز کنید</string>
+    <string name="lh_required_permission_2">2.روی مجوزها ضربه بزنید</string>
+    <string name="lh_required_permission_turn_on_storage">3.حافظه را روشن کنید</string>
+    <string name="lh_button_cancel">لغو</string>
+
+    <string name="action_copy">کپی لینک</string>
+    <string name="copied_to_clipboard">در کلیپ بورد کپی شد</string>
+    <string name="different_engine_more_info">برای دریافت اطلاعات مفید بیشتر، موتورهای جستجوی مختلف را امتحان کنید!</string>
+    <string name="no_internet_des">اینترنت وصل نیست. لطفاً بعداً دوباره امتحان کنید.</string>
+    <string name="x_link_open">%s لینک پیدا شد، باز شوند؟</string>
+    <string name="parse_action_view_in_store">مشاهده در فروشگاه</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">آمازون</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="loading">بارگیری…</string>
+    <string name="free_space_needed">فضای موردنیاز: %s (توصیه می‌شود)</string>
+    <string name="free_up_space">خالی کردن فضا</string>
+    <string name="no_enough_storage">فضای ذخیره‌سازی کافی نیست</string>
+    <string name="remaining_space">فضای باقی‌مانده: %s</string>
+    <string name="free_space_to_ensure">لطفاً برای اطمینان از عملکرد درست برنامه، مقداری فضا خالی کنید.</string>
+    <string name="click_share_option">1. متن را از سایر برنامه‎‌ها انتخاب کنید و روی دکمه \&#34;اشتراک‌گذاری\&#34; کلیک کنید</string>
+    <string name="then_select_generate">2. \&#34;%s\&#34; را انتخاب کنید</string>
+    <string name="use_share">برای ایجاد یک کد QR از گزینه \&#34;اشتراک گذاری\&#34; استفاده کنید</string>
+    <string name="all_day">همه روز</string>
+    <string name="location">محل</string>
+    <string name="copy">کپی شود</string>
+    <string name="generate_qr_code">ایجاد کد QR</string>
+    <string name="share">اشتراک</string>
+    <string name="description">توصیف</string>
+    <string name="start">شروع</string>
+    <string name="save">ذخیره</string>
+    <string name="feedback">بازخوردی</string>
+    <string name="tap_again_to_exit">برای خروج، دوباره ضربه بزنید</string>
+    <string name="td_feedback_email_title">بازخورد %s</string>
+    <string name="yes">بله</string>
+    <string name="no">نه</string>
+    <string name="open_settings">تنظیمات را باز کنید</string>
+    <string name="why_need_permissions">چرا ما به اجازه نیاز داریم؟</string>
+    <string name="permission_required">نیاز به مجوز</string>
+    <string name="required_permission_1">1.تنظیمات را باز کنید</string>
+    <string name="required_permission_2">2.روی مجوزها ضربه بزنید</string>
+    <string name="required_permission_turn_on_storage">3.حافظه را روشن کنید</string>
+    <string name="camera_permission_des">برای اسکن کردن کد QR/بارکد، به مجوز دسترسی به دوربین نیاز است.</string>
+    <string name="storage_permission_save_images">برای ذخیره عکسها، نیاز به مجوز دسترسی به فضای حافظه است.</string>
+    <string name="delete_sure">مطمئنید که می‌خواهید حذف کنید؟</string>
+    <string name="clear_history">پاک‌کردن تاریخچه</string>
+    <string name="msg_intent_failed">متاسفانه برنامه درخواستی راه اندازی نمی‌شود.</string>
+    <string name="qr_code_not_found">هیچ کد QR/بارکدی پیدا نشد</string>
+    <string name="qr_code_not_found_hint">دقت کنید که کد QR/بارکد واضح است و کاملاً داخل قاب قرار دارد</string>
+    <string name="album_permission_hint">برای اسکن کردن کد QR/بارکد در گالری، به مجوز دسترسی به گالری نیاز است.</string>
+    <string name="required_permission_turn_on_camera">3. دوربین را روشن کنید</string>
+    <string name="camera_problem_restart">متاسفانه دوربین اندروید با مشکلی مواجه شد. لطفاً آن را بررسی کنید و دوباره برنامه را راه بیندازید.</string>
+    <string name="good">خوب</string>
+    <string name="not_good">نه واقعاً</string>
+    <string name="satisfied_scan_ask">آیا از نتایج اسکن راضی هستید؟</string>
+    <!-- 从安卓拿的 -->
+    <string name="browse_from_gallery">انتخاب از گالری</string>
+    <string name="capture">عکس گرفتن</string>
+    <string name="got_it">متوجه شدم</string>
+    <string name="scan_image_title">روشی راحت‌تر برای اسکن تصویر از هر جا:</string>
+    <string name="scan_image_how_to_1">تصویر را از سایر برنامه‎‌ها انتخاب کنید و روی دکمه \"اشتراک‌گذاری\" کلیک کنید</string>
+    <string name="scan_image_how_to_2">\"اسکن تصویر\" را انتخاب کنید</string>
+    <string name="scanner_not_working">اسکنر کار نمی‌کند؟</string>
+    <string name="view_faq">مشاهده پرسش‌های متداول</string>
+    <string name="avoid_reflections"><![CDATA[از <b>بازتاب</b> نور یا <b>سایه</b> افتادن روی کد اجتناب کنید]]></string>
+    <string name="make_phone_face"><![CDATA[گوشی را روبروی کد قرار دهید <b>بدون آن که کج شود</b>]]></string>
+    <string name="point_your_camera">برای اسکن خودکار، دوربین را به سمت کد قرار دهید</string>
+    <string name="qr_link_tips_1">این برنامه فقط می‌تواند به شما در خواندن لینک (URL) وب‌سایت از طریق کد QR کمک کند. ما از محتوای دقیق لینک وب‌سایت، مطلع نیستیم.</string>
+    <string name="qr_link_tips_2">اگر درباره لینک، سوالی دارید، لطفاً برای کسب اطلاعات بیشتر با مالک این کد QR تماس بگیرید. متشکریم!</string>
+    <string name="tip">نکته</string>
+    <string name="faq">سوالات متداول</string>
+    <string name="retry">سعی مجدد</string>
+    <string name="still_have_problems_1">هنوز مشکل دارید</string>
+    <string name="product_guide_hint">بعضی از محصولات هنوز وارد کتابخانه محصول نشده‌اند. می‌توانید برای دریافت اطلاعات بیشتر درباره محصول، روی جستجوی وب کلیک کنید.</string>
+    <string name="search_for_more_information">برای اطلاعات بیشتر، روی جستجوی وب ضربه بزنید</string>
+    <string name="web_search">جستجوی وب</string>
+    <string name="amazon_shopping">خرید از آمازون</string>
+    <string name="cannot_connect_to_wifi_faq">به وای فای وصل نمی‌شوید؟#\n1. دقت کنید که حتماً $در محدوده پوشش‌دهی وای فای$$ قرار دارید و نام کاربری و رمز عبور وای فای صحیح هستند.\n\nاگر هنوز نمی‌توانید وصل شوید، لطفاً از ارائه‌دهنده کد QR بپرسید که آیا رمز عبور تغییر کرده است یا خیر.\n\n2. اگر نتیجه اسکن به صورت متن نمایش داده می‌شود، باید در تنظیمات شبکه گوشی خود بر اساس نام و رمز عبور وای فای ارائه شده در متن، $به صورت دستی به وای فای وصل شوید$$.</string>
+    <string name="code_cannot_be_read_faq">کد قابل خواندن نیست؟#\n1. به منظور رسیدن به نتایج دقیق اسکن، لطفاً دقت کنید که کد از شرایط زیر برخوردار باشد:\n\t\tالف. دارای کنتراست زیاد باشد و $تار نباشد$$.\n\t\tب. $هیچ گونه انعکاس نور یا سایه$$ روی کد نباشد.\n\t\tج. $کامل$$ باشد و هیچ قسمتی از آن جا نیفتاده باشد.\n\n2. اگر از یک گوشی مدل پایین استفاده می‌کنید، به دلیل کیفیت پایین دوربین، شاید اسکن بسیار سخت یا حتی غیرممکن شود.\n\nبرای حل این مشکل می‌توانید با دوربین گوشی خود عکس بگیرید، سپس برنامه ما را باز کنید و روی گزینه \"اسکن از گالری\" ضربه بزنید.\n\n3. اگر هنوز نمی‌توانید هنگام اسکن کردن بارکد یا کد QR، نتیجه‌ای پیدا کنید، لطفاً از طریق %sبازخوردی%s به ما یک ایمیل بفرستید. در اسرع وقت مشکل را برای شما حل خواهیم کرد.</string>
+    <string name="convert_picture_to_qr_code_faq">عکس به کد QR تبدیل شود؟#\nاین عملکرد به زودی راه‌اندازی خواهد شد...</string>
+    <string name="have_problem_with_the_link_faq">با لینکی که دریافت می‌کنید مشکل دارید؟#\n1. این برنامه نمی‌تواند محتوای کد QR را تغییر دهد، بنابراین اگر نمی‌توانید این وب‌سایت را باز کنید، به احتمال زیاد $خود وب‌سایت$$ مشکل دارد. متاسفانه، کاری نمی‌توانیم انجام دهیم.\n\n2. همچنین ممکن است سازنده کد، QR $لینک اشتباه$$ را وارد کرده باشد یا کد QR $انقضا شده باشد$$ و باعث شود نتوانید وب‌سایت را باز کنید. در صورت امکان می‌توانید صحت کد QR را با سازنده آن بررسی و تایید کنید.\n\n3. به ویژه بعضی از لینک‌های وب باید تحت شرایط خاصی باز شوند، مثلا باید با استفاده از یک $برنامه خاص$$ باز شوند. لطفاً دستورالعمل‌های ارائه‌دهنده کد QR را دنبال کنید.</string>
+    <string name="need_more_information_faq">به اطلاعات بیشتری نیاز دارید؟#\nاطلاعات زیادی وجود دارد و ممکن است همیشه نتوانیم اطلاعات مد نظرتان را ارائه دهیم. می‌توانید از طریق $جستجوی وب$$، اطلاعات بیشتر را بررسی کنید.\n\nاگر با جستجو در وب هنوز نمی‌‌توانید اطلاعات مد نظر خود را پیدا کنید، شاید خود کد حاوی اطلاعات محدود است. لطفاً از این مساله آگاه باشید.</string>
+
+    <string name="hint_title">عنوان</string>
+    <string name="result_email_address">ایمیل</string>
+    <string name="result_tel">تلفن</string>
+    <string name="enter_your_youtube_channel_id">آی دی کانال یوتیوب را وارد کنید</string>
+    <string name="enter_youtube_url">URL یوتیوب را وارد کنید</string>
+    <string name="saved_to_gallery">در گالری ذخیره شد</string>
+    <string name="toast_text_null">لطفاً اول محتوا را وارد کنید</string>
+    <string name="channel_id">آی دی کانال</string>
+    <string name="enter_youtube_video_id">آی دی ویدئوی یوتیوب را وارد کنید</string>
+    <string name="video_id">آی دی ویدئو</string>
+    <string name="ok">تأیید</string>
+    <string name="no_history">بدون تاریخچه</string>
+    <string name="result_bar_code">بارکد</string>
+
+    <string name="search">جستجو</string>
+    <string name="td_tip">توجه</string>
+    <string name="no_thanks_1">نه ممنون</string>
+    <string name="try_now_button">همین الآن امتحان کنید</string>
+    <string name="barcode_scan_fail_tip">اگر اسکن انجام نشد، می‌توانید به صورت دستی شماره بارکد را وارد و جستجو کنید.</string>
+    <string name="input_invalid_no_content_tip">لطفاً عدد وارد کنید</string>
+
+    <string name="rename">تغییر نام</string>
+
+    <string name="amazon">آمازون</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

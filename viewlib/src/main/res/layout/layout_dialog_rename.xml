@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/qr_dp_24">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/_title"
+            style="@style/FontBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rename"
+            android:textColor="@color/dialog_text_first"
+            android:textSize="@dimen/qr_sp_20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_rename"
+            style="@style/FontBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/qr_dp_10"
+            android:backgroundTint="@color/themeColor"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:textColor="@color/dialog_text_first"
+            android:textSize="@dimen/qr_sp_17"
+            app:layout_constraintTop_toBottomOf="@id/_title" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_negative"
+            style="@style/FontBlack"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/qr_dp_44"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="@dimen/qr_dp_10"
+            android:background="@drawable/bg_stroke_corner_9"
+            android:gravity="center"
+            android:text="@string/button_cancel"
+            android:textColor="@color/themeColor"
+            android:textSize="@dimen/qr_sp_16"
+            app:layout_constraintEnd_toStartOf="@id/tv_positive"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/et_rename" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_positive"
+            style="@style/FontBlack"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/qr_dp_44"
+            android:layout_marginStart="@dimen/qr_dp_10"
+            android:background="@drawable/bg_ripple_corner_9"
+            android:backgroundTint="@color/themeColor"
+            android:gravity="center"
+            android:text="@string/action_ok"
+            android:textColor="@color/dialog_text_button_positive"
+            android:textSize="@dimen/qr_sp_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/tv_negative"
+            app:layout_constraintTop_toTopOf="@id/tv_negative" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

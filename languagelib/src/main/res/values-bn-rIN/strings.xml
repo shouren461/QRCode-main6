@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">Google Paid পরিষেবা এই মুহূর্তে অথবা আপনার দেশে উপলব্ধ নয়, আপনি বিজ্ঞাপন অপসারণ করার জন্য অর্থপ্রদান করা ছাড়া অ্যাপ্লিকেশনটি ব্যবহার করা চালিয়ে যেতে পারেন।</string>
+    <string name="purchased_failed_title">ক্রয় করা সম্ভব নয়</string>
+    <string name="fb_thx_feedback_tip">ভবিষ্যত সংস্করণে আমরা ঠিক করে দেব। অসুবিধার জন্য দুঃখিত।</string>
+    <string name="fb_thx_feedback_title">আপনার ফিডব্যাকের জন্য ধন্যবাদ</string>
+    <string name="fb_ok">ঠিক আছে</string>
+    <string name="fb_button_cancel">বাতিল</string>
+    <string name="fb_btn_submit">পেশ করুন</string>
+    <string name="fb_please_tell_more">অনুগ্রহ করে আমাদের আরও বিস্তারিত বলুন যাতে আমরা আরও দ্রুত আপনার সমস্যা চিহ্নিত করতে এবং সমাধান করতে পারি (কমপক্ষে %s বর্ণ)</string>
+    <string name="fb_tell_us_your_problem">আপনি যে সমস্যার সম্মুখীন হয়েছেন তা আমাদের বলুন</string>
+    <string name="fb_type">ধরন</string>
+    <string name="fb_choose_to_submit">জমা দেওয়ার জন্য অনুগ্রহ করে একটি আইটেম বাছুন</string>
+    <string name="action_ok">ঠিক আছ</string>
+    <string name="button_cancel">বাতিল</string>
+    <string name="no_internet_des">ইন্টারনেট সংযোগ নেই। দয়া করে পরে আবার চেষ্টা করুন।</string>
+
+
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">অবস্থান</string>
+    <string name="parse_format_title_email_address">ইমেল</string>
+    <string name="parse_format_title_sms">এসএমএস</string>
+    <string name="parse_format_title_text">পাঠ্য</string>
+    <string name="parse_format_title_address_book">পরিচিতি</string>
+    <string name="parse_format_title_isbn">বই</string>
+    <string name="parse_format_title_product">পণ্য</string>
+    <string name="parse_format_title_wifi">ওয়াই-ফাই</string>
+    <string name="parse_format_title_tel">টেল</string>
+    <string name="parse_format_title_uri">ইউআরএল</string>
+    <string name="parse_format_title_calendar">ক্যালেন্ডার</string>
+    <string name="parse_result_content_geo">ভূ:</string>
+    <string name="parse_format_title_barcode">বারকোড</string>
+    <string name="parse_action_title_add_contacts">পরিচিতিতে যোগ করুন</string>
+    <string name="parse_action_title_add_event">ইভেন্টে যোগ করুন</string>
+    <string name="parse_action_title_history_price">প্রাইস হিস্ট্রি</string>
+    <string name="parse_result_content_lng">দ্রাঘি:</string>
+    <string name="parse_result_content_lat">অক্ষা:</string>
+    <string name="parse_action_title_navigation">ন্যাভিগেশন</string>
+    <string name="parse_result_content_tel">টেলি:</string>
+    <string name="parse_action_title_copy">কপি</string>
+    <string name="parse_action_title_call">ফোন করুন</string>
+    <string name="parse_action_title_nutrient_analyse">পুষ্টি বিশ্লেষণ</string>
+    <string name="parse_action_title_shop_now">এখনই কেনাকাটা করুন</string>
+    <string name="parse_result_content_email">ইমেল:</string>
+    <string name="parse_result_content_name">নাম:</string>
+    <string name="parse_result_content_address">ঠিকানা:</string>
+    <string name="parse_result_content_nickname">ডাকনাম:</string>
+    <string name="parse_result_content_org">সংস্থা:</string>
+    <string name="parse_result_content_title">খেতাব:</string>
+    <string name="parse_result_content_birthday">জন্মদিন:</string>
+    <string name="parse_result_content_to">প্রতি:</string>
+    <string name="parse_result_content_cc">সিসি:</string>
+    <string name="parse_result_content_bcc">বিসিসি:</string>
+    <string name="parse_result_content_subject">বিষয়:</string>
+    <string name="parse_result_content_body">বিষয়বস্তু:</string>
+    <string name="parse_result_content_ssid">নেটওয়ার্ক নাম:</string>
+    <string name="parse_result_content_type">নিরাপত্তা ধরন:</string>
+    <string name="parse_action_title_show_on_map">ম্যাপে দেখান</string>
+    <string name="parse_action_title_copy_password">পাসওয়ার্ড কপি করুন</string>
+    <string name="parse_action_title_send_email">ইমেল পাঠান</string>
+    <string name="parse_action_title_product_search">পণ্য সন্ধান</string>
+    <string name="parse_action_title_book_search">বই সন্ধান</string>
+    <string name="parse_action_title_web_search">গুগল সন্ধান</string>
+    <string name="parse_action_title_send_sms">এসএমএস পাঠান</string>
+    <string name="parse_action_title_send_mms">এমএমএস পাঠান</string>
+    <string name="parse_result_content_note">লক্ষ্য করুন:</string>
+    <string name="parse_result_content_start">শুরু:</string>
+    <string name="parse_result_content_end">শেষ:</string>
+    <string name="lh_button_ok">ঠিক আছে</string>
+    <string name="parse_result_content_summary">বিষয়:</string>
+    <string name="parse_action_title_share">শেয়ার করুন</string>
+    <string name="parse_result_content_password">পাসওয়ার্ড:</string>
+    <string name="parse_result_content_url">ইউআরএল:</string>
+    <string name="lh_intent_failed">দুঃখিত, অনুরোধকৃত অ্যাপ্লিকেশন চালু করা যায়নি।</string>
+    <string name="parse_action_title_open">খোলা</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[সিস্টেমের সীমাবদ্ধতাজনিত কারণে, অ্যান্ড্রয়েড 10 এবং তার উপরের ডিভাইসগুলি <b> হাতে করে </b> ওয়াইফাইতে সংযুক্ত করা প্রয়োজন]]></string>
+    <string name="lh_open_wifi_settings">ওয়াইফাই সেটিংস খুলুন</string>
+    <string name="lh_choose_wifi">সংযোগ করার জন্য ওয়াইফাই বেছে নিন</string>
+    <string name="lh_paste_password">পাসওয়ার্ড পেস্ট করুন (স্বয়ংক্রিয়ভাবে কপি করা)</string>
+    <string name="parse_action_title_connect_to_network">ওয়াইফাইতে সংযুক্ত করুন</string>
+    <string name="lh_wifi_disabled">ওয়াইফাই অক্ষম করা আছে</string>
+    <string name="lh_wifi_disabled_des">ওয়াইফাইতে সংযুক্ত করতে, আপনার প্রথমে এটিকে সক্ষম করা প্রয়োজন।</string>
+    <string name="lh_enable_wifi">ওয়াইফাই সক্ষম করুন</string>
+    <string name="lh_tip">পরামর্শ</string>
+    <string name="lh_required_permission_1">1.সেটিংস খুলুন</string>
+    <string name="lh_required_permission_2">2.অনুমতিতে ট্যাপ করুন</string>
+    <string name="lh_required_permission_turn_on_storage">3.সংরক্ষণ চালু করুন</string>
+    <string name="lh_button_cancel">বাতিল</string>
+
+    <string name="copied_to_clipboard">ক্লিপবোর্ডে কপি হয়েছে</string>
+    <string name="different_engine_more_info">আরও দরকারী তথ্য পেতে গেলে বিভিন্ন সার্চ ইঞ্জিনগুলি তে চেষ্টা করুন!</string>
+    <string name="x_link_open">%s লিঙ্ক সনাক্ত করা হয়েছে, এটি খুলুন?</string>
+    <string name="action_copy">কপি</string>
+    <string name="parse_action_view_in_store">স্টোরে দেখুন</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">আমাজন</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="free_space_needed">স্থান প্রয়োজন: %s (সুপারিশ করা হয়)</string>
+    <string name="free_space_to_ensure">অ্য়াপ যাতে যথাযথ ভাবে কাজ করে তা নিশ্চিত করতে অনুগ্রহ করে কিছু স্থান খালি করুন।</string>
+    <string name="free_up_space">স্থান খালি করুন</string>
+    <string name="no_enough_storage">যথেষ্ট সঞ্চয় স্থান নেই</string>
+    <string name="remaining_space">বাকি স্থান: %s</string>
+    <string name="click_share_option">1. অন্য অ্যাপে টেক্সট নির্বাচন করুন এবং \&#34;শেয়ার করুন\&#34; বোতামে ক্লিক করুন</string>
+    <string name="then_select_generate">2. \&#34;%s\&#34; নির্বাচন করুন</string>
+    <string name="use_share">QR কোড তৈরি করতে \&#34;শেয়ার করুন\&#34; বিকল্পটি ব্যবহার করুন।</string>
+    <string name="copy">কপি</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="retry">পুনঃচেষ্টা</string>
+    <string name="all_day">সারা দিন</string>
+    <string name="generate_qr_code">QR কোড তৈরি করুন</string>
+    <string name="description">বর্ণনা</string>
+    <string name="location">অবস্থান</string>
+    <string name="save">সেভ করুন</string>
+    <string name="tip">পরামর্শ</string>
+    <string name="start">শুরু</string>
+    <string name="qr_code_not_found">কোনো QR কোড/বারকোড পাওয়া যায়নি</string>
+    <string name="album_permission_hint">গ্যালারিতে QR কোড/বারকোড স্ক্যান করতে গ্যালারি অনুমতি প্রয়োজন।</string>
+    <string name="required_permission_turn_on_camera">3.ক্যামেরা চালু করুন</string>
+    <string name="qr_code_not_found_hint">নিশ্চিত করুন যে QR কোড/বারকোডটি স্পষ্ট এবং সম্পূর্ণভাবে ফ্রেমের মধ্যে আছে</string>
+    <string name="msg_intent_failed">দুঃখিত, অনুরোধকৃত অ্যাপ্লিকেশন চালু করা যায়নি।</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="feedback">মতামত</string>
+    <string name="why_need_permissions">আমাদের কেন অনুমতি দরকার?</string>
+    <string name="permission_required">অনুমতি প্রয়োজন</string>
+    <string name="required_permission_1">1.সেটিংস খুলুন</string>
+    <string name="required_permission_2">2.অনুমতিতে ট্যাপ করুন</string>
+    <string name="required_permission_turn_on_storage">3.সংরক্ষণ চালু করুন</string>
+    <string name="open_settings">সেটিংস খুলুন</string>
+    <string name="camera_permission_des">QR কোড/বারকোডগুলি স্ক্যান করতে ক্যামেরার অনুমতি প্রয়োজন।</string>
+    <string name="storage_permission_save_images">ছবিগুলি সেভ করতে স্টোরেজ অনুমতি প্রয়োজন।</string>
+    <string name="td_feedback_email_title">%s মতামত</string>
+    <string name="tap_again_to_exit">বেরিয়ে যেতে আবার ট্যাপ করুন</string>
+    <string name="clear_history">ইতিহাস মুছবেন?</string>
+    <string name="good">ভাল</string>
+    <string name="delete_sure">আপনি কি নিশ্চিত যে আপনি মুছতে চান?</string><!-- google的 -->
+    <string name="camera_problem_restart">দুঃখিত, অ্যান্ড্রয়েড ক্যামেরাটি সমস্যার সম্মুখীন হয়েছে। দয়া করে এটি পরীক্ষা করুন, তারপর আবার অ্যাপ চালু করুন।</string>
+    <string name="not_good">আদৌ নয়</string>
+    <string name="satisfied_scan_ask">স্ক্যানিংয়ের ফলাফলে আপনি কি সন্তুষ্ট?</string>
+    <!-- 从安卓拿的 -->
+    <string name="browse_from_gallery">গ্যালারি থেকে বেছে নিন</string>
+    <string name="capture">একটি ফটো তুলুন</string>
+    <string name="got_it">বুঝেছি</string>
+    <string name="loading">লোড হচ্ছে…</string><!--from Google-->
+    <string name="scan_image_title">যেকোনো স্থান থেকে ছবি স্ক্যান করার সহজতর একটি উপায়:</string>
+    <string name="scan_image_how_to_1">অন্যান্য অ্যাপে ছবি নির্বাচন করুন ও \"শেয়ার\" বোতামে ক্লিক করুন</string>
+    <string name="scan_image_how_to_2">\"ছবি স্ক্যান\" নির্বাচন করুন</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[ওয়াই-ফাই এর সাথে সংযোগ করা যাচ্ছে না?#\n1. নিশ্চিত করুন যে আপনি <b>ওয়াই-ফাই সংযোগ সীমার এলাকার মধ্যে আছেন</b>, আর ওয়াই-ফাই ব্যবহারকারী নাম ও পাসওয়ার্ড সঠিক আছে।\n\nআপনি যদি তাও সংযোগ করতে না পারেন, অনুগ্রহ করে QR কোড প্রদানকারীকে জিজ্ঞাসা করুন যে পাসওয়ার্ড বদল করা হয়েছে কিনা।\n\n2. যদি স্ক্যানের ফলাফল পাঠ্য হিসাবে প্রদর্শিত হয়, পাঠ্যে প্রদত্ত ওয়াই-ফাই এর নাম ও পাসওয়ার্ডের ভিত্তিতে আপনার ফোনের নেটওয়ার্ক সেটিংসে <b>ম্যানুয়ালি ওয়াই-ফাই এর সাথে সংযোগ</b> করতে হবে।]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[কোড পড়া যাচ্ছে না?#\n1. স্ক্যানের নিখুঁত ফলাফল পেতে, অনুগ্রহ করে নিশ্চিত করুন যে কোডটি যেন নিম্নলিখিত বৈশিষ্ট্য পূরণ করে:\n\t\ta. বৈপরীত্যে সমৃদ্ধ এবং <b>ঝাপসা নয়</b>.\n\t\tb. কোডের উপরে <b>কোনো আলোর প্রতিফলন বা ছায়া নয়</b>।\n\t\tc. <b>সম্পূর্ণ</b>, কোনো অংশ হারিয়ে না যায়।\n\n2. আপনি যদি একটি কম-ক্ষমতার ফোন ব্যবহার করেন, স্ক্যান করা খুব কঠিন হতে পারে অথবা এমনকি ক্যামেরার গুণমান খারাপ হওয়ার জন্য অসম্ভবও হতে পারে।\n\nএই সমস্যার সমাধান করতে আপনি আপনার ক্যামেরা অ্যাপ দিয়ে একটি ছবি তোলার চেষ্টা করতে পারেন, তারপরে আমাদের অ্যাপটি খুলে \'গ্যালারি থেকে স্ক্যান করুন\' ট্যাপ করতে পারেন।\n\n3. তা সত্ত্বেও বারকোড বা QR কোড স্ক্যান করার সময়ে আপনি ফল না পেলে, %sমতামত%s-এর মাধ্যমে আমাদের একটি ইমেল পাঠান, আমরা যত দ্রুত সম্ভব আপনার সমস্যার সমাধান করব।]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[কোনো ছবিকে QR কোডে রূপান্তর করবেন?#\nএই ফাংশনটি দ্রুতই চালু করা হবে...]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[আপনি যে লিঙ্ক পেয়েছেন তাতে সমস্যা হয়েছে?#\n1. এই অ্যাপটি QR কোডের বিষয়বস্তু বদলাতে পারে না, তাই আপনি এই ওয়েবসাইট খুলতে না পারলে, খুব সম্ভবত <b>ওয়েবসাইটেই</b> কোনো সমস্যা আছে। দুর্ভাগ্যবশত, এই বিষয়ে আমরা কিছু করতে পারব না।\n\n2. এটাও হতে পারে যে QR কোডের স্রষ্টা <b>ভুল লিঙ্ক</b> দিয়েছেন অথবা QR কোডটির <b>মেয়াদ উত্তীর্ণ</b> হয়ে গেছে, যে কারণে আপনার পক্ষে ওয়েবসাইটটি খোলা সম্ভব হচ্ছে না, সম্ভব হলে, আপনি স্রষ্টার সাথে যোগাযোগ করে QR কোডের সঠিকতা নিশ্চিত করুন।\n\n3. বিশেষ করে, কিছু ওয়েব লিঙ্ক বিশেষ শর্ত সাপেক্ষে খুলতে হয়, উদাহরণ স্বরূপ, সেগুলি একটি <b>নির্দিষ্ট অ্যাপ</b> ব্যবহার করে খুলতে হয়। অনুগ্রহ করে QR কোড প্রদানকারীর নির্দেশাবলী অনুসরণ করুন।]]></string>
+    <string name="need_more_information_faq"><![CDATA[আরও তথ্য প্রয়োজন?#\nঅনেক বেশি তথ্য রয়েছে এবং আপনি যখনই চাইবেন সবসময় আমরা তথ্য দিতে সক্ষম নাও হতে পারি। আপনি <b>ওয়েব অনুসন্ধান</b>-এর মাধ্যমে আরও তথ্য দেখতে পারেন।\n\nআপনি যে তথ্য খুঁজছেন ওয়েব অনুসন্ধান যদি আপনাকে তা পেতে সাহায্য না করতে পারে, তাহলে এমনটা হতে পারে যে কোডের মধ্যেই সীমিত তথ্য রয়েছে। বোঝার চেষ্টা করুন।]]></string>
+    <string name="result_bar_code">বারকোড</string>
+
+    <string name="scanner_not_working">স্ক্যানার কাজ করছে না?</string>
+    <string name="view_faq">সাধারণ প্রশ্নোত্তরগুলি দেখুন</string>
+    <string name="avoid_reflections"><![CDATA[কোডের উপর আলোর <b>প্রতিফলন</b> অথবা <b>ছায়া</b> এড়িয়ে চলুন]]></string>
+    <string name="make_phone_face"><![CDATA[আপনার ফোনকে <b>না হেলিয়ে</b> কোডের মুখোমুখি ধরুন]]></string>
+    <string name="point_your_camera">স্বয়ংক্রিয় ভাবে স্ক্যান করতে আপনার ক্যামেরাটি কোডের দিকে তাক করুন</string>
+    <string name="qr_link_tips_1">এই অ্যাপটি শুধুমাত্র QR কোড থেকে ওয়েব লিঙ্ক (URL) পাঠ করতে আপনাকে সাহায্য করতে পারে, লিঙ্কটির সঠিক বিষয়বস্তু আমরা জানি না।</string>
+    <string name="qr_link_tips_2">লিঙ্কটির বিষয়ে আপনার কোনো প্রশ্ন থাকলে, আরও তথ্যের জন্য অনুগ্রহ করে এই QR কোডের মালিকের সাথে যোগাযোগ করুন, ধন্যবাদ!</string>
+    <string name="web_search">ওয়েব অনুসন্ধান</string>
+    <string name="product_guide_hint">কিছু পণ্য এখনও পণ্য লাইব্রেরিতে প্রবিষ্ট হয়নি। পণ্য সংক্রান্ত আরও তথ্য পেতে আপনি ওয়েব অনুসন্ধান ট্যাপ করতে পারেন।</string>
+    <string name="search_for_more_information">আরও তথ্যের জন্য ওয়েব অনুসন্ধান ট্যাপ করুন</string>
+    <string name="amazon_shopping">অ্যামাজন শপিং</string>
+
+    <string name="search">অনুসন্ধান করুন</string>
+    <string name="td_tip">বিঃদ্রঃ</string>
+    <string name="no_thanks_1">না, ধন্যবাদ</string>
+    <string name="try_now_button">এখন চেষ্টা করুন</string>
+    <string name="barcode_scan_fail_tip">স্ক্যান না করা গেলে আপনি সার্চে ম্যানুইয়ালি বারকোড নম্বর লেখার চেষ্টা করতে পারেন।</string>
+    <string name="input_invalid_no_content_tip">অনুগ্রহ করে নম্বরগুলি লিখুন</string>
+
+    <string name="hint_title">শিরোনাম</string>
+    <string name="result_email_address">ইমেল</string>
+    <string name="result_tel">টেল</string>
+    <string name="enter_your_youtube_channel_id">ইউটিউব চ্যানেল আইডি দিন</string>
+    <string name="enter_youtube_url">ইউটিউব URL দিন</string>
+    <string name="saved_to_gallery">গ্যালারিতে সেভ করা হয়েছে</string>
+    <string name="toast_text_null">অনুগ্রহ করে প্রথমে বিষয়বস্তু প্রবেশ করান</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="no_history">কোনো ইতিহাস নেই</string>
+    <string name="channel_id">চ্যানেল আইডি</string>
+    <string name="enter_youtube_video_id">ইউটিউব ভিডিও আইডি দিন</string>
+    <string name="video_id">ভিডিও আইডি</string>
+
+    <string name="rename">পুনঃনামকরণ</string><!-- google的 -->
+
+    <string name="faq">সচরাচর জিজ্ঞাস্য</string>
+    <string name="still_have_problems_1">এখনও সমস্যা আছে</string>
+    <string name="amazon">আমাজন</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

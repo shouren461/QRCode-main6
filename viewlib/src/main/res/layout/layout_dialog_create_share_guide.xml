@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qr_dp_30"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/qr_dp_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.9">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/qr_dp_30"
+                android:layout_height="@dimen/qr_dp_30"
+                app:srcCompat="@drawable/view_ic_share"
+                app:tint="@color/themeColor" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/qr_dp_10"
+                android:text="@string/use_share"
+                android:textColor="@color/dialog_text_first"
+                android:textSize="@dimen/qr_sp_24" />
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/qr_dp_30"
+            android:includeFontPadding="false"
+            android:text="@string/click_share_option"
+            android:textColor="@color/dialog_text_first"
+            android:textSize="@dimen/qr_sp_16" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_step_2"
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/qr_dp_30"
+            android:includeFontPadding="false"
+            android:text="@string/then_select_generate"
+            android:textColor="@color/dialog_text_first"
+            android:textSize="@dimen/qr_sp_16" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_positive"
+            style="@style/FontBlack"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/qr_dp_50"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/qr_dp_40"
+            android:background="@drawable/bg_ripple_corner_12"
+            android:backgroundTint="@color/themeColor"
+            android:gravity="center"
+            android:text="@string/action_ok"
+            android:textColor="@color/dialog_text_button_positive"
+            android:textSize="@dimen/qr_sp_16" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

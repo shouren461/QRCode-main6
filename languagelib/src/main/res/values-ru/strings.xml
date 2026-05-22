@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">Этот платный сервис от Google Paid недоступен в данный момент или в вашей стране. Вы можете продолжить использование приложения, но без оплаты за удаление рекламы.</string>
+    <string name="purchased_failed_title">Не могу совершить покупку</string>
+    <string name="fb_btn_submit">Отправить</string>
+    <string name="fb_thx_feedback_tip">Мы исправим проблему в будущей версии. Извините за неудобство.</string>
+    <string name="fb_thx_feedback_title">Спасибо за обратную связь</string>
+    <string name="fb_please_tell_more">Расскажите о проблеме подробнее, чтобы мы быстрее нашли ее и решили (не менее %s символов)</string>
+    <string name="fb_tell_us_your_problem">Расскажите, что за проблема у вас возникла</string>
+    <string name="fb_type">Тип</string><!-- 意思是Type of problem -->
+    <string name="fb_ok">OK</string>
+    <string name="fb_button_cancel">Отмена</string>
+    <string name="fb_choose_to_submit">Выберите один пункт для отправки</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="action_ok">OK</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Местонахождение</string>
+    <string name="parse_format_title_email_address">Эл. почта</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_isbn">Книга</string>
+    <string name="parse_format_title_product">Товар</string>
+    <string name="parse_format_title_tel">Тел</string>
+    <string name="parse_format_title_sms">СМС</string>
+    <string name="parse_format_title_text">Текст</string>
+    <string name="parse_format_title_address_book">Контакты</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_calendar">Календарь</string>
+    <string name="parse_result_content_geo">Геоположение:</string>
+    <string name="parse_format_title_barcode">Штрих-код</string>
+    <string name="parse_action_title_add_contacts">Добавить в контакты</string>
+    <string name="parse_action_title_add_event">Добавить в мероприятия</string>
+    <string name="parse_result_content_lng">Долг.:</string>
+    <string name="parse_result_content_lat">Шир.:</string>
+    <string name="parse_action_title_navigation">Навигация</string>
+    <string name="parse_result_content_tel">Тел:</string>
+    <string name="parse_action_title_copy">Копировать</string>
+    <string name="parse_action_title_call">Позвонить</string>
+    <string name="parse_action_title_history_price">История цен</string>
+    <string name="parse_action_title_nutrient_analyse">Анализ питания</string>
+    <string name="parse_action_title_shop_now">Купить сейчас</string>
+    <string name="parse_result_content_email">Эл. почта:</string>
+    <string name="parse_result_content_name">ФИО:</string>
+    <string name="parse_result_content_address">Адрес:</string>
+    <string name="parse_result_content_nickname">Никнейм:</string>
+    <string name="parse_result_content_org">Орг.:</string>
+    <string name="parse_result_content_title">Обращение:</string><!-- title的直译是Название: -->
+    <string name="parse_result_content_birthday">День рождения:</string>
+    <string name="parse_result_content_to">Кому:</string>
+    <string name="parse_result_content_cc">Копия:</string>
+    <string name="parse_result_content_bcc">Скрытая копия:</string>
+    <string name="parse_result_content_subject">Тема:</string>
+    <string name="parse_result_content_body">Содержание:</string>
+    <string name="parse_result_content_ssid">Сетевое имя:</string>
+    <string name="parse_result_content_type">Безопасность:</string>
+    <string name="parse_action_title_show_on_map">Показать на карте</string>
+    <string name="parse_action_title_copy_password">Скопировать пароль</string>
+    <string name="lh_button_ok">OK</string>
+    <string name="parse_action_title_share">Отправить ссылку</string>
+    <string name="parse_result_content_password">Пароль:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_result_content_start">Начало:</string>
+    <string name="parse_result_content_end">Окончание:</string>
+    <string name="parse_result_content_note">Заметка:</string>
+    <string name="parse_result_content_summary">Тема:</string>
+    <string name="parse_action_title_product_search">Поиск товара</string>
+    <string name="parse_action_title_book_search">Поиск книги</string>
+    <string name="parse_action_title_web_search">Поиск в интернете</string>
+    <string name="parse_action_title_send_sms">Отправить СМС</string><!-- 根据翻译，对开源文字做了修改 -->
+    <string name="parse_action_title_send_mms">Послать MMS</string>
+    <string name="parse_action_title_send_email">Отправить эл. почта</string><!-- 根据翻译，对开源文字做了修改 -->
+    <string name="parse_action_title_open">Открыть</string>
+    <string name="lh_intent_failed">К сожалению, запрошенное приложение не может быть запущено.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Из-за ограничений системы устройства на Android 10 и позже должны быть подключены к Wi-Fi <b>вручную</b>]]></string>
+    <string name="lh_open_wifi_settings">Открыть настройки Wi-Fi</string>
+    <string name="lh_choose_wifi">Выберите Wi-Fi сеть для подключения</string>
+    <string name="lh_paste_password">Вставьте пароль (скопирован автоматически)</string>
+    <string name="parse_action_title_connect_to_network">Подключиться к Wi-Fi</string>
+    <string name="lh_wifi_disabled">Wi-Fi отключен</string>
+    <string name="lh_wifi_disabled_des">Чтобы подключиться к Wi-Fi, сначала включите его.</string>
+    <string name="lh_enable_wifi">Включить Wi-Fi</string>
+    <string name="lh_tip">Совет</string>
+    <string name="lh_required_permission_1">1.Откройте настройки</string>
+    <string name="lh_required_permission_2">2.Нажмите «Разрешения»</string>
+    <string name="lh_required_permission_turn_on_storage">3.Включите Хранение</string>
+    <string name="lh_button_cancel">Отмена</string>
+
+    <string name="action_copy">Копировать ссылку</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="different_engine_more_info">Попробуйте разные поисковые системы, чтобы получать больше полезной информации!</string>
+    <string name="no_internet_des">Отсутствует подключение к Интернету. Попробуйте еще раз позже.</string>
+    <string name="x_link_open">Выявлена ссылка на %s, открыть ее?</string>
+    <string name="parse_action_view_in_store">В магазин</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+
+    <string name="loading">Загрузка…</string>
+    <string name="free_space_needed">Нужно места: %s (рекомендуется)</string>
+    <string name="free_up_space">Освободить место</string>
+    <string name="no_enough_storage">Не хватает памяти</string>
+    <string name="remaining_space">Осталось: %s</string>
+    <string name="free_space_to_ensure">Освободите место для правильной работы приложения.</string>
+    <string name="click_share_option">1. Выберите текст в других приложениях и нажмите кнопку «Поделиться»</string>
+    <string name="then_select_generate">2. Выберите «%s»</string>
+    <string name="use_share">Используйте опцию «Поделиться», чтобы создать QR-код</string>
+    <string name="qr_code_not_found">QR-код/штрих-код не найден</string>
+    <string name="album_permission_hint">Для сканирования QR-кода/штрих-кода в галерее требуется доступ к галерее.</string>
+    <string name="required_permission_turn_on_camera">3.Включите камеру</string>
+    <string name="yes">да</string>
+    <string name="no">Нет</string>
+    <string name="feedback">Обратной</string>
+    <string name="clear_history">Очистить историю</string>
+    <string name="why_need_permissions">Зачем нам нужны разрешения?</string>
+    <string name="permission_required">Требуется разрешение</string>
+    <string name="required_permission_1">1.Откройте настройки</string>
+    <string name="required_permission_2">2.Нажмите «Разрешения»</string>
+    <string name="required_permission_turn_on_storage">3.Включите Хранение</string>
+    <string name="open_settings">Откройте настройки</string>
+    <string name="camera_permission_des">Для сканирования QR- или штрих-кодов нужен доступ к камере.</string>
+    <string name="storage_permission_save_images">Чтобы сохранять изображения, нужен доступ к памяти.</string>
+    <string name="td_feedback_email_title">Отзыв по %s</string>
+    <string name="qr_code_not_found_hint">Убедитесь, что QR-/штрихкод четкий и полностью внутри рамки</string>
+    <string name="msg_intent_failed">К сожалению, запрошенное приложение не может быть запущено.</string>
+    <string name="tap_again_to_exit">Нажмите еще раз, чтобы выйти</string>
+    <string name="camera_problem_restart">К сожалению, возникла ошибка камеры. пожалуйста, проверьте и перезапустите приложение.</string>
+    <string name="delete_sure">Вы действительно хотите удалить?</string>
+    <string name="good">Хорошо</string>
+    <string name="generate_qr_code">Создать QR-код</string>
+    <string name="not_good">Не совсем</string>
+    <string name="satisfied_scan_ask">Вы довольны результатами сканирования?</string>
+    <string name="browse_from_gallery">Выбрать из галереи</string>
+    <string name="capture">Снять фото</string>
+    <string name="got_it">ОК</string>
+    <string name="copy">Копировать</string>
+    <string name="save">Сохранить</string>
+    <string name="share">Поделиться</string>
+    <string name="scan_image_title">Сканируйте еще проще откуда угодно:</string>
+    <string name="scan_image_how_to_1">Выберите изображение в другом приложении и нажмите на кнопку «Поделиться»</string>
+    <string name="scan_image_how_to_2">Выберите «Сканировать изображение»</string>
+    <!-- 完整翻译，逐字翻译是Имя пользователя -->
+    <string name="start">Начало</string>
+    <string name="location">Местонахождение</string>
+    <string name="description">Описание</string>
+    <string name="all_day">Весь день</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Не удается подключиться к Wi-Fi?#\n1. Вы должны быть <b>зоне действия Wi-Fi</b>. Также следует проверить имя пользователя или пароль для подключения к Wi-Fi.\n\nЕсли подключиться все равно не удается, спросите у того, кто предоставил QR-код, не изменился ли пароль.\n\n2. Если результат сканирования отображается в виде текста, вам нужно <b>подключиться к Wi-Fi вручную</b> в разделе настроек сети телефона, использовав имя и пароль Wi-Fi в этом тексте.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Не удается прочитать код?#\n1. Чтобы результаты сканирования были точны, код должен соответствовать таким характеристикам:\n\t\ta. Высокий контраст <b>без размытия</b>.\n\t\tb. <b>Без отраженного света или теней</b>, падающих на код.\n\t\tc. Код должен быть <b>полным</b> и без пропусков.\n\n2. Если вы используете бюджетную модель телефона, просканировать код может быть затруднительно или даже невозможно из-за низкого качества камеры.\n\nМы можете попробовать сфотографировать код с помощью приложения камеры, затем открыть наше приложение и просканировать код из галереи.\n\n3. Если просканировать штрих-код или QR-код все равно не удается, отправьте нам электронное письмо по адресу %sобратной%s. Мы устраним проблему как можно скорее.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Преобразование изображений в QR-коды?#\nЭта функция скоро станет доступа…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Проблема со ссылкой, которая отображается?#\n1. Это приложение не может менять содержимое QR-кода, потому если этот веб-сайт открыть не удается, возможно, проблема <b>с самим веб-сайтом</b>. К сожалению, тут мы помочь не можем.\n\n2. Также возможно, что автор QR-кода ввел <b>неправильную ссылку</b> или же что QR-код <b>больше не действует</b>. Если есть возможность, обратитесь к автору кода и убедитесь, правильный ли код.\n\n3. Некоторые ссылки требуется открывать в особых условиях, например в <b>специальных приложениях</b>. Следуйте инструкциям поставщика QR-кода.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Нужно больше информации?#\nИнформации слишком много, и мы не можем предоставлять нужные вам данные на каждый запрос. Дополнительные сведения можно попробовать найти с помощью <b>Поиск в сети</b>.\n\nЕсли и это не помогло, возможно, сам код содержит только ограниченную информацию. Просим вашего понимания.]]></string>
+    <string name="scanner_not_working">Сканер не работает?</string>
+    <string name="view_faq">Посмотреть вопросы и ответы</string>
+    <string name="qr_link_tips_1">Это приложение может только читать веб-ссылку (URL-адрес), которую содержит QR-код. Содержимое, доступное по ссылке, нам неизвестно.</string>
+    <string name="qr_link_tips_2">Если у вас есть вопросы о ссылке, обратитесь к владельцу QR-кода за подробностями. Спасибо!</string>
+    <string name="tip">Совет</string>
+    <string name="faq">Вопросы-Ответы</string>
+    <string name="retry">Повторить</string>
+    <string name="still_have_problems_1">Остались проблемы</string>
+    <string name="web_search">Поиск в сети</string>
+    <string name="avoid_reflections"><![CDATA[Не допускайте <b>отражений</b> и <b>теней</b> на коде]]></string>
+    <string name="make_phone_face"><![CDATA[Наводите телефон на код ровно, <b>без наклонов</b>]]></string>
+    <string name="point_your_camera">Наведите камеру на код для автосканирования</string>
+    <string name="product_guide_hint">Некоторых продуктов еще нет в библиотеке. Нажмите на «Поиск в сети», чтобы узнать о них больше.</string>
+    <string name="search_for_more_information">Нажмите на «Поиск в сети», чтобы узнать больше</string>
+    <string name="amazon_shopping">Покупки в Amazon</string>
+    <string name="result_bar_code">Штрих-код</string>
+
+
+    <string name="search">Поиск</string>
+    <string name="td_tip">Советы</string>
+    <string name="no_thanks_1">Нет, спасибо</string>
+    <string name="try_now_button">Попробовать сейчас</string>
+    <string name="barcode_scan_fail_tip">Если сканирование не удалось, попробуйте для поиска ввести номер штрихкода вручную.</string>
+    <string name="input_invalid_no_content_tip">Введите цифры</string>
+
+    <string name="hint_title">Название</string>
+    <string name="result_email_address">Эл. почта</string>
+    <string name="result_tel">Тел</string>
+    <!-- 也可以直接翻译为Эл. почта -->
+    <string name="enter_your_youtube_channel_id">Введите ID канала на YouTube</string>
+    <string name="enter_youtube_url">Введите URL на YouTube</string>
+    <string name="saved_to_gallery">Сохранено в галерею</string>
+    <string name="toast_text_null">Сначала введите содержимое</string>
+
+    <string name="ok">OK</string>
+    <string name="no_history">Истории нет</string>
+    <string name="channel_id">ID канала</string>
+    <string name="enter_youtube_video_id">Введите ID видео на YouTube</string>
+    <!-- 可以直接翻译为Телефон -->
+    <string name="video_id">ID видео</string>
+
+    <string name="rename">Переименовать</string>
+
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

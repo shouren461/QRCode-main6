@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">Послуга Google Paid наразі не доступна у Вашій країні, Ви можете продовжувати використовувати додаток, крім оплати за видалення оголошень.</string>
+    <string name="purchased_failed_title">Неможливо зробити покупку</string>
+    <string name="fb_btn_submit">Надіслати</string>
+    <string name="fb_thx_feedback_tip">Ми усунемо її в наступній версії. Вибачте за незручності.</string>
+    <string name="fb_thx_feedback_title">Дякуємо за ваш відгук.</string>
+    <string name="fb_please_tell_more">Надайте нам більше відомостей, щоб ми могли швидше знайти та вирішити вашу проблему (принаймні %s символів)</string>
+    <string name="fb_tell_us_your_problem">Розкажіть, яку проблему ви виявили</string>
+    <string name="fb_type">Тип</string>
+    <string name="fb_ok">ОК</string>
+    <string name="fb_button_cancel">Скасувати</string>
+    <string name="fb_choose_to_submit">Виберіть один пункт для надсилання</string>
+    <string name="action_ok">ОК</string>
+    <string name="button_cancel">Скасувати</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Розташування</string>
+    <string name="parse_format_title_sms">SMS</string>
+    <string name="parse_format_title_text">Текст</string>
+    <string name="parse_format_title_address_book">Контакти</string>
+    <string name="parse_format_title_tel">Тел.</string>
+    <string name="parse_format_title_email_address">Електронна пошта</string>
+    <string name="parse_format_title_isbn">Книга</string>
+    <string name="parse_format_title_product">Продукт</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_calendar">Календар</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_result_content_geo">Гео:</string>
+    <string name="parse_format_title_barcode">Штрих-код</string>
+    <string name="parse_action_title_add_contacts">Додати до контактів</string>
+    <string name="parse_action_title_add_event">Додати до подій</string>
+    <string name="parse_result_content_lng">Довг:</string>
+    <string name="parse_result_content_lat">Шир:</string>
+    <string name="parse_action_title_navigation">Навігація</string>
+    <string name="parse_action_title_nutrient_analyse">Аналіз харчування</string>
+    <string name="parse_action_title_shop_now">Купити зараз</string>
+    <string name="parse_result_content_tel">Тел.:</string>
+    <string name="parse_action_title_call">Виклик</string>
+    <string name="parse_result_content_email">Електронна пошта:</string>
+    <string name="parse_result_content_name">Ім\'я:</string>
+    <string name="parse_action_title_history_price">Історія цін</string>
+    <string name="parse_result_content_address">Адреса:</string>
+    <string name="parse_action_title_copy">Копіювати</string>
+    <string name="parse_result_content_nickname">Псевдонім:</string>
+    <string name="parse_result_content_org">Орг:</string>
+    <string name="parse_result_content_title">Назва:</string>
+    <string name="parse_result_content_birthday">День народження:</string>
+    <string name="parse_result_content_to">Кому:</string>
+    <string name="parse_result_content_cc">Копія:</string>
+    <string name="parse_result_content_bcc">Прихована копія:</string>
+    <string name="parse_result_content_subject">Тема:</string>
+    <string name="parse_action_title_copy_password">Скопвювати пароль</string>
+    <string name="parse_result_content_body">Вміст:</string>
+    <string name="parse_result_content_ssid">Назва мережі:</string>
+    <string name="parse_result_content_type">Тип захисту:</string>
+    <string name="parse_action_title_show_on_map">Показати на карті</string>
+    <string name="parse_action_title_send_email">Надіслати електронну пошту</string>
+    <string name="parse_action_title_product_search">Пошук продукту</string>
+    <string name="parse_action_title_book_search">Пошук книги</string>
+    <string name="parse_action_title_web_search">Пошук Google</string>
+    <string name="parse_action_title_send_sms">Надіслати SMS-повідомлення</string>
+    <string name="parse_action_title_send_mms">Надіслати MMS-повідомлення</string>
+    <string name="parse_result_content_note">Примітка:</string>
+    <string name="parse_result_content_start">Початок:</string>
+    <string name="parse_result_content_end">Завершення:</string>
+    <string name="lh_button_ok">ОК</string>
+    <string name="parse_result_content_summary">Тема:</string>
+    <string name="parse_action_title_share">Поділитися</string>
+    <string name="parse_result_content_password">Пароль:</string>
+    <string name="parse_result_content_url">Url-адреса:</string>
+    <string name="parse_action_title_open">Відкрити</string>
+    <string name="lh_intent_failed">Не можна запустити запитану програму.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Через системні обмеження пристрої Android 10 і новіших версій потрібно підключати до мережі Wi-Fi <b>вручну</b>]]></string>
+    <string name="lh_open_wifi_settings">Відкрити параметри Wi-Fi</string>
+    <string name="lh_choose_wifi">Виберіть мережу Wi-Fi для підключення</string>
+    <string name="lh_paste_password">Вставте пароль (копіюється автоматично)</string>
+    <string name="parse_action_title_connect_to_network">Підключитися до мережі Wi-Fi</string>
+    <string name="lh_wifi_disabled">Wi-Fi вимкнуто</string>
+    <string name="lh_wifi_disabled_des">Щоб підключитися до мережі Wi-Fi, спочатку потрібно її ввімкнути.</string>
+    <string name="lh_enable_wifi">Увімкнути Wi-Fi</string>
+    <string name="lh_tip">Порада</string>
+    <string name="lh_required_permission_1">1. Відкрийте \"Налаштування\"</string>
+    <string name="lh_required_permission_2">2. Натисніть \"Дозволи\"</string>
+    <string name="lh_required_permission_turn_on_storage">3. Увімкніть \"Сховище\"</string>
+    <string name="lh_button_cancel">Скасувати</string>
+
+    <string name="action_copy">Копіювати посилання</string>
+    <string name="copied_to_clipboard">Скопійовано в буфер обміну</string>
+    <string name="different_engine_more_info">Спробуйте різні пошукові системи, щоб отримувати більше корисної інформації!</string>
+    <string name="no_internet_des">Немає підключення до Інтернету. Повторіть спробу пізніше.</string>
+    <string name="x_link_open">Виявлено посилання на %s. Відкрити його?</string>
+    <string name="parse_action_view_in_store">Переглянути в магазині</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="loading">Завантаження…</string>
+    <string name="free_space_needed">Потрібно місця: %s (рекомендовано)</string>
+    <string name="free_up_space">Звільнити місце</string>
+    <string name="no_enough_storage">Недостатньо місця у сховищі</string>
+    <string name="remaining_space">Залишилося місця: %s</string>
+    <string name="free_space_to_ensure">Звільніть місце, щоб забезпечити правильну роботу програми.</string>
+    <string name="click_share_option">1. Виберіть текст в інших програмах і натисніть кнопку \&#34;Поділитися\&#34;</string>
+    <string name="then_select_generate">2. Виберіть \&#34;%s\&#34;</string>
+    <string name="use_share">Використовуйте параметр \&#34;Поділитися\&#34; для створення QR-коду</string>
+    <string name="qr_code_not_found">QR-/штрих-код не знайдено</string>
+    <string name="album_permission_hint">Для сканування QR-/штрих-коду в Галереї потрібен дозвіл Галереї.</string>
+    <string name="required_permission_turn_on_camera">3. Увімкніть камеру</string>
+    <string name="qr_code_not_found_hint">Стежте, щоб QR-/штрих-код був чітким і повністю поміщався в рамку</string>
+    <string name="msg_intent_failed">Не можна запустити запитану програму.</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="feedback">Відгук</string>
+    <string name="why_need_permissions">Навіщо нам дозволи?</string>
+    <string name="permission_required">Потрібні дозволи</string>
+    <string name="required_permission_1">1. Відкрийте \"Налаштування\"</string>
+    <string name="required_permission_2">2. Натисніть \"Дозволи\"</string>
+    <string name="required_permission_turn_on_storage">3. Увімкніть \"Сховище\"</string>
+    <string name="open_settings">Відкрийте \"Налаштування\"</string>
+    <string name="generate_qr_code">Створити QR-код</string>
+    <string name="td_feedback_email_title">%s Відгук</string>
+    <string name="tap_again_to_exit">Натисніть знову, щоб вийти</string>
+    <string name="clear_history">Очистити історію?</string>
+    <string name="camera_problem_restart">Сталася проблема з камерою Android. Перевірте її та перезапустіть програму.</string>
+    <string name="delete_sure">Справді видалити?</string>
+    <string name="good">Добре</string>
+    <string name="camera_permission_des">Для сканування QR-кодів / штрих-кодів потрібен дозвіл камери.</string>
+    <string name="storage_permission_save_images">Щоб зберігати зображення, потрібен дозвіл на зберігання.</string>
+    <string name="not_good">Не дуже</string>
+    <string name="satisfied_scan_ask">Ви задоволені результатами сканування?</string>
+    <string name="browse_from_gallery">Вибрати з галереї</string>
+    <string name="capture">Зробити фото</string>
+    <string name="got_it">ГАРАЗД</string>
+    <string name="scan_image_title">Простіший спосіб сканування зображення з будь-якого місця:</string>
+    <string name="scan_image_how_to_1">Виберіть зображення в інших програмах і натисніть кнопку \"Поділитися\"</string>
+    <string name="scan_image_how_to_2">Виберіть \"Сканувати зображення\"</string>
+    <string name="save">Збер.</string>
+    <string name="share">Поділитися</string>
+    <string name="all_day">Весь день</string>
+    <string name="copy">Копіювати</string>
+    <string name="description">Опис</string>
+    <string name="start">Початок</string>
+    <string name="location">Розташування</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Не вдається підключитися до Wi-Fi?#\n1. Ви маєте бути в <b>зоні дії Wi-Fi</b>. Також слід перевірити ім’я користувача або пароль для підключення до Wi-Fi.\n\nЯкщо підключитися все одно не вдається, запитайте в того, хто надав QR-код, чи не змінився пароль.\n\n2. Якщо результат сканування відображається як текст, вам потрібно <b>підключитися до Wi-Fi вручну</b> в розділі налаштувань мережі телефона, використавши ім’я та пароль Wi-Fi у цьому тексті.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Не вдається прочитати код?#\n1. Щоб результати сканування були точні, код має відповідати таким критеріям:\n\t\ta. Висока контрастність <b>без розмиття</b>.\n\t\tb. <b>Без відбитого світла або тіней</b>, що падають на код.\n\t\tc. Код має бути <b>повним</b> і не містити пропусків.\n\n2. Якщо ви використовуєте бюджетну модель телефона, просканувати код може бути важко або навіть неможливо через низьку якість камери.\n\nВи можете спробувати сфотографувати код за допомогою застосунку камери, а потім відкрити наш застосунок і просканувати код із галереї.\n\n3. Якщо просканувати штрихкод або QR-код усе одно не вдається, надішліть нам електронний лист на адресу %sвідгук%s. Ми усунемо проблему якомога швидше.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Перетворення зображень на QR-коди?#\nЦя функція незабаром стане доступна…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Проблема з посиланням, що відображається?#\n1. Цей застосунок не може змінювати вміст QR-коду, тому якщо цей вебсайт не вдається відкрити, можливо, проблема <b>із самим веб-сайтом</b>. На жаль, тут ми нічим допомогти не можемо.\n\n2. Також можливо, що автор QR-коду ввів <b>неправильне посилання</b> або ж що QR-код <b>більше не діє</b>. Якщо є можливість, зверніться до автора коду та перевірте, чи він правильний.\n\n3. Деякі посилання потрібно відкривати в особливих умовах, наприклад у <b>спеціальному застосунку</b>. Дотримуйтесь інструкцій від постачальника QR-коду.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Потрібно більше інформації?#\nІнформації забагато, і ми не можемо надавати потрібні вам дані на кожен запит. Додаткові відомості можна спробувати знайти за допомогою <b>Пошук в Інтернеті</b>.\n\nЯкщо це не допомогло, можливо, сам код містить лише обмежені відомості. Прохаємо вашого розуміння.]]></string>
+    <string name="scanner_not_working">Сканер не працює?</string>
+    <string name="view_faq">Переглянути запитання й відповіді</string>
+    <string name="qr_link_tips_1">Цей застосунок може лише читати вебпосилання (URL-адресу), яку містить QR-код. Вміст, доступний за посиланням, нам невідомий.</string>
+    <string name="qr_link_tips_2">Якщо у вас є запитання про посилання, зверніться до власника QR-коду по докладні відомості. Дякуємо!</string>
+    <string name="tip">Порада</string>
+    <string name="faq">Запитання й відповіді</string>
+    <string name="retry">Повторити</string>
+    <string name="still_have_problems_1">Проблеми не зникли</string>
+    <string name="web_search">Пошук в Інтернеті</string>
+    <string name="avoid_reflections"><![CDATA[Уникайте <b>відбиття</b> світла чи <b>тіней</b> на коді]]> </string>
+    <string name="make_phone_face"><![CDATA[Наводьте телефон на код <b>без нахилів</b>]]> </string>
+    <string name="point_your_camera">Наведіть камеру на код для автоматичного сканування</string>
+    <string name="product_guide_hint">Деякі товари ще не внесено до бібліотеки. Щоб отримати більше інформації про товар, натисніть \"Пошук в Інтернеті\".</string>
+    <string name="search_for_more_information">Торкніться \"Пошук в Інтернеті\", щоб отримати додаткову інформацію</string>
+    <string name="amazon_shopping">Покупки на Amazon</string>
+
+    <string name="hint_title">Назва</string>
+    <string name="result_email_address">Електронна пошта</string>
+    <string name="result_tel">Тел.</string>
+    <string name="enter_your_youtube_channel_id">Введіть ідентифікатор каналу Youtube</string>
+    <string name="enter_youtube_url">Введіть URL-адресу Youtube</string>
+    <string name="saved_to_gallery">Збережено до галереї</string>
+    <string name="toast_text_null">Спочатку введіть вміст</string>
+    <string name="ok">ОК</string>
+    <string name="no_history">Немає історії</string>
+    <string name="channel_id">Ідентифікатор каналу</string>
+    <string name="enter_youtube_video_id">Введіть ідентифікатор відео Youtube</string>
+    <string name="video_id">Ідентифікатор відео</string>
+    <string name="result_bar_code">Штрих-код</string>
+
+    <string name="rename">Перейменувати</string>
+    <string name="search">Пошук</string>
+    <string name="td_tip">Порада</string>
+    <string name="no_thanks_1">Ні, дякую</string>
+    <string name="try_now_button">Спробувати зараз</string>
+    <string name="barcode_scan_fail_tip">Якщо засканувати не вдалося, спробуйте ввести номер штрих-коду для пошуку вручну.</string>
+    <string name="input_invalid_no_content_tip">Вводьте лише цифри</string>
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

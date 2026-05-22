@@ -1,0 +1,254 @@
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">The Google Paid service isn\'t available at the moment or in your country, you can continue to use the application except paying for removing ads.</string>
+    <string name="purchased_failed_title">Can\'t make purchase</string>
+    <string name="fb_ok">OK</string>
+    <string name="fb_thx_feedback_title">Thanks for your feedback</string>
+    <string name="fb_thx_feedback_tip">We will fix it in the future version. Sorry for the inconvenience.</string>
+    <string name="fb_button_cancel">Cancel</string>
+    <string name="fb_btn_submit">Submit</string>
+    <string name="fb_tell_us_your_problem">Tell us the problem you encountered</string>
+    <string name="fb_type">Type</string>
+    <string name="fb_please_tell_more">Please tell us more details so that we can locate and solve your problem faster (at least %s characters)</string>
+    <string name="fb_choose_to_submit">Please choose one item to submit</string>
+    <string name="action_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- Parse Action Button -->
+    <string name="parse_action_title_add_contacts">Add to contacts</string>
+    <string name="parse_action_title_show_on_map">Show on map</string>
+    <string name="parse_action_title_call">Call</string>
+    <string name="parse_action_title_send_email">Send email</string>
+    <string name="parse_action_title_web_search">Web search</string>
+    <string name="parse_action_title_share">Share</string>
+    <string name="parse_action_title_history_price">Price history</string>
+    <string name="parse_action_title_add_event">Add to events</string>
+    <string name="parse_action_title_navigation">Navigation</string>
+    <string name="parse_action_title_book_search">Book Search</string>
+    <string name="parse_action_title_product_search">Product search</string>
+    <string name="parse_action_title_send_sms">Send SMS</string>
+    <string name="parse_action_title_send_mms">Send MMS</string>
+    <string name="parse_action_title_copy_password">Copy password</string>
+    <string name="parse_action_title_copy">Copy</string>
+    <string name="parse_action_title_open">Open</string>
+    <string name="parse_action_title_connect_to_network">Connect to Wi-Fi</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_nutrient_analyse">Nutrition analysis</string>
+    <string name="parse_action_title_shop_now">Shop now</string>
+    <!-- Parse Result Content -->
+    <string name="parse_result_content_name">Name:</string>
+    <string name="parse_result_content_tel">Tel:</string>
+    <string name="parse_result_content_email">E-mail:</string>
+    <string name="parse_result_content_address">Address:</string>
+    <string name="parse_result_content_nickname">Nickname:</string>
+    <string name="parse_result_content_note">Note:</string>
+    <string name="parse_result_content_org">Org:</string>
+    <string name="parse_result_content_birthday">Birthday:</string>
+    <string name="parse_result_content_title">Title:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_result_content_geo">Geo:</string>
+    <string name="parse_result_content_summary">Subject:</string>
+    <string name="parse_result_content_start">Start:</string>
+    <string name="parse_result_content_end">End:</string>
+    <string name="parse_result_content_to">To:</string>
+    <string name="parse_result_content_cc">CC:</string>
+    <string name="parse_result_content_bcc">BCC:</string>
+    <string name="parse_result_content_subject">Subject:</string>
+    <string name="parse_result_content_body">Content:</string>
+    <string name="parse_result_content_lng">Lng:</string>
+    <string name="parse_result_content_lat">Lat:</string>
+    <string name="parse_result_content_ssid">Network name:</string>
+    <string name="parse_result_content_password">Password:</string>
+    <string name="parse_result_content_type">Security type:</string>
+    <!-- Parse Format Title -->
+    <string name="parse_format_title_email_address">E-mail</string>
+    <string name="parse_format_title_barcode">Barcode</string>
+    <string name="parse_format_title_vin" translatable="false">VIN</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_text">Text</string>
+    <string name="parse_format_title_address_book">Contacts</string>
+    <string name="parse_format_title_geo">Location</string>
+    <string name="parse_format_title_sms">SMS</string>
+    <string name="parse_format_title_calendar">Calendar</string>
+    <string name="parse_format_title_tel">Tel</string>
+    <string name="parse_format_title_isbn">Book</string>
+    <string name="parse_format_title_product">Product</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_facebook" translatable="false">Facebook</string>
+    <string name="parse_format_title_instagram" translatable="false">Instagram</string>
+    <string name="parse_format_title_whatsapp" translatable="false">Whatsapp</string>
+    <string name="parse_format_title_youtube" translatable="false">Youtube</string>
+    <string name="parse_format_title_twitter" translatable="false">X</string>
+    <string name="parse_format_title_spotify" translatable="false">Spotify</string>
+    <string name="parse_format_title_paypal" translatable="false">Paypal</string>
+    <string name="parse_format_title_viber" translatable="false">Viber</string>
+    <string name="lh_intent_failed">Sorry, the requested application could not be launched.</string>
+    <string name="lh_button_ok">OK</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Due to system limitations, Android 10 and above devices need to <b> manually </b> connect to Wi-Fi]]></string>
+    <string name="lh_open_wifi_settings">Open Wi-Fi settings</string>
+    <string name="lh_choose_wifi">Choose the Wi-Fi to connect</string>
+    <string name="lh_paste_password">Paste the password(auto copied)</string>
+    <string name="lh_wifi_disabled">Wi-Fi is disabled</string>
+    <string name="lh_wifi_disabled_des">To connect to Wi-Fi, you need to enable it first.</string>
+    <string name="lh_enable_wifi">Enable Wi-Fi</string>
+    <string name="lh_tip">Tips</string>
+    <string name="lh_required_permission_1">1.Open Settings</string>
+    <string name="lh_required_permission_2">2.Tap Permissions</string>
+    <string name="lh_required_permission_turn_on_storage">3.Turn on Storage</string>
+    <string name="lh_button_cancel">Cancel</string>
+    <string name="no_internet_des">No internet connection</string>
+    <string name="action_copy">Copy link</string>
+    <string name="different_engine_more_info">Try different search engines to get more useful information!</string>
+    <string name="x_link_open">%s link detected, open it?</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="parse_action_view_in_store">View in Store</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="ok">OK</string>
+    <string name="good">Good</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="save">Save</string>
+    <string name="description">Description</string>
+    <string name="tip">Tips</string>
+    <string name="feedback">Feedback</string>
+    <string name="retry">Retry</string>
+    <string name="location">Location</string>
+    <string name="all_day">All day</string>
+    <string name="start">Start</string>
+    <string name="rename">Rename</string>
+
+    <string name="clear_history">Clear history</string>
+    <string name="web_search">Web search</string>
+    <string name="got_it">GOT IT</string>
+    <string name="no_history">No history</string>
+
+
+    <!-- 创建输入模块 -->
+    <string name="amazon_shopping">View shop</string>
+    <string name="hint_title">Title</string>
+    <string name="toast_text_null">Please enter the content first</string>
+    <string name="enter_youtube_url">Enter Youtube URL</string>
+    <string name="enter_youtube_video_id">Enter Youtube Video ID</string>
+    <string name="enter_your_youtube_channel_id">Enter Youtube Channel ID</string>
+    <string name="result_email_address">E-mail</string>
+    <string name="result_tel">Tel</string>
+    <string name="saved_to_gallery">Saved to gallery</string>
+    <string name="channel_id">Channel ID</string>
+    <string name="video_id">Video ID</string>
+
+    <string name="loading">Loading…</string>
+    <!-- 部分语言的是从mp3程序文字上传的 -->
+    <string name="td_feedback_email_title">%s Feedback</string>
+    <string name="satisfied_scan_ask">Are you satisfied with the scanning results?</string>
+    <string name="browse_from_gallery">Choose from gallery</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched.</string>
+    <string name="camera_permission_des">Camera permission is required to scan QR codes/barcodes.</string>
+    <string name="scan_image_title">An easier way to scan image from anywhere:</string>
+    <string name="scan_image_how_to_1">Select the image in other apps and click the \"Share\" button</string>
+    <string name="scan_image_how_to_2">Select \"Scan image\"</string>
+    <string name="qr_code_not_found_hint">Make sure the QR code/barcode is clear and completely inside the frame</string>
+    <string name="qr_code_not_found">No QR code/barcode found</string>
+    <string name="delete_sure">Are you sure you want to delete?</string>
+    <string name="camera_problem_restart">Sorry, the Android camera encountered a problem. Please check it, then restart the app.</string>
+    <string name="tap_again_to_exit">Tap again to exit</string>
+    <string name="point_your_camera">Point your camera at the code to auto scan</string>
+    <string name="avoid_reflections"><![CDATA[Avoid light <b>reflections</b> or <b>shadows</b> on the code]]></string>
+    <string name="make_phone_face"><![CDATA[Make your phone face the code <b>without tilting</b>]]></string>
+    <string name="search_for_more_information">Tap Web Search for more information</string>
+    <string name="product_guide_hint">Some products are not entered in the product library yet. You can tap Web Search to get more product information.</string>
+    <string name="click_share_option">Select the text in other apps and click the \&#34;Share\&#34; button</string>
+    <string name="then_select_generate">Select \&#34;%s\&#34;</string>
+    <string name="use_share">Use \&#34;Share\&#34; option to generate QR code</string>
+    <string name="generate_qr_code">Generate QR code</string>
+    <string name="qr_link_tips_1">This app can only help you read the web link (URL) from the QR code, we do not know the exact content of the web link.</string>
+    <string name="qr_link_tips_2">If you have any questions about the link, please contact the owner of this QR code for more information, thank you!</string>
+
+
+    <!-- Feedback -->
+    <string name="not_good">Not really</string>
+    <string name="capture">Take a photo</string>
+    <!-- 空间检查 -->
+    <string name="remaining_space">Remaining space: %s</string>
+    <string name="free_space_needed">Space needed: %s (recommended)</string>
+    <string name="free_up_space">Free up space</string>
+    <string name="no_enough_storage">Not enough storage</string>
+    <string name="free_space_to_ensure">Please free up some space to ensure the app works properly.</string>
+    <!-- Permission -->
+    <string name="why_need_permissions">Why do we need permissions?</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="storage_permission_save_images">Storage permission is required to save images.</string>
+    <string name="album_permission_hint">Gallery permission is required to scan QR code/barcode in Gallery.</string>
+    <string name="required_permission_1">1.Open Settings</string>
+    <string name="required_permission_2">2.Tap Permissions</string>
+    <string name="required_permission_turn_on_camera">3.Turn on Camera</string>
+    <string name="required_permission_turn_on_storage">3.Turn on Storage</string>
+    <string name="open_settings">Open Settings</string>
+    <!-- FAQ -->
+    <string name="faq">FAQ</string>
+    <string name="still_have_problems_1">Still have problems</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Can\'t connect to Wi-Fi?#\n1. Make sure you are <b>within the Wi-Fi coverage area</b>, and the Wi-Fi username and password are correct.\n\nIf you still can’t connect, please ask the QR code provider whether the password has been changed.\n\n2. If the scan result is displayed as text, you need to <b>manually connect to Wi-Fi</b> in your phone\'s network settings based on the Wi-Fi name and password provided in the text.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Code can\'t be read?#\n1. In order to get accurate scanning results, please make sure that the code meets the following characteristics:\n\t\ta. rich contrast and <b>not blurry</b>.\n\t\tb. <b>no light reflections or shadows</b> on the code.\n\t\tc. <b>complete</b>, with no missing parts.\n\n2. If you are using a low-end phone, scanning may be very difficult or even impossible due to the low camera quality.\n\nYou could try to take a photo with your camera app, then open our app and tap \'Scan from the gallery\' to solve this problem.\n\n3. If you still can\'t get the result when scanning the barcode or QR code, please send an email via %sfeedback%s to us, we will solve the problem for you as soon as possible.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Convert a picture to a QR code?#\nThe function will be launched soon…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Have problem with the link you get?#\n1. This app can\'t change the content of the QR code, so if you can\'t open this website, it is more likely that there is a problem with the <b>website itself</b>. Unfortunately, there is nothing we can do about it.\n\n2. It is also possible that the creator of the QR code entered the <b>wrong link</b> or the QR code has <b>expired</b>, causing you to be unable to open the website. If possible, you can try to confirm the correctness of the QR code with the creator.\n\n3. In particular, some web links need to be opened under special conditions, for example, they need to be opened using a <b>certain app</b>. Please follow the instructions of the QR code provider.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Need more information?#\nThere is too much information and we may not be able to provide the information you want every time. You can check for more information through <b>Web Search</b>.\n\nIf Web Search still can\'t help you find the information you are looking for, it may be that the code itself contains limited information. Please understand.]]></string>
+    <string name="scanner_not_working">Scanner not working?</string>
+    <string name="view_faq">View FAQ</string>
+    <string name="result_bar_code">Barcode</string>
+
+<!--    <string name="result_bar_code">Barcode</string>-->
+    <string name="barcode_scan_fail_tip">If the scan fails, you could try to manually enter the barcode number to search.</string>
+    <string name="input_invalid_no_content_tip">Please input numbers</string>
+    <string name="search">Search</string>
+    <string name="no_thanks_1">No, thanks</string>
+    <string name="try_now_button">Try now</string>
+    <string name="td_tip">Tip</string>
+
+    <string name="facebook" translatable="false">Facebook</string>
+    <string name="instagram" translatable="false">Instagram</string>
+    <string name="whatsapp" translatable="false">Whatsapp</string>
+    <string name="youtube" translatable="false">Youtube</string>
+    <string name="twitter" translatable="false">X</string>
+    <string name="spotify" translatable="false">Spotify</string>
+    <string name="paypal" translatable="false">Paypal</string>
+    <string name="viber" translatable="false">Viber</string>
+
+
+    <string name="debug_long_text" translatable="false">1234567890ABCEDFGHIJKLMNOPRSTUVWXYZ1234567890</string>
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

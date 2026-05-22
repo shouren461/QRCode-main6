@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/web_view_page_bg"
+    android:orientation="vertical"
+    android:theme="@style/WebViewTheme"
+    tools:context=".webview.ResultWebViewActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/top_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/view_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/web_view_page_bg"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/qr_dp_14"
+                android:paddingVertical="@dimen/qr_dp_10"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="@dimen/qr_dp_24"
+                    android:layout_height="@dimen/qr_dp_24"
+                    android:background="?attr/actionBarItemBackground"
+                    android:src="@drawable/web_view_svg_close"
+                    android:tint="@color/web_view_svg" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/tv_url"
+                    style="@style/FontRegular"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/qr_dp_36"
+                    android:layout_marginStart="@dimen/qr_dp_14"
+                    android:layout_weight="1"
+                    android:background="@drawable/lib_result_web_view_bg_url"
+                    android:gravity="center_vertical"
+                    android:maxLines="1"
+                    android:paddingHorizontal="@dimen/qr_dp_12"
+                    android:singleLine="true"
+                    android:textColor="#8B9DBD"
+                    android:textSize="@dimen/qr_sp_12"
+                    tools:text="12345566" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_refresh"
+                    android:layout_width="@dimen/qr_dp_44"
+                    android:layout_height="@dimen/qr_dp_44"
+                    android:layout_marginStart="@dimen/qr_dp_28"
+                    android:background="?attr/actionBarItemBackground"
+                    android:paddingVertical="@dimen/qr_dp_10"
+                    android:src="@drawable/web_view_svg_refresh"
+                    android:tint="@color/web_view_svg" />
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_faq_or_favorite"
+                    android:layout_width="@dimen/qr_dp_44"
+                    android:layout_height="@dimen/qr_dp_44"
+                    android:background="?attr/actionBarItemBackground"
+                    android:paddingVertical="@dimen/qr_dp_10"
+                    tools:src="@drawable/web_view_svg_star" />
+
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/iv_more"
+                    android:layout_width="@dimen/qr_dp_44"
+                    android:layout_height="@dimen/qr_dp_44"
+                    android:background="?attr/actionBarItemBackground"
+                    android:paddingVertical="@dimen/qr_dp_10"
+                    android:src="@drawable/web_view_svg_more"
+                    android:tint="@color/web_view_svg" />
+
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/view_mask_top"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="#A6171718"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/view_toolbar"
+                app:layout_constraintTop_toTopOf="@id/view_toolbar" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_search_engine"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qr_dp_50"
+                android:background="@color/web_view_page_bg"
+                android:paddingVertical="@dimen/qr_dp_8"
+                app:layout_constraintTop_toBottomOf="@id/view_toolbar"
+                tools:listitem="@layout/layout_adapter_web_view_search" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EAEDF1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_card" />
+
+    <LinearLayout
+        android:id="@+id/view_load_error"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/web_view_page_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/webView"
+        app:layout_constraintEnd_toEndOf="@id/webView"
+        app:layout_constraintStart_toStartOf="@id/webView"
+        app:layout_constraintTop_toTopOf="@id/webView"
+        app:layout_constraintWidth_percent="0.75"
+        tools:visibility="visible">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_error"
+            android:layout_width="@dimen/qr_dp_128"
+            android:layout_height="@dimen/qr_dp_128"
+            app:srcCompat="@drawable/web_view_svg_no_connect" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/qr_dp_10"
+            android:textColor="@color/web_view_hint_text"
+            tools:text="No internet connection" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_error_retry"
+            style="@style/FontBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/qr_dp_30"
+            android:background="@drawable/bg_ripple_corner_9"
+            android:minHeight="@dimen/qr_dp_32"
+            android:paddingHorizontal="@dimen/qr_dp_38"
+            android:paddingVertical="@dimen/qr_dp_8"
+            android:text="@string/retry"
+            android:textColor="@color/white"
+            android:textSize="@dimen/qr_sp_14" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lottie_loading"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="@dimen/qr_dp_200"
+            android:layout_height="@dimen/qr_dp_200"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="lottie_web_view_loading.json"
+            app:lottie_loop="true" />
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/view_mask_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#A6171718"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top_card" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

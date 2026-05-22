@@ -1,0 +1,38 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
+    id 'com.google.cloud.artifactregistry.gradle-plugin'
+}
+
+android {
+    compileSdkVersion compile_sdk_version.toInteger()
+    namespace 'com.drojian.qrcode.gvlib'
+
+    defaultConfig {
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    kotlin {
+        jvmToolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+}
+
+dependencies {
+    implementation project(':baselib')
+    implementation 'androidx.core:core-ktx:' + core_ktx_version
+    implementation 'com.google.android.gms:play-services-vision:20.1.3'
+}

@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
+    id 'com.google.cloud.artifactregistry.gradle-plugin'
+}
+android {
+    compileSdkVersion compile_sdk_version.toInteger()
+    namespace 'com.drojian.qrcode.viewlib'
+
+    defaultConfig {
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    implementation project(path: ':baselib')
+    implementation project(path: ':ui360')
+
+    api 'androidx.activity:activity-ktx:' + activity_version
+    api 'androidx.appcompat:appcompat:' + appcompat_version
+    api 'com.google.android.material:material:' + material_version
+    api 'androidx.constraintlayout:constraintlayout:' + constraintlayout_version
+    api 'com.google.android.flexbox:flexbox:' + flexbox_version
+}

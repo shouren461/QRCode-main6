@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+
+    <style name="MainPage.Theme" parent="AppTheme">
+        <item name="android:windowLightStatusBar" >false</item>
+    </style>
+
+    <style name="CreateResultTheme" parent="AppTheme">
+        <item name="colorPrimaryDark">#4991FF</item>
+    </style>
+
+    <style name="AdActivityTheme" parent="@android:style/Theme.Translucent">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="FeedbackTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#DADFE6</item>
+        <item name="colorControlActivated">#4991FF</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#BEC4D2</item>
+        <item name="colorControlActivated">#4991FF</item>
+    </style>
+
+    <style name="TranslucentStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item> <!-- 背景色透明 -->
+        <item name="android:windowIsTranslucent">true</item> <!-- 是否有透明属性 -->
+        <item name="android:backgroundDimEnabled">false</item> <!-- 背景是否半透明 -->
+        <item name="android:statusBarColor">@android:color/transparent</item> <!-- 状态栏透明 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent
+        </item> <!-- activity窗口切换效果 -->
+    </style>
+
+    <!--    全屏展示的 dialog 主题-->
+    <!-- Dialog-->
+    <style name="App_Dialog_Bottom_Animation" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_slid_up</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_slid_down</item>
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+</resources>

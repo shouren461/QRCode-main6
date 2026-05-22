@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/qr_dp_24">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            style="@style/FontBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/result_bar_code"
+            android:textColor="@color/dialog_text_first"
+            android:textSize="@dimen/qr_sp_18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_title">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/et_input"
+                style="@style/FontBold"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/qr_dp_40"
+                android:background="@null"
+                android:gravity="start|center_vertical"
+                android:hint="@string/input_invalid_no_content_tip"
+                android:inputType="number"
+                android:maxLength="25"
+                android:textColor="@color/dialog_text_second"
+                android:textColorHint="#9EA5B6"
+                android:textSize="@dimen/qr_sp_16"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_line"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/qr_dp_2"
+                android:background="@color/themeColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_input" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_alert"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/qr_dp_8"
+                android:text="@string/input_invalid_no_content_tip"
+                android:textColor="#EF5454"
+                android:textSize="@dimen/qr_sp_12"
+                android:visibility="invisible"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_line"
+                tools:visibility="visible" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_positive"
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/qr_dp_46"
+            android:layout_marginTop="@dimen/qr_dp_15"
+            android:background="@drawable/bg_button_state_enable"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:textSize="@dimen/qr_sp_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/layout_search" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_negative"
+            style="@style/FontBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/qr_dp_19"
+            android:layout_marginBottom="@dimen/qr_dp_5"
+            android:text="@string/button_cancel"
+            android:textColor="#9EA5B6"
+            android:textSize="@dimen/qr_sp_16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_positive" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

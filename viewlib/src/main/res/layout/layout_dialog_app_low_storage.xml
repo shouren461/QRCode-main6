@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_bottom">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/qr_dp_72"
+        android:layout_height="@dimen/qr_dp_72"
+        android:layout_marginTop="@dimen/qr_dp_25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/svg_storage_low_alert" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        style="@style/FontBlack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/qr_dp_24"
+        android:layout_marginTop="@dimen/qr_dp_10"
+        android:gravity="center"
+        android:lines="1"
+        android:text="@string/no_enough_storage"
+        android:textColor="@color/dialog_text_first"
+        android:textSize="@dimen/qr_sp_24"
+        app:autoSizeMaxTextSize="@dimen/qr_sp_24"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_icon" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_desc"
+        style="@style/FontBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/qr_dp_16"
+        android:layout_marginTop="@dimen/qr_dp_8"
+        android:gravity="center"
+        android:text="@string/free_space_to_ensure"
+        android:textColor="@color/dialog_text_second"
+        android:textSize="@dimen/qr_sp_15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_remain_space"
+        style="@style/FontBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qr_dp_20"
+        android:text="@string/remaining_space"
+        android:textColor="@color/dialog_text_second"
+        android:textSize="@dimen/qr_sp_12"
+        app:layout_constraintEnd_toEndOf="@id/tv_needed_space"
+        app:layout_constraintStart_toStartOf="@id/tv_needed_space"
+        app:layout_constraintTop_toBottomOf="@id/tv_desc" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_needed_space"
+        style="@style/FontBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/qr_dp_2"
+        android:gravity="center"
+        android:maxWidth="@dimen/qr_dp_280"
+        android:text="@string/free_space_needed"
+        android:textColor="@color/dialog_text_second"
+        android:textSize="@dimen/qr_sp_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_remain_space" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_positive"
+        style="@style/FontBlack"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/qr_dp_50"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="@dimen/qr_dp_20"
+        android:layout_marginTop="@dimen/qr_dp_20"
+        android:layout_marginBottom="@dimen/qr_dp_60"
+        android:background="@drawable/bg_ripple_corner_12"
+        android:backgroundTint="@color/themeColor"
+        android:gravity="center"
+        android:text="@string/free_up_space"
+        android:textColor="@color/dialog_text_button_positive"
+        android:textSize="@dimen/qr_sp_19"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_needed_space"
+        app:layout_constraintWidth_max="@dimen/qr_dp_320" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

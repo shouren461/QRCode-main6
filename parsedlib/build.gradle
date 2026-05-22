@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
+    id 'com.google.cloud.artifactregistry.gradle-plugin'
+}
+
+android {
+    compileSdkVersion compile_sdk_version.toInteger()
+    namespace 'com.drojian.qrcode.scanresultlib'
+
+    publishing {
+        publishing {
+            multipleVariants {
+                withSourcesJar()
+                withJavadocJar()
+                allVariants()
+            }
+        }
+    }
+    defaultConfig {
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+        disable 'MissingTranslation'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+    kotlin {
+        jvmToolchain {
+            languageVersion = JavaLanguageVersion.of(17)
+        }
+    }
+}
+
+dependencies {
+    implementation project(path: ':scanlib')
+    implementation project(path: ':baselib')
+    implementation project(path: ':viewlib')
+    implementation project(path: ':languagelib')
+    implementation project(path: ':ui360')
+
+
+    implementation 'androidx.core:core-ktx:' + core_ktx_version
+    implementation 'androidx.appcompat:appcompat:' + appcompat_version
+    implementation 'androidx.constraintlayout:constraintlayout:' + constraintlayout_version
+    implementation "com.airbnb.android:lottie:" + lottie_version
+}

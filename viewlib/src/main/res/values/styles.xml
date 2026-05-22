@@ -1,0 +1,45 @@
+<resources>
+    <!-- 字体 -->
+    <style name="FontBlack">
+        <item name="android:fontFamily">"sans-serif-black"</item>
+        <item name="fontFamily">"sans-serif-black"</item>
+    </style>
+
+    <style name="FontBold">
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="fontFamily">"sans-serif"</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontRegular">
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="fontFamily">"sans-serif"</item>
+    </style>
+
+
+    <style name="FAQTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#F0F2F6</item>
+        <item name="colorPrimaryDark">#F0F2F6</item>
+        <item name="colorAccent">#F0F2F6</item>
+
+        <item name="android:windowBackground">#F0F2F6</item>
+        <item name="android:textColorPrimary">#000A06</item>
+        <item name="subtitleTextColor">#000A06</item>
+        <item name="colorControlNormal">#000A06</item>
+    </style>
+
+    <style name="FeedbackTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#1F222A</item>
+        <item name="colorPrimaryDark">#1F222A</item>
+        <item name="colorAccent">#1F222A</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="subtitleTextColor">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="App_Dialog_Loading" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/themeColor</item>
+    </style>
+
+</resources>

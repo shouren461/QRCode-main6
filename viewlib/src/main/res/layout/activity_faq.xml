@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/faq_page_bg"
+    android:theme="@style/FAQTheme">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qr_dp_56"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/scrollView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/qr_dp_56"
+            android:layout_height="@dimen/qr_dp_56"
+            android:background="?attr/actionBarItemBackground"
+            android:padding="@dimen/qr_dp_16"
+            android:tint="@color/faq_svg_toolbar"
+            app:srcCompat="@drawable/toolbar_svg_return" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/FontBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="@dimen/qr_dp_8"
+            android:text="@string/faq"
+            android:textColor="@color/faq_text_first"
+            android:textSize="@dimen/qr_sp_18" />
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/qr_dp_60">
+
+            <LinearLayout
+                android:id="@+id/view_feedback"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/qr_dp_52"
+                android:layout_marginHorizontal="@dimen/qr_dp_20"
+                android:layout_marginTop="@dimen/qr_dp_16"
+                android:background="@drawable/bg_ripple_corner_12"
+                android:backgroundTint="@color/themeColor"
+                android:gravity="center"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/faq_svg_feedback" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/FontBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/qr_dp_8"
+                    android:text="@string/still_have_problems_1"
+                    android:textColor="@color/faq_text_first"
+                    android:textSize="@dimen/qr_sp_16" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/qr_dp_16"
+                android:background="@drawable/faq_item_bg"
+                app:layout_constraintTop_toBottomOf="@id/view_feedback"
+                tools:itemCount="3"
+                tools:listitem="@layout/layout_adapter_faq" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

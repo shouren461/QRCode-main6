@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App_Dialog_Bottom_Animation" parent="Theme.Design.BottomSheetDialog">
+        <item name="android:windowEnterAnimation">@anim/anim_dialog_slid_up</item>
+        <item name="android:windowExitAnimation">@anim/anim_dialog_slid_down</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="enableEdgeToEdge">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+</resources>

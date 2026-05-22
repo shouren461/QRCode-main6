@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">De Google Paid-dienst is momenteel niet beschikbaar in je land, je kunt de toepassing blijven gebruiken, maar je kan niet betalen voor het verwijderen van advertenties.</string>
+    <string name="purchased_failed_title">Kan geen aankoop maken</string>
+    <string name="fb_btn_submit">Indienen</string>
+    <string name="fb_thx_feedback_tip">We zullen het in een toekomstige versie verhelpen. Onze excuses voor het ongemak.</string>
+    <string name="fb_thx_feedback_title">Bedankt voor je feedback</string>
+    <string name="fb_please_tell_more">Wil je ons wat meer vertellen, zodat we je probleem sneller kunnen oplossen?(Minstens %s tekens)</string>
+    <string name="fb_tell_us_your_problem">Laat ons weten welk probleem je ondervond</string>
+    <string name="fb_type">Type</string>
+    <string name="fb_ok">OK</string>
+    <string name="fb_button_cancel">Annuleer</string>
+    <string name="fb_choose_to_submit">Selecteer een optie om te verzenden</string>
+    <string name="button_cancel">Annuleer</string>
+    <string name="action_ok">OK</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Locatie</string>
+    <string name="parse_format_title_email_address">E-mail</string>
+    <string name="parse_format_title_sms">Sms</string>
+    <string name="parse_format_title_text">Tekst</string>
+    <string name="parse_format_title_address_book">Contactpersonen</string>
+    <string name="parse_format_title_tel">Tel. nr.</string>
+    <string name="parse_format_title_wifi">Wifi</string>
+    <string name="parse_format_title_isbn">Boek</string>
+    <string name="parse_format_title_product">Product</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_calendar">Kalender</string>
+    <string name="parse_result_content_geo">Locatie:</string>
+    <string name="parse_format_title_barcode">Barcode</string>
+    <string name="parse_action_title_add_contacts">Aan contactpersonen toevoegen</string>
+    <string name="parse_action_title_add_event">Aan evenementen toevoegen</string>
+    <string name="parse_result_content_lng">Lengtegraad:</string>
+    <string name="parse_result_content_lat">Breedtegraad:</string>
+    <string name="parse_action_title_navigation">Navigatie</string>
+    <string name="parse_result_content_tel">Tel. nr.:</string>
+    <string name="parse_action_title_call">Bellen</string>
+    <string name="parse_action_title_copy">Kopiëren</string>
+    <string name="parse_result_content_email">E-mail:</string>
+    <string name="parse_action_title_history_price">Prijsgeschiedenis</string>
+    <string name="parse_action_title_nutrient_analyse">Voedings-\nanalyse</string>
+    <string name="parse_action_title_shop_now">Nu winkelen</string>
+    <string name="parse_result_content_name">Naam:</string>
+    <string name="parse_result_content_address">Adres:</string>
+    <string name="parse_result_content_nickname">Bijnaam:</string>
+    <string name="parse_result_content_org">Org.:</string>
+    <string name="parse_result_content_title">Titel:</string><!-- 疑问title的直译是Titel:-->
+    <string name="parse_result_content_birthday">Verjaardag:</string>
+    <string name="parse_result_content_to">Aan:</string>
+    <string name="parse_result_content_cc">Cc:</string>
+    <string name="parse_result_content_bcc">Bcc:</string>
+    <string name="parse_result_content_subject">Onderwerp:</string>
+    <string name="parse_result_content_body">Inhoud:</string>
+    <string name="parse_result_content_ssid">Netwerknaam:</string>
+    <string name="parse_result_content_type">Beveiliging:</string>
+    <string name="parse_action_title_show_on_map">Op kaart tonen</string>
+    <string name="parse_action_title_copy_password">Wachtwoord kopiëren</string>
+    <string name="lh_button_ok">OK</string>
+    <string name="parse_action_title_share">Deel</string>
+    <string name="parse_result_content_password">Paswoord:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_result_content_start">Start:</string>
+    <string name="parse_result_content_end">Eindigt:</string>
+    <string name="parse_result_content_note">Notitie:</string>
+    <string name="parse_result_content_summary">Onderwerp:</string>
+    <string name="parse_action_title_product_search">Producten zoeken</string>
+    <string name="parse_action_title_book_search">Boeken zoeken</string>
+    <string name="parse_action_title_web_search">Zoeken op internet</string>
+    <string name="parse_action_title_send_sms">Sms verzenden</string>
+    <string name="parse_action_title_send_mms">MMS verzenden</string>
+    <string name="parse_action_title_send_email">E-mail versturen</string>
+    <string name="parse_action_title_open">Open</string>
+    <string name="lh_intent_failed">Sorry, de opgevraagde applicatie kan niet worden gestart.</string>
+    <string name="lh_tip">tips van</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Wegens systeembeperkingen moeten apparaten met Android 10 of hoger <b>handmatig</b> verbonden worden met wifi]]></string>
+    <string name="lh_open_wifi_settings">Wi-Fi-instellingen openen</string>
+    <string name="lh_choose_wifi">Kies het wifinetwerk waarmee je verbinding wil maken</string>
+    <string name="lh_paste_password">Plak het wachtwoord (automatisch gekopieerd)</string>
+    <string name="parse_action_title_connect_to_network">Verbinden met wifi</string>
+    <string name="lh_wifi_disabled">Wifi is uitgeschakeld</string>
+    <string name="lh_wifi_disabled_des">Om verbinding te maken met wifi, moet je eerst wifi inschakelen</string>
+    <string name="lh_enable_wifi">Wifi inschakelen</string>
+    <string name="lh_required_permission_1">1.Open instellingen</string>
+    <string name="lh_required_permission_2">2.Tik permissies</string>
+    <string name="lh_required_permission_turn_on_storage">3.Zet Storage</string>
+    <string name="lh_button_cancel">Annuleer</string>
+
+    <string name="action_copy">Kopieer link</string>
+    <string name="copied_to_clipboard">Naar klembord gekopieerd</string>
+    <string name="different_engine_more_info">Probeer andere zoekmachines om meer nuttige informatie te vinden.</string>
+    <string name="no_internet_des">Geen internetverbinding. Probeer het later opnieuw.</string>
+    <string name="x_link_open">%s-link gedetecteerd, wil je de link openen?</string>
+    <string name="parse_action_view_in_store">In winkel bekijken</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+
+    <string name="free_space_needed">Benodigde ruimte: %s (aanbevolen)</string>
+    <string name="free_up_space">Ruimte vrijmaken</string>
+    <string name="no_enough_storage">Onvoldoende opslagruimte</string>
+    <string name="loading">Het laden…</string>
+    <string name="remaining_space">Resterende opslagruimte: %s</string>
+    <string name="free_space_to_ensure">Maak wat ruimte vrij om ervoor te zorgen dat de app goed werkt.</string>
+    <string name="click_share_option">1. Selecteer de tekst in andere apps en klik op de knop Delen</string>
+    <string name="then_select_generate">2. Selecteer \'%s\'</string>
+    <string name="use_share">Gebruik \&#34;Delen\&#34; om een QR-code aan te maken</string>
+    <string name="qr_code_not_found">Geen QR-code/barcode gevonden</string>
+    <string name="album_permission_hint">Galerijtoegang is vereist om de QR-code/barcode in Galerij te scannen.</string>
+    <string name="required_permission_turn_on_camera">3.Schakel camera in</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Delen</string>    <string name="clear_history">Wis historiek</string>
+    <string name="why_need_permissions">Waarom hebben we toestemming nodig?</string>
+    <string name="permission_required">Toestemming vereist</string>
+    <string name="required_permission_1">1.Open instellingen</string>
+    <string name="required_permission_2">2.Tik permissies</string>
+    <string name="required_permission_turn_on_storage">3.Zet Storage</string>
+    <string name="open_settings">Open instellingen</string>
+    <string name="generate_qr_code">QR-code aanmaken</string>
+    <string name="td_feedback_email_title">%s Feedback</string>
+    <string name="qr_code_not_found_hint">Controleer of de QR-code of barcode duidelijk is en volledig binnen het kader valt</string>
+    <string name="msg_intent_failed">Sorry, de opgevraagde applicatie kan niet worden gestart.</string>
+    <string name="tap_again_to_exit">Tik nogmaals om af te sluiten</string>
+    <string name="camera_problem_restart">Sorry, er is een probleem met de Android-camera. Check dit en herstart de app.</string>
+    <string name="delete_sure">Weet je zeker dat je het wilt verwijderen?</string>
+    <string name="good">Goed</string>
+    <string name="not_good">Niet echt</string>
+    <string name="camera_permission_des">Cameratoegang is vereist om QR-codes/barcodes te scannen.</string>
+    <string name="storage_permission_save_images">Voor het opslaan van afbeeldingen is opslagtoestemming vereist.</string>
+    <string name="satisfied_scan_ask">Ben je tevreden met de scanresultaten?</string>
+    <string name="browse_from_gallery">Uit galerij kiezen</string>
+    <string name="capture">Maak een foto</string>
+    <string name="got_it">BEGREPEN</string>
+    <string name="scan_image_title">Een gemakkelijkere manier om afbeeldingen te scannen vanuit elke bron:</string>
+    <string name="scan_image_how_to_1">Selecteer de afbeelding in een andere app en klik op de knop \'Delen\'</string>
+    <string name="scan_image_how_to_2">Selecteer \'Afbeelding scannen\'</string>
+    <string name="search">Zoeken</string>
+    <string name="td_tip">Tips van</string>
+    <string name="result_bar_code">Barcode</string>
+
+    <string name="no_thanks_1">Nee, bedankt</string>
+    <string name="try_now_button">Probeer nu</string>
+    <string name="barcode_scan_fail_tip">Als de scan mislukt, kun je proberen zoeken door de streepjescode handmatig in te voeren.</string>
+    <string name="input_invalid_no_content_tip">Voer cijfers in</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Geen verbinding met wifi?#\n1. Zorg ervoor dat je <b>binnen wifibereik</b> bent en dat de gebruikersnaam en het wachtwoord correct zijn.\n\nAls je nog steeds geen verbinding kunt maken, vraag je de aanbieder van de QR-code of het wachtwoord is veranderd.\n\n2. Als de scanresultaten als tekst worden weergegeven, moet je <b>handmatig verbinding maken met wifi</b> via de netwerkinstellingen van je telefoon op basis van de wifinaam en het wachtwoord in de tekst.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Kun je de code niet lezen?#\n1. Zorg voor de nauwkeurigste scanresulaten ervoor dat de code aan de volgende eigenschappen voldoet:\n\t\ta. Rijk contrast en <b>niet onscherp</b>.\n\t\tb. <b>Geen lichtspiegeling of schaduwen</b> op de code.\n\t\tc. <b>Volledig</b>, alle onderdelen aanwezig.\n\n2. Als je een \'low-end\' telefoon gebruikt, kan scannen erg lastig of zelfs onmogelijk zijn door de lage kwaliteit van de camera.\n\nJe kunt een foto nemen met je camera-app, dan de app openen en op \'Scannen uit Galerij\' tikken om dit probleem op te lossen.\n\n3. Als je nog steeds geen resultaten behaalt na het scannen van de streepjescode of QR-code, stuur ons dan een e-mail via %sfeedback%s en dan lossen we het probleem zo snel mogelijk voor je op.]]></string>
+    <string name="amazon_shopping">Amazon Shopping</string>
+
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Een foto naar QR-code converteren?#\nDeze functie is binnenkort beschikbaar…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Problemen met de ontvangen link?#\n1. Deze app kan de inhoud van de QR-code niet veranderen, dus als je deze website niet kunt openen, is het waarschijnlijk dat het probleem bij de <b>website zelf</b> ligt. Helaas kunnen wij daar niets aan doen.\n\n2. Het is ook mogelijk dat de maker van de QR-code de <b>verkeerde link</b> heeft ingevoerd of dat de QR-code is <b>verlopen</b>, met als gevolg dat je de website niet kunt openen. Je kunt proberen de juistheid van de QR-code met de maker ervan te verifiëren.\n\n3. Met name moeten bepaalde weblinks onder speciale voorwaarden worden geopend, bijvoorbeeld met een <b>bepaalde app</b>. Volg de instructies van de aanbieder van de QR-code.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Meer informatie nodig?#\nEr is te veel informatie en het is wellicht niet mogelijk altijd de informatie die je zoekt weer te geven. Je kunt meer informatie opvragen via <b>Zoeken op het web</b>.\n\nAls Zoeken op het web niet helpt bij het vinden van de gewenste informatie, kan het zijn dat de code zelf beperkte informatie bevat. Dank voor het begrip.]]></string>
+    <string name="scanner_not_working">Werkt de scanner niet?</string>
+    <string name="view_faq">FAQ bekijken</string>
+
+
+    <string name="copy">Kopiëren</string>
+    <!-- Dagen 真人已确认 Wendy -->
+    <string name="description">Beschrijving</string>
+    <string name="location">Locatie</string>
+    <string name="save">Opslaan</string>
+    <string name="start">Start</string>
+    <string name="all_day">Hele dag</string>
+    <string name="avoid_reflections"><![CDATA[Vermijd <b>lichtreflecties</b> en <b>schaduwen</b> op de code]]> </string>
+    <string name="qr_link_tips_1">Deze app helpt alleen met het lezen van de weblink (URL) via de QR-code. We kennen de precieze inhoud van de weblink niet.</string>
+    <string name="qr_link_tips_2">Als je vragen hebt over de link, kun je contact opnemen met de eigenaar van deze QR-code voor meer informatie. Bedankt!</string>
+    <string name="tip">tips van</string>
+    <string name="faq">FAQ</string>
+    <string name="retry">opnieuw proberen</string>
+    <string name="still_have_problems_1">Ik ondervind nog steeds problemen</string>
+    <string name="web_search">Zoeken op het web</string>
+    <string name="make_phone_face"><![CDATA[Richt je telefoon op de code <b>zonder hem te kantelen</b>]]> </string>
+    <string name="point_your_camera">Richt je camera op de code om automatisch te scannen</string>
+    <string name="product_guide_hint">Sommige producten zijn nog niet in de productbibliotheek ingevoerd. Tik op Zoeken op het web voor meer productinformatie.</string>
+    <string name="search_for_more_information">Tik op Zoeken op het web voor meer informatie</string>
+
+    <string name="hint_title">Titel</string>
+    <string name="result_email_address">E-mail</string>
+    <string name="result_tel">Tel. nr.</string>
+    <string name="enter_your_youtube_channel_id">Voer kanaal-ID van YouTube in</string>
+    <string name="enter_youtube_url">Voer YouTube-URL in</string>
+    <string name="saved_to_gallery">Opgeslagen in je galerij</string>
+    <string name="toast_text_null">Voer eerst de content in</string>
+    <!-- 疑问title的直译是Titel:-->
+    <string name="ok">OK</string>
+    <string name="no_history">Geen geschiedenis</string>
+    <string name="channel_id">Kanaal-ID</string>
+    <string name="enter_youtube_video_id">Voer video-ID van YouTube in</string>
+    <string name="video_id">Video-ID</string>
+
+    <string name="rename">Hernoemen</string>
+
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">お住まいの国でGoogleの有料サービスをご利用いただけないか、Googleの有料サービスを現在ご利用いただけないため、アプリを購入できません。アプリは引き続きご利用いただけますが、お支払いをして広告を排除することはできません。</string>
+    <string name="purchased_failed_title">購入できません</string>
+    <string name="fb_btn_submit">送信する</string>
+    <string name="fb_thx_feedback_tip">今後のバージョンで修正いたします。ご不便おかけして申し訳ございません。</string>
+    <string name="fb_thx_feedback_title">フィードバックをいただきありがとうございます</string>
+    <string name="fb_please_tell_more">問題を特定し、素早く解決できるように詳細を教えてください（%s文字以上）</string>
+    <string name="fb_tell_us_your_problem">どのような問題がありましたか？</string>
+    <string name="fb_type">種類</string>
+    <string name="fb_ok">OK</string>
+    <string name="fb_button_cancel">キャンセル</string>
+    <string name="fb_choose_to_submit">1つ選んで送信してください</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="action_ok">OK</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">位置</string>
+    <string name="parse_format_title_email_address">Eメール</string>
+    <string name="parse_format_title_tel">電話</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_isbn">本</string>
+    <string name="parse_format_title_product">商品</string>
+    <string name="parse_format_title_sms">SMS</string>
+    <string name="parse_format_title_text">テキスト</string>
+    <string name="parse_format_title_address_book">連絡先</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_calendar">カレンダー</string>
+    <string name="parse_result_content_geo">地理情報:</string>
+    <string name="parse_format_title_barcode">バーコード</string>
+    <string name="parse_action_title_add_contacts">連絡先に追加</string>
+    <string name="parse_action_title_add_event">イベントに追加</string>
+    <string name="parse_result_content_lng">経度:</string>
+    <string name="parse_result_content_lat">緯度:</string>
+    <string name="parse_action_title_navigation">ナビゲーション</string>
+    <string name="parse_result_content_tel">電話:</string>
+    <string name="parse_action_title_call">通話</string>
+    <string name="parse_action_title_history_price">価格履歴</string>
+    <string name="parse_action_title_nutrient_analyse">栄養分析</string>
+    <string name="parse_action_title_shop_now">今すぐショッピング</string>
+    <string name="parse_result_content_email">Eメール:</string>
+    <string name="parse_action_title_copy">コピー</string>
+    <string name="parse_result_content_name">名前:</string>
+    <string name="parse_result_content_address">住所:</string>
+    <string name="parse_result_content_nickname">ニックネーム:</string>
+    <string name="parse_result_content_org">所属:</string>
+    <string name="parse_result_content_title">称号:</string>
+    <string name="parse_result_content_birthday">誕生日:</string>
+    <string name="parse_result_content_to">宛先:</string>
+    <string name="parse_result_content_cc">CC:</string>
+    <string name="parse_result_content_bcc">BCC:</string>
+    <string name="parse_result_content_subject">件名:</string>
+    <string name="parse_result_content_body">本文:</string>
+    <string name="parse_result_content_ssid">名:</string>
+    <string name="parse_result_content_type">タイプ:</string>
+    <string name="parse_action_title_show_on_map">地図で表示</string>
+    <string name="lh_button_ok">OK</string>
+    <string name="parse_action_title_copy_password">パスワードをコピー</string>
+    <string name="parse_action_title_share">共有</string>
+    <string name="parse_result_content_password">パスワード:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_result_content_start">スタート:</string>
+    <string name="parse_result_content_end">終了:</string>
+    <string name="parse_result_content_note">メモ:</string>
+    <string name="parse_result_content_summary">件名:</string>
+    <string name="parse_action_title_product_search">商品検索</string>
+    <string name="parse_action_title_book_search">本を検索</string><!-- 根据翻译，对开源文字做了修改 -->
+    <string name="parse_action_title_web_search">インターネット検索</string>
+    <string name="parse_action_title_send_sms">SMSの送信</string>
+    <string name="parse_action_title_send_mms">MMSの送信</string>
+    <string name="parse_action_title_send_email">Eメールの送信</string>
+    <string name="parse_action_title_connect_to_network">Wi-Fiに接続</string>
+    <string name="parse_action_title_open">開く</string>
+    <string name="lh_intent_failed">指定されたアプリケーションを起動できませんでした。</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[システムの制限により、Android10以降のデバイスは<b>手動で</b> Wi-Fiに接続する必要があります]]></string>
+    <string name="lh_open_wifi_settings">Wi-Fi設定を開く</string>
+    <string name="lh_choose_wifi">接続するWi-Fiを選択する</string>
+    <string name="lh_paste_password">パスワードをペーストする（自動ペースト）</string>
+    <string name="lh_wifi_disabled">Wi-Fiが無効です</string>
+    <string name="lh_wifi_disabled_des">Wi-Fiに接続するには、初めにそれを有効にする必要があります。</string>
+    <string name="lh_enable_wifi">Wi-Fiを有効にする</string>
+    <string name="lh_tip">ヒント</string>
+    <string name="lh_required_permission_1">1.設定を開</string>
+    <string name="lh_required_permission_2">2.権限をタップする</string>
+    <string name="lh_required_permission_turn_on_storage">3.ストレージを有効にする</string>
+    <string name="lh_button_cancel">キャンセル</string>
+
+    <string name="action_copy">ページの URL をコピー</string>
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="different_engine_more_info">より役立つ情報を入手するため、別の検索エンジンをお試しください！</string>
+    <string name="no_internet_des">インターネット接続がありません。後ほどまたお試しください。</string>
+    <string name="x_link_open">%sのリンクが検出されました。開きますか？</string>
+    <string name="parse_action_view_in_store">店舗で見る</string>
+    <string name="parse_action_title_rakuten">楽天</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">ヤフー</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="loading">読み込み中…</string>
+    <string name="free_space_needed">必要な空き容量:%s (推奨)</string>
+    <string name="free_up_space">空き容量を増やす</string>
+    <string name="no_enough_storage">ストレージが不足しています</string>
+    <string name="remaining_space">残りの空き容量: %s</string>
+    <string name="free_space_to_ensure">アプリが正常に機能するよう、空き容量を増やしてください。</string>
+    <string name="click_share_option">1. 他のアプリでテキストを選択し、「共有」ボタンをクリックします</string>
+    <string name="then_select_generate">2.［%s］を選択します</string>
+    <string name="use_share">「共有」オプションを使用してQRコードを生成</string>
+    <string name="qr_code_not_found">QRコード/バーコードが見つかりませんでした</string>
+    <string name="album_permission_hint">ギャラリーでQRコード/バーコードをスキャンするにはギャラリーへの許可が必要です。</string>
+    <string name="required_permission_turn_on_camera">3.カメラをオンにする</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="feedback">フィードバック</string>
+    <string name="share">シェア</string>
+    <string name="clear_history">履歴を消去する</string>
+    <string name="generate_qr_code">QRコード生成</string>
+    <string name="why_need_permissions">アクセス許可を求める理由は？</string>
+    <string name="permission_required">許可が必要です</string>
+    <string name="required_permission_1">1.設定を開</string>
+    <string name="required_permission_2">2.権限をタップする</string>
+    <string name="required_permission_turn_on_storage">3.ストレージを有効にする</string>
+    <string name="open_settings">設定を開</string>
+    <string name="td_feedback_email_title">%s フィードバック</string>
+    <string name="qr_code_not_found_hint">QRコード/バーコードが鮮明で、フレーム内に完全に収まっていることを確認してください</string>
+    <string name="msg_intent_failed">指定されたアプリケーションを起動できませんでした。</string>
+    <string name="tap_again_to_exit">もう一度タップすると終了します</string>
+    <string name="camera_problem_restart">Androidのカメラに問題が発生しました。確認してからアプリを再起動してください。</string>
+    <string name="delete_sure">本当に削除しますか？</string>
+    <string name="good">良い</string>
+    <string name="camera_permission_des">QRコードやバーコードをスキャンするにはカメラへの許可が必要です。</string>
+    <string name="storage_permission_save_images">画像を保存するにはストレージの許可が必要です。</string>
+    <string name="not_good">あんまり</string>
+    <string name="satisfied_scan_ask">スキャン結果に満足していますか？</string>
+    <string name="browse_from_gallery">ギャラリーから選択</string>
+    <string name="capture">写真を撮ります</string>
+    <string name="got_it">了解</string>
+    <string name="scan_image_title">どこからでも簡単に画像をスキャンすることができます。</string>
+    <string name="scan_image_how_to_1">他のアプリで画像を選択し、［シェア］ボタンを押します</string>
+    <string name="scan_image_how_to_2">［画像をスキャン］を選択します</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Wi-Fiに接続できませんか？#\n1. <b> Wi-Fiカバレッジエリア内</b>にいること、およびWi-Fiユーザー名とパスワードが正しいことを確認します。\n\nそれでも接続できない場合は、QRコードプロバイダーにパスワードが変更されているかどうかを確認してください。\n\n2 . スキャン結果がテキストで表示される場合は、テキストで提供されているWi-Fi名とパスワードに基づいて、お使いの携帯電話のネットワーク設定から<b>手動でWi-Fiに接続</b>する必要があります。]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[コードを読み取れませんか？#\n1. 正確なスキャン結果を得るには、コードが次の要件を満たしていることを確認してください:\n\t\ta. コントラストが豊かでぼやけていない。\n\t\tb. コードに光の反射や影がない。\n\t\tc. 欠落した部分がなく完全である。\n\n2. ローエンドの携帯電話を使用している場合、カメラの品質が低いため、スキャンが非常に困難または不可能になる場合があります。\n\nカメラアプリで写真を撮ってから、弊社のアプリを開いて「ギャラリーからスキャン」をタップしてこの問題の解決を試みることができます。\n\n3. それでもバーコードまたはQRコードのスキャン結果が得られない場合は、%sフィードバック%s経由でメールを送信してください。できるだけ早く問題を解決いたします。]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[画像をQRコードに変換しますか？#\n機能はまもなくリリースされます...]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[取得したリンクに問題がありますか？#\n1. このアプリは、QRコードの内容を変更することはできません。このため、このウェブサイトを開くことができない場合は、<b>ウェブサイト自体</b>に問題がある可能性が高いと思われます。残念ながら、この問題について弊社にできることは何もありません。\n\n2. QRコードの作成者が<b>間違ったリンク</b>を入力した、またはQRコードが<b>期限切れ</b>であることが原因でウェブサイトを開くことができない可能性もあります。可能であれば、作成者にQRコードが正しいか確認してみてください。\n\n3. 特に一部のウェブリンクは、特別な条件下で開く必要があります。例えば、<b>特定のアプリ</b>を使用して開く必要があります。 QRコードプロバイダーの指示に従ってください。]]></string>
+    <string name="need_more_information_faq"><![CDATA[詳細情報が必要ですか？#\n情報が多すぎて、弊社がお客様に毎回必要な情報を提供できない場合があります。詳細については、<b>ウェブ検索</b>で確認できます。\n\nそれでもお探しの情報をウェブ検索で見つけることができない場合は、コード自体に限られた情報しか含まれていない可能性があります。ご理解に感謝申し上げます。]]></string>
+    <string name="scanner_not_working">スキャナーが機能していませんか？</string>
+    <string name="view_faq">よくある質問を見る</string>
+    <string name="avoid_reflections"><![CDATA[コード上に光の<b>反射</b>や<b>影</b>ができないようにします]]></string>
+    <string name="make_phone_face"><![CDATA[カメラは<b>傾けず</b>、コード正面に向けます]]></string>
+    <string name="point_your_camera">コードにカメラを向けると自動スキャンします</string>
+    <string name="qr_link_tips_1">このアプリは、QRコードからウェブリンク（URL）を読み取ることができるだけで、ウェブリンクの正確な内容を知ることはできません。</string>
+    <string name="qr_link_tips_2">リンクについてご質問がある場合は、このQRコードの所有者に詳細をお問い合わせください、ありがとうございます！</string>
+    <string name="tip">ヒント</string>
+    <string name="faq">よくある質問</string>
+    <string name="retry">再試行</string>
+    <string name="still_have_problems_1">まだ問題があります</string>
+    <string name="web_search">ウェブ検索</string>
+    <string name="product_guide_hint">まだ製品ライブラリにない製品もあります。ウェブ検索をタップすると製品の詳細を見ることができます。</string>
+    <string name="search_for_more_information">詳細はウェブ検索をタップ</string>
+    <string name="all_day">終日</string>
+    <string name="copy">コピー</string>
+    <string name="description">説明</string>
+    <string name="save">保存</string>
+    <string name="location">位置</string>
+    <string name="start">スタート</string>
+    <string name="result_bar_code">バーコード</string>
+
+    <string name="amazon_shopping">Amazonショッピング</string>
+
+    <string name="search">検索</string>
+    <string name="td_tip">ヒント</string>
+    <string name="no_thanks_1">いいえ、結構です</string>
+    <string name="try_now_button">今すぐ試す</string>
+    <string name="barcode_scan_fail_tip">スキャンに失敗した場合は、バーコード番号を手動で入力して検索してみましょう。</string>
+    <string name="input_invalid_no_content_tip">番号を入力してください</string>
+
+    <string name="hint_title">タイトル</string>
+    <string name="result_email_address">Eメール</string>
+    <string name="result_tel">電話</string>
+    <string name="enter_your_youtube_channel_id">YoutubeのチャンネルIDを入力</string>
+    <string name="enter_youtube_url">Youtube URLを入力</string>
+    <string name="saved_to_gallery">ギャラリーに保存されました</string>
+    <string name="toast_text_null">最初にコンテンツを入力してください</string>
+    <string name="ok">OK</string>
+    <string name="no_history">履歴がありません</string>
+
+    <string name="channel_id">チャンネルID</string>
+    <string name="enter_youtube_video_id">YoutubeのビデオIDを入力</string>
+    <string name="video_id">ビデオID</string>
+
+    <string name="rename">名前変更</string>
+
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">楽天</string>
+    <string name="platform_walmart_gpt">ウォルマート</string>
+    <string name="platform_yahoo_gpt">ヤフー</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

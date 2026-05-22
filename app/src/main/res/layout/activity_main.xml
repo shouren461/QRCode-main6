@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/layout_bottom_tab"
+        layout="@layout/layout_bottom_tab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_dp_48"
+        android:layout_alignParentBottom="true" />
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_dp_2"
+        android:layout_above="@id/layout_bottom_tab"
+        android:alpha="0.2"
+        android:background="@drawable/shape_divider_bottom" />
+
+</RelativeLayout>

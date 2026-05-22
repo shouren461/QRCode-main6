@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">二维码项目练习</string>
+    <string name="result_geo">地理位置</string>
+    <string name="result_isbn">图书</string>
+    <string name="result_product">商品</string>
+    <string name="result_sms">短信</string>
+    <string name="result_text">文本</string>
+    <string name="result_bar_code">条码</string>
+    <string name="result_address_book">联系人信息</string>
+    <!-- 改改？ -->
+    <string name="copied_to_clipboard">已复制到剪贴板</string>
+    <string name="qr_code_not_found">未发现二维码/条码</string>
+    <string name="clear_history_hint">确定要删除所有扫描记录吗？</string>
+    <string name="album_permission_hint">若要扫描图库中的二维码/条码，需要给予图库存取权限</string>
+    <string name="required_permission_turn_on_camera">3.开启相机权限</string>
+
+    <string name="button_cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="feedback">反馈</string>
+    <string name="td_feedback_email_title">%s 反馈</string>
+    <string name="result_calendar">日历</string>
+    <string name="content_start">开始：</string>
+    <string name="content_end">结束：</string>
+    <string name="main_tab_scan">扫描</string>
+    <string name="main_tab_history">扫描历史</string>
+    <string name="copy">复制</string>
+    <string name="clear_history">清除历史记录</string>
+    <string name="no_history">无历史记录</string>
+    <string name="button_share">分享</string>
+    <string name="result_uri">URL</string>
+    <string name="retry">重试</string>
+    <string name="why_need_permissions">为什么我们需要获取权限？</string>
+    <string name="permission_required">需要的权限</string>
+    <string name="required_permission_1">1.打开设置</string>
+    <string name="required_permission_2">2.点击权限</string>
+    <string name="required_permission_turn_on_storage">3.打开存储</string>
+    <string name="open_settings">打开设置</string>
+    <string name="result_wifi">Wi-Fi</string>
+    <string name="result_tel">电话</string>
+    <string name="result_email_address">电子邮件</string>
+    <string name="main_tab_settings">设置</string>
+    <string name="qr_code_not_found_hint">请确保二维码/条码清晰且完全位于扫描框内</string>
+    <!-- 开源文字 -->
+    <string name="button_open_browser">打开浏览器</string>
+    <string name="msg_intent_failed">抱歉，所请求的应用无法打开。</string>
+
+    <string name="tap_again_to_exit">再次点击退出</string>
+
+
+    <!-- 1.0.9新增 -->
+    <string name="all_day">全天</string>
+    <string name="channel_id">频道ID</string>
+    <string name="description">描述</string>
+    <string name="enter_your_youtube_channel_id">输入Youtube频道ID</string>
+    <string name="enter_youtube_url">输入Youtube URL</string>
+    <string name="enter_youtube_video_id">输入Youtube视频ID</string>
+    <string name="et_input_hint">请输入内容</string>
+    <string name="file_name">文件名</string>
+    <string name="hint_save_qrcode">请输入文件名以完成储存</string>
+    <string name="hint_title">标题</string>
+    <string name="location">位置</string>
+    <string name="save">保存</string>
+    <string name="tab_create_toolbar">创建二维码</string>
+    <string name="toast_no_storage_permission">没有存储权限</string>
+    <string name="toast_text_null">请先输入内容</string>
+    <string name="video_id">视频ID</string>
+
+    <string name="main_tab_create">创建</string>
+    <string name="action_open">打开</string>
+
+    <string name="already_in_use">此名称已存在。</string>
+    <string name="saved_to_gallery">已保存到相册</string>
+
+    <string name="camera_problem_restart">抱歉，Android相机出现问题。请检查一下，并重新启动应用程序。</string>
+
+    <string name="tip">建议</string>
+
+    <string name="got_it">知道了</string>
+    <string name="start">开始</string>
+    <string name="avoid_reflections"><![CDATA[请避免码上出现<b>反光</b>或<b>阴影</b>]]></string>
+    <string name="make_phone_face"><![CDATA[请将你的手机对准码并<b>避免倾斜</b>]]></string>
+    <string name="point_your_camera">请将相机对准要扫描的码来自动扫描</string>
+    <string name="product_guide_hint">某些商品尚未被录入商品库中。你可以点击网页搜索以获取更多商品信息。</string>
+    <string name="search_for_more_information">点击网页搜索以获取更多信息</string>
+    <string name="web_search">网页搜索</string>
+
+    <string name="good">很好</string>
+    <string name="not_good">不太满意</string>
+    <string name="satisfied_scan_ask">你对扫描结果满意吗？</string>
+    <string name="browse_from_gallery">从相册选择</string>
+    <string name="capture">拍照</string>
+
+    <string name="amazon_shopping">亚马逊购物</string>
+    <string name="free_space_needed">所需空间：%s (推荐)</string>
+    <string name="free_up_space">释放空间</string>
+    <string name="no_enough_storage">存储空间不足</string>
+    <string name="remaining_space">剩余空间：%s</string>
+    <string name="scan_image_how_to_1">在其他App中选择图片，然后点击“分享”按钮</string>
+    <string name="scan_image_how_to_2">选择“扫描图片”</string>
+    <string name="scan_image_title">从其他任何地方扫描图片的简便方法：</string>
+    <string name="free_space_to_ensure">请先释放一些空间以保证app的正常运行。</string>
+    <string name="qr_share_text_1">快速，准确，简单的二维码和条形码扫描应用！支持所有格式！\n\n%s</string>
+
+    <string name="search">搜索</string>
+    <string name="td_tip">提示</string>
+    <string name="no_thanks_1">谢谢，不用了</string>
+    <string name="try_now_button">立即尝试</string>
+    <string name="barcode_scan_fail_tip">若扫描失败，你可以尝试手动输入条码编号以进行搜索。</string>
+    <string name="input_invalid_no_content_tip">请输入数字</string>
+    <string name="privacy_policy_tip"><![CDATA[By tapping \\&#34;Continue\\&#34;, you indicate that you have read our %s.]]></string>
+
+</resources>

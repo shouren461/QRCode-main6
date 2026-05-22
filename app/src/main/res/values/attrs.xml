@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DemoScanView">
+        <!--        从上到下多久执行完 单位 ms           -->
+        <attr name="duration" format="integer" />
+        <!--        重复次数                           -->
+        <attr name="repeatCount" format="integer" />
+        <!--        每次要重复时 下次播放的间隔时间        -->
+        <attr name="repeatInterval" format="integer" />
+    </declare-styleable>
+</resources>

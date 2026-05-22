@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">Googles betalningstjänst är inte tillgänglig, antingen just nu eller i ditt land. Du kan fortsätta använda applikationen, däremot går det inte att betala för att slippa reklam.</string>
+    <string name="purchased_failed_title">Köpet kunde inte genomföras</string>
+    <string name="fb_btn_submit">Skicka in</string>
+    <string name="fb_thx_feedback_tip">Vi kommer att åtgärda detta i en kommande version. Vi ber om ursäkt för olägenheten.</string>
+    <string name="fb_thx_feedback_title">Tack för din feedback.</string>
+    <string name="fb_please_tell_more">Beskriv närmare så vi kan hitta och lösa problemet snabbare (minst %s tecken)</string>
+    <string name="fb_tell_us_your_problem">Berätta om problemet du stötte på</string>
+    <string name="fb_type">Typ</string>
+    <string name="fb_ok">Ok</string>
+    <string name="fb_button_cancel">Avbryt</string>
+    <string name="fb_choose_to_submit">Välj ett alternativ och skicka</string>
+    <string name="button_cancel">Avbryt</string>
+    <string name="action_ok">OK</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Plats</string>
+    <string name="parse_format_title_email_address">E-post</string>
+    <string name="parse_format_title_sms">SMS</string>
+    <string name="parse_format_title_text">Text</string>
+    <string name="parse_format_title_address_book">Kontakter</string>
+    <string name="parse_format_title_tel">Tel</string>
+    <string name="parse_format_title_isbn">Bok</string>
+    <string name="parse_format_title_product">Produkt</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_uri">Webbadress</string>
+    <string name="parse_format_title_calendar">Kalender</string>
+    <string name="parse_result_content_geo">Geo:</string>
+    <string name="parse_format_title_barcode">Streckkod</string>
+    <string name="parse_action_title_add_contacts">Lägg till i kontakter</string>
+    <string name="parse_action_title_add_event">Lägg till i evenemang</string>
+    <string name="parse_result_content_lng">Lng:</string>
+    <string name="parse_result_content_lat">Lat:</string>
+    <string name="parse_action_title_navigation">Navigation</string>
+    <string name="parse_result_content_tel">Tel:</string>
+    <string name="parse_action_title_history_price">Prishistorik</string>
+    <string name="parse_action_title_call">Ring</string><!-- 已经跟翻译确认过是打电话的意思，是动词 -->
+    <string name="parse_result_content_email">E-postadres:</string>
+    <string name="parse_result_content_name">Namn:</string>
+    <string name="parse_action_title_copy">Kopiera</string>
+    <string name="parse_action_title_nutrient_analyse">Näringsanalys</string>
+    <string name="parse_action_title_shop_now">Handla nu</string>
+    <string name="parse_result_content_address">Adress:</string>
+    <string name="parse_result_content_nickname">Smeknamn:</string>
+    <string name="parse_result_content_org">Org:</string>
+    <string name="parse_result_content_title">Titel:</string>
+    <string name="parse_result_content_birthday">Födelsedag:</string>
+    <string name="parse_result_content_to">Till:</string>
+    <string name="parse_result_content_cc">Kopia:</string>
+    <string name="parse_action_title_copy_password">Kopiera lösenord</string>
+    <string name="parse_result_content_bcc">Dold kopia:</string>
+    <string name="parse_result_content_subject">Ämne:</string>
+    <string name="parse_result_content_body">Innehåll:</string>
+    <string name="parse_result_content_ssid">Nätverksnamn:</string>
+    <string name="parse_result_content_type">Säkerhetstyp:</string>
+    <string name="parse_action_title_show_on_map">Visa på karta</string>
+    <string name="lh_button_ok">Ok</string>
+    <string name="parse_action_title_share">Dela</string>
+    <string name="parse_result_content_password">Lösenord:</string>
+    <string name="parse_result_content_url">Webbadress:</string>
+    <string name="parse_result_content_start">Starta:</string>
+    <string name="parse_result_content_end">Slutar:</string>
+    <string name="parse_result_content_note">Notis:</string>
+    <string name="parse_result_content_summary">Ämne:</string>
+    <string name="parse_action_title_product_search">Produktsök</string>
+    <string name="parse_action_title_book_search">Boksökning</string>
+    <string name="parse_action_title_web_search">Webbsök</string>
+    <string name="parse_action_title_send_sms">Skicka SMS</string>
+    <string name="parse_action_title_send_mms">Skicka MMS</string>
+    <string name="parse_action_title_send_email">Skicka e-post</string>
+    <string name="parse_action_title_open">Öppna</string>
+    <string name="lh_intent_failed">Den begärda applikationen kunde tyvärr inte startas.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[På grund av systembegränsningar måste enheter med Android 10 och högre anslutas till wifi <b>manuellt</b>]]></string>
+    <string name="lh_open_wifi_settings">Öppna wifi-inställningarna</string>
+    <string name="lh_choose_wifi">Välj wifi-nätverk att ansluta till</string>
+    <string name="lh_paste_password">Klistra in lösenordet (automatiskt kopierat)</string>
+    <string name="parse_action_title_connect_to_network">Anslut till wifi</string>
+    <string name="lh_wifi_disabled">Wifi är inaktiverat</string>
+    <string name="lh_wifi_disabled_des">För att kunna ansluta till ett wifi-nätverk måste du först aktivera detta.</string>
+    <string name="lh_enable_wifi">Aktivera wifi</string>
+    <string name="lh_tip">Tips</string>
+    <string name="lh_required_permission_1">1.Öppna inställningar</string>
+    <string name="lh_required_permission_2">2.Tryck behörigheter</string>
+    <string name="lh_required_permission_turn_on_storage">3.Slå på lagring</string>
+    <string name="lh_button_cancel">Avbryt</string>
+
+    <string name="copied_to_clipboard">Kopierat till klippbordet</string>
+    <string name="different_engine_more_info">Prova olika sökmotorer för att hitta mer användbar information!</string>
+    <string name="no_internet_des">Ingen internetanslutning. Försök igen senare.</string>
+    <string name="x_link_open">%s-länk hittades. Vill du öppna den?</string>
+    <string name="action_copy">Kopiera</string>
+    <string name="parse_action_view_in_store">Visa i butiken</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+
+    <string name="loading">Laddar…</string>
+    <string name="free_space_needed">Utrymme som behövs: %s (rekommenderas)</string>
+    <string name="free_up_space">Frigör lagringsutrymme</string>
+    <string name="no_enough_storage">För lite minne</string>
+    <string name="remaining_space">Ledigt utrymme: %s</string>
+    <string name="free_space_to_ensure">Frigör lite utrymme så att appen kan fungera som den ska.</string>
+    <string name="click_share_option">1. Markera text i andra appar och klicka på knappen \&#34;Dela\&#34;</string>
+    <string name="then_select_generate">2. Välj \&#34;%s\&#34;</string>
+    <string name="use_share">Använd alternativet \&#34;Dela\&#34; för att skapa en QR-kod</string>
+    <string name="qr_code_not_found">Ingen QR-kod/streckkod hittades</string>
+    <string name="album_permission_hint">Åtkomstbehörighet till galleriet behövs för att kunna skanna QR-koder/streckkoder i galleriet.</string>
+    <string name="required_permission_turn_on_camera">3.Slå på kameran</string>
+    <string name="yes">ja</string>
+    <string name="no">ingen</string>
+    <string name="feedback">Feedback</string>
+    <string name="clear_history">Rensa historiken?</string>
+    <string name="why_need_permissions">Varför behöver vi tillstånd?</string>
+    <string name="permission_required">Behörighet krävs</string>
+    <string name="required_permission_1">1.Öppna inställningar</string>
+    <string name="required_permission_2">2.Tryck behörigheter</string>
+    <string name="required_permission_turn_on_storage">3.Slå på lagring</string>
+    <string name="open_settings">Öppna inställningar</string>
+    <string name="td_feedback_email_title">%s feedback</string>
+    <string name="qr_code_not_found_hint">Kontrollera att QR-/streckkoden är tydlig och helt innanför ramen</string>
+    <string name="msg_intent_failed">Den begärda applikationen kunde tyvärr inte startas.</string>
+    <string name="tap_again_to_exit">Tryck igen för att avsluta</string>
+    <string name="delete_sure">Är det säkert att du vill ta bort?</string>
+    <string name="good">Bra</string>
+    <string name="generate_qr_code">Skapa QR-kod</string>
+    <string name="camera_permission_des">Kameraåtkomst krävs för att kunna skanna QR-koder/streckkoder.</string>
+    <string name="storage_permission_save_images">Lagringsbehörigheter behövs för att kunna spara bilder.</string>
+    <string name="camera_problem_restart">Det uppstod tyvärr ett fel med Androidkameran. Kontrollera den och starta sedan om appen.</string>
+    <string name="not_good">Inte direkt</string>
+    <!-- 问这什么意思 -->
+    <string name="satisfied_scan_ask">Är du nöjd med skanningresultatet?</string>
+    <string name="browse_from_gallery">Välj från galleriet</string>
+    <string name="capture">Ta Ett Foto</string>
+    <string name="got_it">OK</string>
+    <string name="scan_image_title">Ett enklare sätt att skanna bilder från valfri plats:</string>
+    <string name="scan_image_how_to_1">Välj en bild i en annan app och klicka på \"Dela\"-knappen</string>
+    <string name="scan_image_how_to_2">Välj \"Skanna bild\"</string>
+    <string name="location">Plats</string>
+    <string name="all_day">Hela dagen</string>
+    <string name="copy">Kopiera</string>
+    <string name="share">Dela</string>
+    <string name="description">Beskrivning</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Lyckas du inte ansluta till wifi?#\n1. Se till att du befinner dig <b>inom wifi-nätverkets räckvidd</b> och att du har angivit rätt användarnamn och lösenord.\n\nOm du fortfarande inte lyckas ansluta bör du fråga den du fick QR-koden av om lösenordet har ändrats.\n\n2. Om inläsningsresultatet visas som text behöver du <b>ansluta till wifi-nätverket manuellt</b> via nätverksinställningarna i din telefon med hjälp av det wifi-namn och lösenord som visas i texten.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Kan du inte läsa in koden?#\n1. För att inläsningsresultatet ska bli korrekt behöver du se till att koden har följande egenskaper:\n\t\ta. stor kontrast och <b>inte suddig</b>.\n\t\tb. <b>inget reflekterande ljus och inga skuggor</b> på koden.\n\t\tc. <b>fullständig</b> – inga delar får saknas.\n\n2. Om du använder en telefon av låg kvalitet kan det vara väldigt svårt eller rent av omöjligt att läsa in koden, på grund av att kameran är för dålig.\n\nDu kan försöka lösa det här problemet genom ta ett foto med kamera-appen och sedan öppna den här appen och trycka på \"Skanna från galleriet\".\n\n3. Om du fortfarande inte lyckas läsa in en streckkod eller QR-kod, kontakta oss genom att skicka ett e-postmeddelande till %sfeedback%s så hjälper vi dig.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Vill du omvandla en bild till en QR-kod?#\nDen här funktionen kommer snart …]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Fungerar inte länken du får?#\n1. Den här appen kan inte ändra innehållet i QR-koden, så om du inte lyckas öppna webbplatsen är det troligen så att det finns problem med <b>själva webbplatsen</b>. Tyvärr finns det ingenting vi kan göra åt detta.\n\n2. Det är också möjligt att den som skapade QR-koden angav <b>fel länk</b> eller att QR-koden har <b>gått ut</b>, så att du inte kan öppna webbplatsen. Om möjligt bör du be QR-kodens skapare att bekräfta att informationen är korrekt.\n\n3. Det finns vissa webblänkar som måste öppnas på ett särskilt sätt, till exempel med en <b>viss app</b>. Följ anvisningarna från den som gav dig QR-koden.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Behöver du mer information?#\nDet finns väldigt mycket information och vi kanske inte alltid lyckas ge dig precis vad du behöver. Du kan hitta mer information via <b>webbsökning</b>.\n\nOm webbsökning inte lyckas hitta informationen du söker kan det hända att själva koden innehåller bristande information. Vi kan tyvärr inte göra någonting åt detta.]]></string>
+    <string name="scanner_not_working">Fungerar inte inläsningen?</string>
+    <string name="view_faq">Visa vanliga frågor</string>
+    <string name="start">Start</string>
+    <string name="save">Spara</string>
+    <string name="qr_link_tips_1">Den här appen kan bara hjälpa dig att läsa webblänken (webbadressen) i QR-koden, den vet inte precis vad länken innehåller.</string>
+    <string name="qr_link_tips_2">Om du har frågor som rör länken behöver du kontakta ägaren till den här QR-koden för ytterligare information. Tack!</string>
+    <string name="tip">Tips</string>
+    <string name="faq">FAQ</string>
+    <string name="retry">Försök igen</string>
+    <string name="web_search">Webbsökning</string>
+    <string name="avoid_reflections"><![CDATA[Undvik <b>ljusreflexer</b> och <b>skuggor</b> på koden]]></string>
+    <string name="make_phone_face"><![CDATA[Rikta mobilen mot koden <b>utan att luta den</b>]]></string>
+    <string name="point_your_camera">Rikta kameran mot koden för att skanna automatiskt</string>
+    <string name="product_guide_hint">Vissa produkter finns inte i produktbiblioteket ännu. Klicka på webbsökning om du vill ha ytterligare information.</string>
+    <string name="search_for_more_information">Klicka på webbsökning för ytterligare information</string>
+    <string name="amazon_shopping">Handla på Amazon</string>
+
+    <string name="hint_title">Titel</string>
+    <string name="result_email_address">E-post</string>
+    <string name="result_tel">Tel</string>
+    <string name="enter_your_youtube_channel_id">Ange ID för YouTube-kanal</string>
+    <string name="enter_youtube_url">Ange webbadress för YouTube</string>
+    <string name="saved_to_gallery">Sparat i galleriet</string>
+    <string name="toast_text_null">Fyll i innehåll först</string>
+
+    <string name="ok">Ok</string>
+    <string name="no_history">Historik saknas</string>
+    <string name="channel_id">Kanal-ID</string>
+    <string name="enter_youtube_video_id">Ange ID för YouTube-video</string>
+    <string name="video_id">Video-ID</string>
+    <string name="result_bar_code">Streckkod</string>
+
+    <string name="rename">Byt namn</string>
+
+    <string name="search">Sök</string>
+    <string name="td_tip">Tips</string>
+    <string name="no_thanks_1">Nej tack</string>
+    <string name="try_now_button">Prova nu</string>
+    <string name="barcode_scan_fail_tip">Om inläsningen misslyckades kan du prova att ange streckkodsnumret manuellt för att söka.</string>
+    <string name="input_invalid_no_content_tip">Fyll i siffrorna</string>
+
+    <string name="still_have_problems_1">Har fortfarande problem</string>
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

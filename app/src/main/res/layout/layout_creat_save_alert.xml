@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/cm_dp_20"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:paddingStart="@dimen/cm_dp_16"
+    android:paddingTop="@dimen/cm_dp_20"
+    android:paddingEnd="@dimen/cm_dp_16"
+    android:paddingBottom="@dimen/cm_dp_20">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cm_dp_10"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/cm_dp_30"
+        android:singleLine="true"
+        tools:text="android.support.v7.widget.AppCompatEditText"
+        android:theme="@style/MyEditText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_file_exit_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/cm_dp_6"
+        android:text="@string/already_in_use"
+        android:textColor="#C74E34"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/et_input" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/et_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/et_input"
+        app:srcCompat="@drawable/ic_clear_black" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

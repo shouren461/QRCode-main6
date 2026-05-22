@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_bottom">
+
+    <Space
+        android:id="@+id/space_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qr_dp_31"
+        app:layout_constraintBottom_toTopOf="@id/tv_title"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        style="@style/FontBlack"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/search_for_more_information"
+        android:textColor="@color/dialog_text_first"
+        android:textSize="@dimen/qr_sp_20"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/space_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space_1"
+        app:layout_constraintWidth_percent="0.817" />
+
+    <Space
+        android:id="@+id/space_2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qr_dp_12"
+        app:layout_constraintBottom_toTopOf="@id/tv_subtitle_1"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_subtitle_1"
+        style="@style/FontBold"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/product_guide_hint"
+        android:textColor="@color/dialog_text_second"
+        app:layout_constraintBottom_toTopOf="@id/space_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space_2"
+        app:layout_constraintWidth_percent="0.9" />
+
+    <Space
+        android:id="@+id/space_3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qr_dp_32"
+        app:layout_constraintBottom_toTopOf="@id/iv"
+        app:layout_constraintTop_toBottomOf="@id/tv_subtitle_1" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/iv"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/qr_dp_150"
+        android:background="@drawable/shape_bg_product_guide_step"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@id/space_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space_3"
+        app:layout_constraintWidth_percent="0.417">
+
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bg_product_guide_button"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/qr_dp_5"
+            android:paddingBottom="@dimen/qr_dp_5"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent="0.833">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/iv_result_option_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@drawable/svg_dialog_search" />
+
+            <TextView
+                android:id="@+id/tv_result_option_1"
+                style="@style/FontBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/web_search"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintLeft_toLeftOf="@id/ll_1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/ll_1"
+            app:layout_constraintVertical_bias="0.7"
+            app:srcCompat="@drawable/svg_dialog_gesture" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Space
+        android:id="@+id/space_4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qr_dp_33"
+        app:layout_constraintBottom_toTopOf="@id/tv_positive"
+        app:layout_constraintTop_toBottomOf="@id/iv" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_positive"
+        style="@style/FontBlack"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/qr_dp_50"
+        android:background="@drawable/bg_ripple_corner_12"
+        android:backgroundTint="@color/themeColor"
+        android:gravity="center"
+        android:text="@string/got_it"
+        android:textColor="@color/dialog_text_button_positive"
+        android:textSize="@dimen/qr_sp_20"
+        app:layout_constraintBottom_toTopOf="@id/space_5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/space_4"
+        app:layout_constraintWidth_percent="0.8" />
+
+    <Space
+        android:id="@+id/space_5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qr_dp_30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_positive" />
+</androidx.constraintlayout.widget.ConstraintLayout>

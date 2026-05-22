@@ -1,0 +1,34 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'maven-publish'
+    id 'com.google.cloud.artifactregistry.gradle-plugin'
+}
+
+android {
+    compileSdkVersion compile_sdk_version.toInteger()
+    namespace 'com.drojian.qrcode.scanlib'
+
+    defaultConfig {
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+}
+
+dependencies {
+    api project(path: ':baselib')
+    api project(path: ':zxinglib')
+    api project(path: ':googlevisionlib')
+
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    api 'androidx.core:core-ktx:' + core_ktx_version
+}

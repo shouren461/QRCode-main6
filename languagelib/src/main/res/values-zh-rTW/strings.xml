@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">谷歌付費服務不支持你的國家，或谷歌支付服務在這此刻不可用，你可以繼續使用該應用程序，但不能購買移除廣告。</string>
+    <string name="purchased_failed_title">購買失敗</string>
+    <string name="fb_btn_submit">提交</string>
+    <string name="fb_ok">確定</string>
+    <string name="fb_thx_feedback_tip">很抱歉給您造成的不便 。我們會在之後的版本中修復此問題。</string>
+    <string name="fb_thx_feedback_title">感謝您的寶貴意見</string>
+    <string name="fb_please_tell_more">請告訴我們更多細節，以便更迅速確定並解決您的問題 (至少 %s 個字元)</string>
+    <string name="fb_tell_us_your_problem">告訴我們您遇到的問題</string>
+    <string name="fb_type">類型</string>
+    <string name="fb_button_cancel">取消</string>
+    <string name="fb_choose_to_submit">請選擇一個類型提交</string>
+
+    <string name="button_cancel">取消</string>
+    <string name="action_ok">確認</string>
+
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">位置</string>
+    <string name="parse_result_content_geo">地理位置</string>
+    <string name="parse_format_title_email_address">電子郵件</string>
+    <string name="parse_format_title_calendar">日曆</string>
+    <string name="parse_format_title_tel">電話</string>
+    <string name="parse_format_title_isbn">圖書</string>
+    <string name="parse_format_title_product">商品</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_sms">簡訊</string>
+    <string name="parse_format_title_text">文本</string>
+    <string name="parse_format_title_address_book">聯絡人資訊</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_barcode">條碼</string>
+    <string name="parse_action_title_add_contacts">加到通訊錄</string>
+    <string name="parse_action_title_add_event">加到行事曆</string><!-- 加到日程 -->
+    <string name="parse_result_content_lng">經度：</string>
+    <string name="parse_result_content_lat">緯度：</string>
+    <string name="parse_action_title_navigation">導航</string>
+    <string name="parse_result_content_tel">電話：</string>
+    <string name="parse_action_title_call">撥號</string>
+    <string name="parse_result_content_email">電子郵件：</string>
+    <string name="parse_result_content_name">姓名：</string>
+    <string name="parse_result_content_address">地址：</string>
+    <string name="parse_result_content_nickname">暱稱：</string>
+    <string name="parse_action_title_copy">複製</string>
+    <string name="parse_result_content_org">所屬機構：</string>
+    <string name="parse_result_content_title">稱謂：</string><!-- 能不能改成  頭銜 -->
+    <string name="parse_result_content_birthday">生日：</string>
+    <string name="parse_action_title_history_price">價格歷史記錄</string>
+    <string name="parse_result_content_to">收件者：</string>
+    <string name="parse_result_content_cc">副本：</string>
+    <string name="parse_result_content_bcc">密件副本：</string>
+    <string name="parse_result_content_subject">主旨：</string>
+    <string name="parse_result_content_body">正文：</string>
+    <string name="parse_result_content_ssid">網路名稱：</string>
+    <string name="parse_action_title_copy_password">複製密碼</string>
+    <string name="parse_result_content_type">加密類型：</string>
+    <string name="parse_action_title_show_on_map">在地圖上顯示</string>
+    <string name="parse_action_title_nutrient_analyse">營養分析</string>
+    <string name="parse_action_title_shop_now">馬上選購</string>
+    <string name="lh_button_ok">確定</string>
+    <string name="parse_result_content_start">開始:</string>
+    <string name="parse_result_content_end">結束:</string>
+    <string name="parse_result_content_note">備註:</string>
+    <string name="parse_action_title_share">分享</string>
+    <string name="parse_result_content_password">密碼:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_result_content_summary">主旨：</string>
+    <string name="parse_action_title_product_search">商品搜尋</string>
+    <string name="parse_action_title_book_search">圖書搜尋</string>
+    <string name="parse_action_title_web_search">網頁搜尋</string>
+    <string name="parse_action_title_send_sms">發送簡訊</string>
+    <string name="parse_action_title_send_mms">發送多媒體簡訊</string>
+    <string name="parse_action_title_send_email">發送電子郵件</string>
+    <string name="parse_action_title_open">打開</string>
+    <string name="lh_intent_failed">抱歉，無法打開所需軟體。</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[由於系統限制的關係，Android 10 以上裝置必須<b>手動</b>連線至 Wi-Fi]]></string>
+    <string name="lh_open_wifi_settings">開啟 Wi-Fi 設定</string>
+    <string name="lh_choose_wifi">選擇要連線的 Wi-Fi</string>
+    <string name="lh_paste_password">貼上密碼 (已自動複製)</string>
+    <string name="parse_action_title_connect_to_network">連線至 Wi-Fi</string>
+    <string name="lh_wifi_disabled">已停用 Wi-Fi</string>
+    <string name="lh_wifi_disabled_des">若要連線至 Wi-Fi，您必須先啟用它。</string>
+    <string name="lh_enable_wifi">啟用 Wi-Fi</string>
+    <string name="lh_tip">建議</string>
+    <string name="lh_required_permission_1">1.打開設置</string>
+    <string name="lh_required_permission_2">2.點擊權限</string>
+    <string name="lh_required_permission_turn_on_storage">3.打開存儲</string>
+    <string name="lh_button_cancel">取消</string>
+
+    <string name="action_copy">複製鏈接</string>
+    <string name="copied_to_clipboard">已複製至剪貼簿</string>
+    <string name="different_engine_more_info">試試不同的搜尋引擎以取得更多有用的資訊！</string>
+    <string name="no_internet_des">無網路連線，請稍後再試。</string>
+    <string name="x_link_open">偵測到 %s 連結，要開啟嗎？</string>
+    <string name="parse_action_view_in_store">在商店內檢視</string>
+    <string name="parse_action_title_rakuten">樂天市場</string>
+    <string name="parse_action_title_amazon">亞馬遜</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">雅虎</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="result_bar_code">條碼</string>
+    <string name="search">搜尋</string>
+    <string name="td_tip">提示</string>
+    <string name="no_thanks_1">不用了，謝謝</string>
+    <string name="try_now_button">立即嘗試</string>
+    <string name="barcode_scan_fail_tip">若掃描失敗，您可以嘗試手動輸入條碼號碼以搜尋。</string>
+    <string name="input_invalid_no_content_tip">請輸入數字</string>
+    <string name="loading">加載中…</string>
+    <!-- 商品 -->
+    <string name="free_space_needed">所需的儲存空間：%s (建議)</string>
+    <string name="free_up_space">釋放空間</string>
+    <string name="no_enough_storage">儲存空間不足</string>
+    <string name="remaining_space">剩餘儲存空間：%s</string>
+    <string name="free_space_to_ensure">請釋放空間以確保應用程式可正常運作。</string>
+    <string name="click_share_option">1. 在其他應用程式選取文字，然後按一下「分享」按鍵</string>
+    <string name="then_select_generate">2. 選取「%s」</string>
+    <string name="use_share">使用「分享」選項來產生 QR 碼</string>
+    <string name="qr_code_not_found">沒有發現 QR 碼/條碼</string>
+    <string name="album_permission_hint">若要掃描圖庫中的 QR 碼/條碼，必須授予圖庫存取權限</string>
+    <string name="required_permission_turn_on_camera">3.開啟相機權限</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="feedback">回饋</string>
+    <string name="td_feedback_email_title">%s 回饋</string>
+    <string name="clear_history">清除歷史記錄</string>
+    <string name="why_need_permissions">為什麼我們需要獲取權限？</string>
+    <string name="permission_required">需要使用的權限</string>
+    <string name="required_permission_1">1.打開設置</string>
+    <string name="required_permission_2">2.點擊權限</string>
+    <string name="required_permission_turn_on_storage">3.打開存儲</string>
+    <string name="open_settings">打開設置</string>
+    <string name="qr_code_not_found_hint">請確定二維碼/條碼清晰且完全置於框內</string>
+    <string name="msg_intent_failed">抱歉，無法打開所需軟體。</string>
+    <string name="tap_again_to_exit">再次點按退出</string>
+    <string name="camera_problem_restart">很抱歉，Android相機出現問題。請檢查並重新啟動應用程式。</string>
+    <string name="good">很好</string>
+    <string name="generate_qr_code">產生 QR 碼</string>
+    <string name="not_good">不太滿意</string>
+    <string name="camera_permission_des">需要相機權限來掃描 QR 碼/條碼。</string>
+    <string name="storage_permission_save_images">需要有儲存空間權限才能儲存圖片。</string>
+    <string name="satisfied_scan_ask">您對掃描結果滿意嗎？</string>
+    <string name="share">分享</string>
+    <string name="delete_sure">您確定要刪除它嗎？</string>
+    <string name="copy">複製</string>
+    <string name="browse_from_gallery">從相冊選擇</string>
+    <string name="capture">拍照</string>
+    <string name="got_it">知道了</string>
+    <string name="scan_image_title">從其他任何位置掃描影像的便利方式：</string>
+    <string name="scan_image_how_to_1">在其他應用程式中選取影像，然後按一下「分享」按鍵</string>
+    <string name="scan_image_how_to_2">選取「掃描影像」</string>
+    <string name="save">保存</string>
+    <string name="location">位置</string>
+    <string name="all_day">全日</string>
+    <string name="description">描述</string>
+    <string name="start">開始</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[無法連線至 Wi-Fi？#\n1. 確認您<b>在 Wi-Fi 覆蓋範圍之內</b>，並確認 Wi-Fi 使用者名稱和密碼均正確。\n\n如果您仍是無法連線，請詢問 QR 碼提供者是否已變更密碼。\n\n2. 如果掃描結果顯示為文字，您需要依據文字內容中的 Wi-Fi 名稱和密碼，在手機網路設定<b>手動連線至 Wi-Fi</b>。]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[無法讀取條碼？#\n1. 為了取得正確的掃描結果，請確定條碼符合以下特徵：\n\t\ta. 對比鮮明且<b>不模糊</b>。\n\t\tb. 條碼上面<b>沒有反光或陰影</b>。\n\t\tc. <b>完整</b>，沒有缺漏的部分。\n\n2. 如果您使用低階的手機，由於相機品質低，掃描可能非常困難，或甚至無法使用。\n\n您可以試著用照相機應用程式拍照，然後打開我們的應用程式並點選「從相簿掃描」來解決這個問題。\n\n3. 如果您在掃描條碼或 QR 碼時仍然無法取得結果，請透過 %s反饋%s 傳送電子郵件給我們，我們將盡速為您解決問題。]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[要將照片轉換成 QR 碼？#\n此功能即將推出…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[您取得的連結出現問題？#\n1. 本應用程式無法改變 QR 碼的內容，因此如果無法開啟此網站，比較有可能是<b>網站本身</b>有問題。 很抱歉，我們對此無能為力。\n\n2. 也有可能是 QR 碼的建立者輸入<b>錯誤的連結</b>或 QR 碼已經<b>過期</b>，導致您無法開啟網站。如有可能，您可以嘗試跟建立者確認 QR 碼的正確性。\n\n3. 尤其是有些網站連結必須在特定的情況下才能開啟，例如，必須要使用<b>特定的應用程式</b>才能開啟。請依照 QR 碼提供者的指示。]]></string>
+    <string name="need_more_information_faq"><![CDATA[需要更多資訊嗎？#\n資訊太多了，我們可能無法每次都提供您所需要的資訊。您可以透過<b>網路搜尋</b>查看更多資訊。\n\n如果網路搜尋仍然無法協助您找到您需要的資訊，那可能是因為該條碼本身所含的資訊有限。請您見諒。]]></string>
+    <string name="scanner_not_working">掃描器無法使用？</string>
+    <string name="view_faq">檢視常見問題</string>
+    <string name="qr_link_tips_1">此應用程式僅協助您從 QR 碼讀取此網頁連結 (URL)，但我們並不知道此網頁連結的實際內容。</string>
+    <string name="qr_link_tips_2">若您對此連結有任何問題，請聯絡此 QR 碼的所有人以獲得更多相關資訊，謝謝！</string>
+    <string name="tip">建議</string>
+    <string name="avoid_reflections"><![CDATA[請避免<b>反光</b>或碼上有<b>陰影</b>]]> </string>
+    <string name="make_phone_face"><![CDATA[請讓您的手機面向碼<b>而不傾斜</b>]]> </string>
+    <string name="point_your_camera">請將您的相機指向碼以自動掃描</string>
+    <string name="product_guide_hint">某些產品尚未列入產品庫。您可點選網路搜尋以獲得更多產品資訊。</string>
+    <string name="search_for_more_information">點選網路搜尋以獲得更多資訊</string>
+    <string name="faq">常見問題</string>
+    <string name="retry">重試</string>
+    <string name="still_have_problems_1">仍有問題</string>
+    <string name="web_search">網路搜尋</string>
+    <string name="amazon_shopping">亞馬遜購物</string>
+
+    <string name="hint_title">標題</string>
+    <string name="result_email_address">電子郵件</string>
+    <string name="result_tel">電話</string>
+    <string name="enter_your_youtube_channel_id">請輸入 Youtube 頻道 ID</string>
+    <string name="enter_youtube_url">請輸入 Youtube URL</string>
+    <string name="saved_to_gallery">已儲存到圖庫</string>
+    <string name="toast_text_null">請先輸入內容</string>
+    <!-- 能不能改成  頭銜 -->
+    <string name="ok">確定</string>
+    <string name="no_history">無歷史記錄</string>
+    <string name="channel_id">頻道 ID</string>
+    <string name="enter_youtube_video_id">請輸入 Youtube 影片 ID</string>
+    <string name="video_id">影片 ID</string>
+
+    <string name="rename">重命名</string>
+
+    <string name="amazon">亞馬遜</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">美客多</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">歐圖</string>
+    <string name="platform_rakuten_gpt">樂天市場</string>
+    <string name="platform_walmart_gpt">沃爾瑪</string>
+    <string name="platform_yahoo_gpt">雅虎</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

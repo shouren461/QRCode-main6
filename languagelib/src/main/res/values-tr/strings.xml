@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">Google Ödendi hizmeti şu anda veya ülkenizde mevcut değil, reklam kaldırma ücreti ödeme hariç, uygulamamızı kullanmaya devam edebilirsiniz.</string>
+    <string name="purchased_failed_title">Satın alınamıyor</string>
+    <string name="fb_btn_submit">Gönder</string>
+    <string name="fb_thx_feedback_tip">Gelecekteki sürümde bunu düzelteceğiz. Uygunsuz durum için özür dileriz.</string>
+    <string name="fb_thx_feedback_title">Geri bildiriminiz için teşekkürler</string>
+    <string name="fb_please_tell_more">Lütfen sorununuzu daha hızlı tespit edip çözebilmemiz için bize daha fazla ayrıntı verin (en az %s karakter)</string>
+    <string name="fb_tell_us_your_problem">Bize karşılaştığınız sorunu anlatın</string>
+    <string name="fb_type">Tür</string>
+    <string name="fb_ok">TAMAM</string>
+    <string name="fb_button_cancel">İptal</string>
+    <string name="fb_choose_to_submit">Lütfen göndermek için bir madde seçin</string>
+    <string name="button_cancel">İptal</string>
+    <string name="action_ok">Tamam</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Konum</string>
+
+    <string name="parse_format_title_email_address">E-posta</string>
+    <string name="parse_format_title_tel">Tel</string>
+    <string name="parse_format_title_isbn">Kitap</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_product">Ürün</string>
+    <string name="parse_format_title_sms">SMS</string>
+    <string name="parse_format_title_text">Metin</string>
+    <string name="parse_format_title_address_book">Kişiler</string>
+    <string name="parse_format_title_calendar">Takvim</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_result_content_geo">Coğrafi Konum:</string>
+    <string name="parse_format_title_barcode">Barkod</string>
+    <string name="parse_action_title_add_contacts">Kişilere ekle</string>
+    <string name="parse_action_title_add_event">Etkinliklere ekle</string>
+    <string name="parse_result_content_lng">Boylam:</string>
+    <string name="parse_result_content_lat">Enlem:</string>
+    <string name="parse_action_title_navigation">Navigasyon</string>
+    <string name="parse_result_content_tel">Tel:</string>
+    <string name="parse_action_title_call">Ara</string>
+    <string name="parse_action_title_history_price">Fiyat geçmişi</string>
+    <string name="parse_result_content_email">E-posta:</string>
+    <string name="parse_result_content_name">Ad:</string>
+    <string name="parse_result_content_address">Adres:</string>
+    <string name="parse_action_title_copy">Kopyala</string>
+    <string name="parse_action_title_nutrient_analyse">Besin değeri analizi</string>
+    <string name="parse_action_title_shop_now">Şimdi alışveriş yap</string>
+    <string name="parse_result_content_nickname">Takma Ad:</string>
+    <string name="parse_result_content_org">Kurum:</string>
+    <string name="parse_result_content_title">Unvan:</string>
+    <string name="parse_result_content_birthday">Doğum Günü:</string>
+    <string name="parse_result_content_to">Kime:</string>
+    <string name="parse_result_content_cc">Bilgi:</string>
+    <string name="parse_result_content_bcc">Gizli:</string>
+    <string name="parse_action_title_copy_password">Parolayı kopyala</string>
+    <string name="parse_result_content_subject">Konu:</string>
+    <string name="parse_result_content_body">İçerik:</string>
+    <string name="parse_result_content_ssid">Ağ Adı:</string>
+    <string name="parse_result_content_type">Güvenlik türü:</string>
+    <string name="parse_action_title_show_on_map">Haritada göster</string>
+    <string name="lh_button_ok">TAMAM</string>
+    <string name="parse_result_content_start">Başlangıcı:</string>
+    <string name="parse_result_content_end">Bitişi:</string>
+    <string name="parse_result_content_note">Not:</string>
+    <string name="parse_action_title_share">Paylaş</string>
+    <string name="parse_result_content_password">Parola:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_result_content_summary">Konu</string>
+    <string name="parse_action_title_product_search">Ürün arama</string>
+    <string name="parse_action_title_book_search">Kitap Arama</string>
+    <string name="parse_action_title_web_search">Webde ara</string>
+    <string name="parse_action_title_send_sms">SMS gönder</string>
+    <string name="parse_action_title_send_mms">MMS gönder</string>
+    <string name="parse_action_title_send_email">Email gönder</string>
+    <string name="parse_action_title_open">Aç</string>
+    <string name="lh_intent_failed">Üzgünüz, istenen uygulama başlatılamadı. Barkod içeriği geçersiz olabilir.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Sistem sınırlamaları nedeniyle Android 10 ve üzeri cihazların Wi-Fi\'a <b>manuel</b> olarak bağlanması gerekiyor]]></string>
+    <string name="lh_open_wifi_settings">Wi-Fi ayarlarını aç</string>
+    <string name="lh_choose_wifi">Bağlanmak için Wi-Fi seçin</string>
+    <string name="lh_paste_password">Parolayı yapıştır (otomatik kopyalandı)</string>
+    <string name="parse_action_title_connect_to_network">Wi-Fi\’a Bağlan</string>
+    <string name="lh_wifi_disabled">Wi-Fi devre dışı</string>
+    <string name="lh_wifi_disabled_des">Wi-Fi\'a bağlanmak için önce etkinleştirmeniz gerekiyor.</string>
+    <string name="lh_enable_wifi">Wi-Fi\'ı etkinleştir</string>
+    <string name="lh_tip">İpuçları</string>
+    <string name="lh_required_permission_1">1.Açık ayarları</string>
+    <string name="lh_required_permission_2">2.Izinlere dokunun</string>
+    <string name="lh_required_permission_turn_on_storage">3.Depolama açın</string>
+    <string name="lh_button_cancel">İptal</string>
+
+    <string name="action_copy">Bağlantıyı Kopyala</string>
+    <string name="copied_to_clipboard">Panoya kopyalandı</string>
+    <string name="different_engine_more_info">Daha faydalı bilgi edinmek için farklı arama motorlarını deneyin!</string>
+    <string name="no_internet_des">İnternet bağlantısı yok. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="x_link_open">%s bağlantı algılandı, açılsın mı?</string>
+    <string name="parse_action_view_in_store">Mağazada Görüntüle</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="loading">Yükleniyor …</string>
+    <string name="free_space_needed">Gereken alan: %s (önerilen)</string>
+    <string name="free_up_space">Alan aç</string>
+    <string name="no_enough_storage">Yeterli depolama yok</string>
+    <string name="remaining_space">Kalan alan: %s</string>
+    <string name="free_space_to_ensure">Uygulamanın düzgün biçimde çalışmasını sağlamak için lütfen biraz alan açın.</string>
+    <string name="result_bar_code">Barkod</string>
+
+    <string name="click_share_option">1. Diğer uygulamalarda metin seçin ve “Paylaş” düğmesine tıklayın</string>
+    <string name="then_select_generate">2. \&#34;%s\&#34; seçeneğini seçin</string>
+    <string name="use_share">QR kod oluşturmak için “Paylaş” seçeneğini kullanın</string>
+    <string name="qr_code_not_found">QR kodu/barkod bulunamadı</string>
+    <string name="album_permission_hint">QR kodunu/barkodu Galeri\'ye taramak için Galeri izni gerekli.</string>
+    <string name="required_permission_turn_on_camera">3. Kamera\'yı açın</string>
+    <string name="yes">evet</string>
+    <string name="no">hayir</string>
+    <string name="feedback">Geri bildirim</string>
+    <string name="td_feedback_email_title">%s geri bildirim</string>
+    <string name="clear_history">Geçmişi sil?</string>
+    <string name="why_need_permissions">İzinlere neden ihtiyacımız var?</string>
+    <string name="permission_required">İzinler Gerekli</string>
+    <string name="required_permission_1">1.Açık ayarları</string>
+    <string name="required_permission_2">2.Izinlere dokunun</string>
+    <string name="open_settings">Açık ayarları</string>
+    <string name="generate_qr_code">QR Kodu Oluştur</string>
+    <string name="camera_permission_des">QR kodunu/barkodu taramak için Kamera izni gerekli.</string>
+    <string name="storage_permission_save_images">Resimlerin kaydedilebilmesi için depolama izni gerekli.</string>
+    <string name="required_permission_turn_on_storage">3.Depolama açın</string>
+    <string name="delete_sure">Silmek istediğinizden emin misiniz?</string>
+    <string name="msg_intent_failed">Üzgünüz, istenen uygulama başlatılamadı. Barkod içeriği geçersiz olabilir.</string>
+    <string name="qr_code_not_found_hint">QR kodunun/barkodun net ve tamamıyla çerçevenin içinde olduğundan emin olun</string>
+    <string name="tap_again_to_exit">Çıkmak için tekrar dokunun</string>
+    <string name="camera_problem_restart">Üzgünüz, Android kamera bir sorunla karşılaştı. Lütfen kontrol edin, sonra uygulamayı yeniden başlatın.</string>
+    <string name="good">İyi</string>
+    <string name="not_good">Pek değil</string>
+    <string name="satisfied_scan_ask">Tarama sonuçlarından memnun kaldınız mı?</string>
+    <string name="browse_from_gallery">Galeriden seç</string>
+    <string name="capture">Fotoğraf çek</string>
+    <string name="got_it">ANLADIM</string>
+    <string name="scan_image_title">Herhangi bir yerden resim taramanın kolay bir yolu</string>
+    <string name="scan_image_how_to_1">Diğer uygulamalarda resim seçin ve \"Paylaş\" düğmesine tıklayın</string>
+    <string name="scan_image_how_to_2">\"Resmi tara\" seçeneğini seçin</string>
+    <string name="save">Kaydet</string>
+    <string name="all_day">Tüm gün</string>
+    <string name="share">Paylaş</string>
+    <string name="copy">Kopyala</string>
+    <string name="description">Açıklama</string>
+    <string name="location">Konum</string>
+    <string name="start">Başlangıç</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Kablosuz ağa bağlanamıyor musunuz?#\n1. <b>Wi-Fi kapsama alanında</b> olduğunuzdan ve Wi-Fi kullanıcı adı ve parolasının doğru olduğundan emin olun.\n\nYine de bağlanamıyorsanız, lütfen QR kod sağlayıcısına parolanın değiştirilip değiştirilmediğini sorun.\n\n2. Tarama sonucu metin olarak görüntüleniyorsa, metinde verilen Wi-Fi adı ve parolasına göre telefonunuzun ağ ayarlarından <b>Wi-Fi ağına manuel olarak bağlanmanız gerekiyor</b>.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[Kod okunamıyor mu?#\n1. Doğru tarama sonuçları elde etmek için lütfen kodun aşağıdaki niteliklere uygun olduğundan emin olun:\n\t\ta. zengin kontrastlı ve <b>bulanıklık olmamalı</b>.\n\t\tb. <b>kodda ışık yansımaları veya</b> gölgeler olmamalı.\n\t\tc. <b>tam olmalı</b>, eksik parça olmamalı.\n\n2. Düşük kaliteli bir telefon kullanıyorsanız, düşük kamera kalitesi nedeniyle tarama çok zor ve hatta imkansız olabilir.\n\nBu sorunu çözmek için kamera uygulamanızla fotoğraf çekmeyi deneyebilir, ardından uygulamamızı açabilir ve \'Galeriden Tara\' seçeneğine dokunabilirsiniz.\n\n3. Barkod veya QR kodunu tararken yine de sonuç alamıyorsanız, lütfen %sgeri bildirim%s aracılığıyla bize bir e-posta gönderin, sorununuzu sizin için en kısa sürede çözeceğiz.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Bir resmi QR koduna dönüştürmek mi?#\nBu fonksiyon yakında kullanılabilecek…]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Aldığınız bağlantıyla sorunlarınız mı var?#\n1. Bu uygulama QR kodunun içeriğini değiştiremez, bu yüzden bu web sitesini açamıyorsanız, <b>web sitesinin kendisinde</b> bir sorun olması daha olasıdır. Ne yazık ki, bu konuda yapabileceğimiz bir şey yok.\n\n2. QR kodunu oluşturanın <b>yanlış bağlantı</b> girmesi veya QR kodunun <b>süresinin dolmuş olması</b> da web sitesini açamamanıza neden olmuş olabilir. Mümkünse, oluşturandan QR kodunun doğruluğunu doğrulamayı deneyebilirsiniz.\n\n3. Özellikle, bazı web bağlantılarının özel koşullar altında açılması gerekir, örneğin <b>belirli bir uygulama</b> kullanılarak açılması gibi. Lütfen QR kod sağlayıcısının talimatlarını izleyin.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Daha fazla bilgiye mi ihtiyacınız var?#\nÇok fazla bilgi var ve her seferinde istediğiniz bilgileri veremeyebiliriz. <b>Web araması</b> daha fazla bilgi sahibi olabilirsiniz.\n\nWeb Araması yine de aradığınız bilgileri bulmanıza yardımcı olamazsa, kodun kendisi sınırlı bilgi içeriyor olabilir. Lütfen aklınızda bulundurun.]]></string>
+    <string name="scanner_not_working">Tarayıcı çalışmıyor mu?</string>
+    <string name="view_faq">SSS Görüntüle</string>
+    <string name="qr_link_tips_1">Bu uygulama yalnızca QR kodundan web bağlantısını (URL) okumanıza yardımcı olabilir, web bağlantısının tam içeriği hakkında bilgi sahibi değiliz.</string>
+    <string name="qr_link_tips_2">Bağlantıyla ilgili sorularınız varsa, daha fazla bilgi için lütfen bu QR kodunun sahibiyle iletişime geçin, teşekkür ederiz!</string>
+    <string name="tip">İpuçları</string>
+    <string name="faq">SSS</string>
+    <string name="retry">Yeniden Dene</string>
+    <string name="still_have_problems_1">Hâlâ sorunlarınız mı var</string>
+    <string name="web_search">Web araması</string>
+    <string name="avoid_reflections"><![CDATA[Kod üzerinde ışık <b>yansımaları</b> veya <b>gölgeler</b> olmasından kaçının]]> </string>
+    <string name="make_phone_face"><![CDATA[Telefonunuzu <b>eğmeden</b> kodu görüntüleyin]]> </string>
+    <string name="point_your_camera">Otomatik tarama yapmak için kameranızı koda doğru tutun</string>
+    <string name="product_guide_hint">Bazı ürünler henüz ürün kitaplığına girilmedi. Daha fazla ürün bilgisi almak için Web Aramasına dokunabilirsiniz.</string>
+    <string name="search_for_more_information">Daha fazla bilgi için Web Aramasına dokunun</string>
+    <string name="amazon_shopping">Amazon Alışveriş</string>
+    <string name="search">Ara</string>
+    <string name="td_tip">İpucu</string>
+    <string name="no_thanks_1">Hayır, teşekkürler</string>
+    <string name="try_now_button">Hemen dene</string>
+    <string name="barcode_scan_fail_tip">Tarama başarısız olursa, aranacak barkod numarasını elle girmeyi deneyebilirsiniz.</string>
+    <string name="input_invalid_no_content_tip">Lütfen sayı girin</string>
+    <string name="hint_title">Başlık</string>
+    <string name="result_email_address">E-posta</string>
+    <string name="result_tel">Tel</string>
+    <string name="enter_your_youtube_channel_id">YouTube Kanal Kimliğini girin</string>
+    <string name="enter_youtube_url">YouTube URL\'sini girin</string>
+    <string name="saved_to_gallery">Galeriye kaydedildi</string>
+    <string name="toast_text_null">Lütfen önce içeriği girin</string>
+    <string name="ok">TAMAM</string>
+    <string name="no_history">Geçmiş yok</string>
+    <string name="channel_id">Kanal Kimliği</string>
+    <string name="enter_youtube_video_id">YouTube Video Kimliğini girin</string>
+    <string name="video_id">Video Kimliği</string>
+
+    <string name="rename">Yeniden Adlandır</string>
+
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

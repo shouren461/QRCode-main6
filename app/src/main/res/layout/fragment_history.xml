@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/cm_dp_48">
+
+    <LinearLayout
+        android:id="@+id/ll_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:fontFamily="@string/roboto_bold"
+            android:textStyle="bold"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/cm_dp_16"
+            android:paddingEnd="@dimen/cm_dp_16"
+            android:text="@string/main_tab_history"
+            android:textColor="#031C36"
+            android:textSize="@dimen/cm_sp_20" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_select_all"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/actionBarItemBackground"
+            android:scaleType="center"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_select_all_black" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/actionBarItemBackground"
+            android:scaleType="center"
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_history_delete_sweep_black" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tab_scan"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/cm_dp_50"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/main_tab_scan"
+        android:textAllCaps="true"
+        android:textColor="#4991FF"
+        android:textSize="@dimen/cm_sp_16"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tab_create"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ll_top_bar" />
+
+    <View
+        android:id="@+id/view_divide"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cm_dp_1"
+        android:background="#E8E9EC"
+        app:layout_constraintBottom_toBottomOf="@+id/view_cursor_scan" />
+
+    <View
+        android:id="@+id/view_cursor_scan"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/cm_dp_3"
+        android:background="#4991FF"
+        app:layout_constraintBottom_toTopOf="@+id/vp_history"
+        app:layout_constraintEnd_toStartOf="@+id/view_cursor_create"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tab_scan" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tab_create"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/cm_dp_50"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text="@string/main_tab_create"
+        android:textAllCaps="true"
+        android:textColor="#FF9EA5B6"
+        android:textSize="@dimen/cm_sp_16"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/tab_scan"
+        app:layout_constraintTop_toBottomOf="@+id/ll_top_bar" />
+
+    <View
+        android:id="@+id/view_cursor_create"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/cm_dp_3"
+        android:background="#4991FF"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/vp_history"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@+id/view_cursor_scan"
+        app:layout_constraintTop_toBottomOf="@+id/tab_scan" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_history"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view_cursor_create" />
+</androidx.constraintlayout.widget.ConstraintLayout>

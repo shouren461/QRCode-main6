@@ -1,0 +1,36 @@
+<resources>
+
+    <style name="FontBlack">
+        <item name="android:fontFamily">"sans-serif-black"</item>
+        <item name="fontFamily">"sans-serif-black"</item>
+    </style>
+
+    <style name="FontBold">
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="fontFamily">"sans-serif"</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FontRegular">
+        <item name="android:fontFamily">"sans-serif"</item>
+        <item name="fontFamily">"sans-serif"</item>
+    </style>
+
+    <style name="WebViewTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#F0F2F6</item>
+        <item name="colorPrimaryDark">#F0F2F6</item>
+        <item name="colorAccent">#F0F2F6</item>
+    </style>
+
+    <style name="WebViewDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="enableEdgeToEdge">true</item>
+        <item name="android:windowIsFloating">false</item> <!-- 必须 false 才能 edge-to-edge -->
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogEdgeToEdge" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

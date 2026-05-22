@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">O seviço pago no Google Play não está disponível de momento ou no seu país. Pode continuar a utilizar a aplicação, mas não pode pagar para remover os anúncios.</string>
+    <string name="purchased_failed_title">Não é possível efectuar a compra</string>
+    <string name="fb_btn_submit">Enviar</string>
+    <string name="fb_thx_feedback_tip">Isso será corrigido em uma versão futura. Pedimos desculpas pelo inconveniente.</string>
+    <string name="fb_thx_feedback_title">Agradecemos seu retorno</string>
+    <string name="fb_please_tell_more">Conte-nos mais detalhes para podermos localizar e resolver o seu problema mais rápido (mínimo de %s caracteres)</string>
+    <string name="fb_tell_us_your_problem">Conte-nos sobre o problema que você teve</string>
+    <string name="fb_type">Tipo</string>
+    <string name="fb_ok">OK</string>
+    <string name="fb_button_cancel">Cancelar</string>
+    <string name="fb_choose_to_submit">Escolha um item para enviar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="action_ok">OK</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_geo">Localização</string>
+
+    <string name="parse_format_title_email_address">E-mail</string>
+    <string name="parse_format_title_sms">SMS</string>
+    <string name="parse_format_title_text">Texto</string>
+    <string name="parse_format_title_address_book">Contatos</string>
+    <string name="parse_format_title_tel">Tel</string>
+    <string name="parse_format_title_isbn">Livro</string>
+    <string name="parse_format_title_product">Produto</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_uri">URL</string>
+    <string name="parse_format_title_calendar">Calendário</string>
+    <string name="parse_result_content_geo">Geo:</string>
+    <string name="parse_format_title_barcode">Código de barras</string>
+    <string name="parse_action_title_add_contacts">Adicionar aos contatos</string>
+    <string name="parse_action_title_add_event">Adicionar aos eventos</string>
+    <string name="parse_result_content_lng">Long.:</string>
+    <string name="parse_result_content_lat">Lat.:</string>
+    <string name="parse_action_title_navigation">Navegação</string>
+    <string name="parse_result_content_tel">Tel:</string>
+    <string name="parse_action_title_call">Chamar</string>
+    <string name="parse_action_title_nutrient_analyse">Análise nutricional</string>
+    <string name="parse_action_title_shop_now">Comprar agora</string>
+    <string name="parse_result_content_email">E-mail:</string>
+    <string name="parse_result_content_name">Nome:</string>
+    <string name="parse_action_title_history_price">Histórico de preços</string>
+    <string name="parse_action_title_copy">Copiar</string>
+    <string name="parse_result_content_address">Endereço:</string>
+    <string name="parse_result_content_nickname">Apelido:</string>
+    <string name="parse_result_content_org">Org.:</string>
+    <string name="parse_result_content_title">Título:</string>
+    <string name="parse_result_content_birthday">Aniversário:</string>
+    <string name="parse_result_content_to">Para:</string>
+    <string name="parse_result_content_cc">CC:</string>
+    <string name="parse_result_content_bcc">BCC:</string>
+    <string name="parse_result_content_subject">Assunto:</string>
+    <string name="parse_result_content_body">Conteúdo:</string>
+    <string name="parse_result_content_ssid">Nome da rede:</string>
+    <string name="parse_result_content_type">Segurança:</string>
+    <string name="parse_action_title_show_on_map">Exibir no mapa</string>
+    <string name="lh_button_ok">OK</string>
+    <string name="parse_action_title_copy_password">Copiar senha</string>
+    <string name="parse_action_title_share">Partilhar</string>
+    <string name="parse_result_content_password">Palavra-passe:</string>
+    <string name="parse_result_content_url">Url:</string>
+    <string name="parse_result_content_start">Começo:</string>
+    <string name="parse_result_content_end">Final:</string>
+    <string name="parse_result_content_note">Nota:</string>
+    <string name="parse_result_content_summary">Assunto:</string>
+    <string name="parse_action_title_product_search">Procurar produto</string>
+    <string name="parse_action_title_book_search">Procurar livro</string>
+    <string name="parse_action_title_web_search">Pesquisa na Web</string>
+    <string name="parse_action_title_send_sms">Enviar SMS</string>
+    <string name="parse_action_title_send_mms">Enviar MMS</string>
+    <string name="parse_action_title_send_email">Enviar e-mail</string>
+    <string name="parse_action_title_open">Abrir</string>
+    <string name="lh_intent_failed">Desculpe, o aplicativo solicitada não pode ser iniciado.</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[Devido à limitações do sistema, dispositivos com Android 10 e mais atuais precisam se conectar ao Wi-Fi <b>manualmente</b>]]></string>
+    <string name="lh_open_wifi_settings">Abrir opções de Wi-Fi</string>
+    <string name="lh_choose_wifi">Escolha a rede Wi-Fi para conectar</string>
+    <string name="lh_paste_password">Cole a senha (copiada automaticamente)</string>
+    <string name="parse_action_title_connect_to_network">Conecte-se à rede Wi-Fi</string>
+    <string name="lh_wifi_disabled">O Wi-Fi está desativado</string>
+    <string name="lh_wifi_disabled_des">Para conectar-se via Wi-Fi, você precisa ativar essa opção.</string>
+    <string name="lh_enable_wifi">Ativar Wi-Fi</string>
+    <string name="lh_tip">Dica</string>
+    <string name="lh_required_permission_1">1.Abra as configurações</string>
+    <string name="lh_required_permission_2">2.Toque em permissões</string>
+    <string name="lh_required_permission_turn_on_storage">3.Ativar Armazenamento</string>
+    <string name="lh_button_cancel">Cancelar</string>
+
+    <string name="action_copy">Copiar link da página</string>
+    <string name="copied_to_clipboard">Copiado para a área de transferência</string>
+    <string name="different_engine_more_info">Experimente usar ferramentas de busca diferentes para obter mais informações úteis!</string>
+    <string name="no_internet_des">Sem conexão de internet. Tente novamente mais tarde.</string>
+    <string name="x_link_open">Link do %s detectado, abrir?</string>
+    <string name="parse_action_view_in_store">Ver na loja</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">Amazon</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="loading">Carregando…</string>
+    <string name="free_space_needed">Espaço necessário: %s (recomendado)</string>
+    <string name="free_up_space">Liberar espaço</string>
+    <string name="no_enough_storage">Sem espaço suficiente</string>
+    <string name="remaining_space">Espaço restante: %s</string>
+    <string name="free_space_to_ensure">Libere um pouco de espaço para garantir o funcionamento correto do aplicativo.</string>
+    <string name="click_share_option">1. Selecione o texto em outros apps e clique no botão \&#34;Compartilhar\&#34;</string>
+    <string name="then_select_generate">2. Selecione \&#34;%s\&#34;</string>
+    <string name="use_share">Use a opção \&#34;Compartilhar\&#34; para gerar o código QR</string>
+    <string name="qr_code_not_found">Nenhum código de barras/QR encontrado</string>
+    <string name="album_permission_hint">É necessária a permissão de Galeria para escanear o código de barras/QR na Galeria.</string>
+    <string name="required_permission_turn_on_camera">3.Ligar câmera</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="feedback">Opinião</string>
+    <string name="clear_history">Limpar histórico</string>
+    <string name="why_need_permissions">Por que precisamos de permissões?</string>
+    <string name="permission_required">É necessário obter autorização</string>
+    <string name="required_permission_1">1.Abra as configurações</string>
+    <string name="required_permission_2">2.Toque em permissões</string>
+    <string name="required_permission_turn_on_storage">3.Ativar Armazenamento</string>
+    <string name="open_settings">Abra as configurações</string>
+    <string name="td_feedback_email_title">Feedback do %s</string>
+    <string name="qr_code_not_found_hint">Verifique se o código QR/código de barras está nítido e completamente dentro do quadro</string>
+    <string name="msg_intent_failed">Desculpe, o aplicativo solicitada não pode ser iniciado.</string>
+    <string name="tap_again_to_exit">Toque novamente para sair</string>
+    <string name="camera_problem_restart">Desculpe, a câmera do Android encontrou um problema. Por favor, verifique e reinicie o aplicativo.</string>
+    <string name="delete_sure">Tem certeza de que deseja excluir?</string>
+    <string name="good">Bem</string>
+    <string name="generate_qr_code">Gerar código QR</string>
+    <string name="not_good">Na verdade, não</string>
+    <string name="camera_permission_des">A permissão da câmera é necessária para digitalizar códigos QR/códigos de barras.</string>
+    <string name="storage_permission_save_images">A permissão de armazenamento é necessária para salvar imagens.</string>
+    <string name="satisfied_scan_ask">Está satisfeito(a) com os resultados da leitura?</string>
+    <string name="browse_from_gallery">Escolher da galeria</string>
+    <string name="capture">Tire Foto</string>
+    <string name="got_it">COMPREENDI</string>
+    <string name="scan_image_title">Uma forma mais fácil de escanear imagens de qualquer lugar:</string>
+    <string name="scan_image_how_to_1">Selecione a imagem em outros apps e clique no botão \"Compartilhar\"</string>
+    <string name="scan_image_how_to_2">Selecione \"Escanear imagem\"</string>
+    <string name="all_day">Dia todo</string>
+    <string name="copy">Copiar</string>
+    <string name="amazon_shopping">Amazon Shopping</string>
+
+    <string name="save">Salvar</string>
+    <string name="start">Início</string>
+    <string name="location">Localização</string>
+    <string name="share">Compartilhar</string>
+    <string name="description">Descrição</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[Não consegue conectar-se ao Wi-Fi?#\n1. Certifique-se de que você está <b>dentro da área de cobertura do Wi-Fi</b> e que o nome de usuário e senha do Wi-Fi estão corretos.\n\nSe ainda não conseguir se conectar, pergunte para a pessoa que forneceu o código QR se a senha foi alterada.\n\n2. Se o resultado do escaneamento for exibido como texto, você precisará <b>conectar-se manualmente ao Wi-Fi</b> nas configurações de rede do seu celular com base no nome e senha do Wi-Fi fornecidos no texto.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[O código não está sendo lido?#\n1. Para obter um escaneamento preciso, certifique-se de que o código cumpre os requisitos seguintes:\n\t\ta. alto contraste e <b>sem desfoque</b>.\n\t\tb. <b>nenhum reflexo de luz ou sombras</b> no código.\n\t\tc. está <b>completo</b>, sem nenhuma parte faltando.\n\n2. Caso esteja usando um celular mais simples, o escaneamento pode ser muito difícil ou até impossível, devido à baixa qualidade da câmera.\n\nVocê pode tentar tirar uma foto com o app de câmera, depois abrir o nosso app e tocar em \"Escanear a partir da galeria\" para solucionar esse problema.\n\n3. Se, mesmo assim, você não conseguir obter resultados escaneando o código de barras ou QR, envie-nos um e-mail via %sopinião%s e resolveremos o problema para você o mais rápido possível.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[Converter uma foto em um código QR?#\nEsta função será lançada em breve...]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[Está tendo problemas com o link obtido?#\n1. Este app não pode mudar o conteúdo do código QR. Sendo assim, se você não consegue abrir o site, é mais provável que aja um problema com o <b>site em si</b>. Infelizmente, não há nada que possamos fazer a esse respeito.\n\n2. Também é possível que o criador do código QR tenha inserido o <b>link errado</b> ou que o código QR tenha <b>expirado</b>, fazendo com que você não consiga abrir o site. Se possível, você pode tentar confirmar se o código QR está correto com quem o criou.\n\n3. Em particular, alguns links precisam ser abertos em condições especiais, por exemplo, precisam ser abertos usando algum <b>app específico</b>. Siga as instruções de quem disponibilizou o código QR.]]></string>
+    <string name="need_more_information_faq"><![CDATA[Precisa de mais informações?#\nHá uma infinidade de informações e podemos não ser capazes de fornecer as informações que você precisa sempre. Você pode obter mais informações fazendo uma <b>Pesquisar na Web</b>.\n\nSe a Pesquisa na Web não encontrar a informação que você está procurando, pode ser que o próprio código contenha informações limitadas. Pedimos a sua compreensão.]]></string>
+    <string name="scanner_not_working">O scanner não funciona?</string>
+    <string name="view_faq">Veja o FAQ</string>
+    <string name="qr_link_tips_1">Este app apenas ajuda você a ler o link da web (URL) do código QR. Nós não temos sabemos qual é o conteúdo exato do link.</string>
+    <string name="qr_link_tips_2">Caso tenha dúvidas sobre o link, entre em contato com o criador deste código QR para obter mais informações. Obrigado!</string>
+    <string name="tip">Dica</string>
+    <string name="faq">FAQ</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="still_have_problems_1">Ainda tem algum problema</string>
+    <string name="web_search">Pesquisar na Web</string>
+    <string name="avoid_reflections"><![CDATA[Evite <b>reflexos</b> ou <b>sombras</b> de luz no código]]></string>
+    <string name="make_phone_face"><![CDATA[Vire o seu telefone para o código <b>sem incliná-lo</b>]]></string>
+    <string name="point_your_camera">Aponte a sua câmera para o código para escanear automaticamente</string>
+    <string name="product_guide_hint">Alguns produtos ainda não estão cadastrados na biblioteca de produtos. Você pode tocar em Pesquisar na Web para obter mais informações sobre o produto.</string>
+    <string name="search_for_more_information">Toque em Pesquisar na Web para obter mais informações</string>
+
+    <string name="hint_title">Título</string>
+    <string name="result_email_address">E-mail</string>
+    <string name="result_tel">Tel</string>
+    <string name="enter_your_youtube_channel_id">Insira o ID de canal do Youtube</string>
+    <string name="enter_youtube_url">Insira o URL do Youtube</string>
+    <string name="saved_to_gallery">Salvo na galeria</string>
+    <string name="toast_text_null">Insira o conteúdo primeiro</string>
+    <string name="ok">OK</string>
+    <string name="no_history">Sem histórico</string>
+    <string name="channel_id">ID de canal</string>
+    <string name="enter_youtube_video_id">Insira o ID de vídeo do Youtube</string>
+    <string name="video_id">ID de vídeo</string>
+
+    <string name="rename">Renomear</string>
+    <string name="search">Pesquisar</string>
+    <string name="td_tip">Dica</string>
+    <string name="no_thanks_1">Não, obrigado</string>
+    <string name="try_now_button">Experimente</string>
+    <string name="barcode_scan_fail_tip">Se o escaneamento falhar, você pode tentar inserir o número do código de barras manualmente para pesquisar.</string>
+    <string name="input_invalid_no_content_tip">Por favor, insira os números</string>
+    <string name="result_bar_code">Código de barras</string>
+
+    <string name="amazon">Amazon</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/main"
+    tools:context=".page.WelcomeActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/png_welcome_image"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@id/layout_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_bg"
+        app:layout_constraintVertical_weight="1">
+
+        <Space
+            android:id="@+id/space_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_welcome"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_weight="32" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_welcome"
+            style="@style/FontBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="@dimen/cm_dp_40"
+            android:text="Welcome"
+            android:textColor="#031C36"
+            android:textSize="@dimen/cm_sp_36"
+            app:layout_constraintBottom_toTopOf="@id/space_2"
+            app:layout_constraintTop_toBottomOf="@id/space_1" />
+
+        <Space
+            android:id="@+id/space_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_desc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_welcome"
+            app:layout_constraintVertical_weight="14" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_desc"
+            style="@style/FontRegular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="@dimen/cm_dp_18"
+            android:text="Simple, fast QR code reader &amp; barcode scanner"
+            android:textColor="#7C8C9E"
+            android:textSize="@dimen/cm_sp_16"
+            app:layout_constraintBottom_toTopOf="@id/space_3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/space_2"
+            app:layout_constraintWidth_percent="0.8" />
+
+        <Space
+            android:id="@+id/space_3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_continue"
+            app:layout_constraintTop_toBottomOf="@id/tv_desc"
+            app:layout_constraintVertical_weight="66" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_continue"
+            style="@style/FontBlack"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/cm_dp_56"
+            android:background="@drawable/bg_button_state_enable"
+            android:gravity="center"
+            android:text="Continue"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/cm_sp_20"
+            app:layout_constraintBottom_toTopOf="@id/space_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/space_3"
+            app:layout_constraintWidth_percent="0.88" />
+
+        <Space
+            android:id="@+id/space_4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_privacy"
+            app:layout_constraintTop_toBottomOf="@id/tv_continue"
+            app:layout_constraintVertical_weight="20" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_privacy"
+            style="@style/FontRegular"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="@dimen/cm_dp_15"
+            android:textColor="#7C8C9E"
+            android:textSize="@dimen/cm_sp_12"
+            app:layout_constraintBottom_toTopOf="@id/space_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/space_4"
+            app:layout_constraintWidth_percent="0.8"
+            tools:text="By tapping Continue, you indicate that you have read" />
+
+        <Space
+            android:id="@+id/space_5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_privacy"
+            app:layout_constraintVertical_weight="15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

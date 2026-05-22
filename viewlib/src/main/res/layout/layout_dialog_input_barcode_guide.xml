@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog_bottom">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/qr_dp_24">
+
+        <LinearLayout
+            android:id="@+id/layout_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_scan_barcode_tips" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                style="@style/FontBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/qr_dp_8"
+                android:text="@string/td_tip"
+                android:textColor="@color/dialog_text_first"
+                android:textSize="@dimen/qr_sp_20" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_content"
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/qr_sp_16"
+            android:text="@string/barcode_scan_fail_tip"
+            android:textColor="@color/dialog_text_first"
+            android:textSize="@dimen/qr_sp_16"
+            app:layout_constraintTop_toBottomOf="@id/layout_title" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_positive"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/qr_dp_60"
+            android:layout_marginTop="@dimen/qr_dp_30"
+            android:background="@drawable/bg_ripple_corner_12"
+            android:backgroundTint="@color/themeColor"
+            android:gravity="center"
+            android:text="@string/try_now_button"
+            android:textColor="@color/dialog_text_button_positive"
+            android:textSize="@dimen/qr_sp_20"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_negative"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/qr_dp_60"
+            android:layout_marginTop="@dimen/qr_dp_20"
+            android:background="@drawable/bg_ripple_corner_12"
+            android:backgroundTint="@color/themeColor"
+            android:gravity="center"
+            android:text="@string/no_thanks_1"
+            android:textColor="@color/dialog_text_button_positive"
+            android:textSize="@dimen/qr_sp_20"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/tv_positive" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

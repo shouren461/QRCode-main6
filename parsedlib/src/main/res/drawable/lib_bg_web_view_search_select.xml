@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke
+        android:width="@dimen/qr_dp_2"
+        android:color="@color/themeColor" />
+    <solid android:color="@color/web_view_search_item_bg" />
+    <corners android:radius="@dimen/qr_dp_6" />
+</shape>

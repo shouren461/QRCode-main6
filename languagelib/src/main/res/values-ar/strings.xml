@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <string name="purchased_failed">خدمة Google المدفوعة غير متاحة حاليًا أو غير متاحة في بلدك، يمكنك الاستمرار في استخدام التطبيق باستثناء الدفع لإزالة الإعلانات.</string>
+    <string name="purchased_failed_title">تعذَّر الشراء</string>
+    <string name="fb_thx_feedback_tip">سنصلح هذا المشكل في الإصدار القادم. معذرة عن الاإزعاج.</string>
+    <string name="fb_thx_feedback_title">شكرا على تعقيبك</string>
+    <string name="fb_ok">تم</string>
+    <string name="fb_button_cancel">إلغاء</string>
+    <string name="fb_btn_submit">إرسال</string>
+    <string name="fb_please_tell_more">يرجى إبلاغنا بمزيد من التفاصيل حتى نتمكن من تحديد مشكلتك وحلها بشكل أسرع (على الأقل %s حرفًا)</string>
+    <string name="fb_tell_us_your_problem">أخبرنا بالمشكلة التي واجهتها</string>
+    <string name="fb_type">النوع</string>
+    <string name="fb_choose_to_submit">يرجى اختيار عنصر واحد للإرسال</string>
+    <string name="button_cancel">إلغاء</string>
+    <string name="action_ok">حسنا</string>
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+    <!-- ================================================== ViewLib ================================================== -->
+
+
+
+
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <string name="parse_format_title_email_address">البريد الإلكتروني</string>
+    <string name="parse_format_title_geo">الموقع</string>
+    <string name="parse_result_content_geo">الموقع الجغرافي:</string>
+    <string name="parse_format_title_barcode">باركود</string>
+    <string name="parse_format_title_isbn">كتاب</string>
+    <string name="parse_format_title_product">منتج</string>
+    <string name="parse_format_title_wifi">Wi-Fi</string>
+    <string name="parse_format_title_tel">الهاتف</string>
+    <string name="parse_format_title_sms">رسالة نصية قصيرة</string>
+    <string name="parse_format_title_text">نص</string>
+    <string name="parse_format_title_address_book">جهات الاتصال</string>
+    <string name="parse_format_title_uri">الرابط</string>
+    <string name="parse_format_title_calendar">التقويم</string>
+    <string name="parse_action_title_add_contacts">إضافة إلى جهات الاتصال</string>
+    <string name="parse_action_title_add_event">إضافة إلى الفعاليات</string>
+    <string name="parse_result_content_lng">خط الطول:</string>
+    <string name="parse_result_content_lat">خط العرض:</string>
+    <string name="parse_action_title_navigation">ملاحة</string>
+    <string name="parse_action_title_copy">نسخ</string>
+    <string name="parse_action_title_history_price">سجل الأسعار</string>
+    <string name="parse_result_content_tel">الهاتف:</string>
+    <string name="parse_action_title_call">اتصل</string>
+    <string name="parse_result_content_email">البريد الإلكتروني:</string>
+    <string name="parse_result_content_name">الاسم:</string>
+    <string name="parse_result_content_address">العنوان:</string>
+    <string name="parse_result_content_nickname">الاسم المستعار:</string>
+    <string name="parse_result_content_org">الشركة:</string>
+    <string name="parse_result_content_title">اللقب:</string><!-- 可能有问题 -->
+    <string name="parse_result_content_birthday">يوم الميلاد:</string>
+    <string name="parse_result_content_to">إلى:</string>
+    <string name="parse_result_content_cc">نسخة مطابقة:</string>
+    <string name="parse_result_content_bcc">نسخة مطابقة مخفية:</string>
+    <string name="parse_result_content_subject">الموضوع:</string>
+    <string name="parse_result_content_body">المحتوى:</string>
+    <string name="parse_result_content_ssid">اسم الشبكة:</string>
+    <string name="parse_result_content_type">نوع الأمن:</string>
+    <string name="parse_action_title_show_on_map">اعرضه على الخريطة</string>
+    <string name="parse_action_title_open">فتح</string>
+    <string name="parse_action_title_copy_password">نسخ كلمة المرور</string>
+    <string name="lh_button_ok">تم</string>
+    <string name="parse_action_title_share">مشاركة</string>
+    <string name="parse_result_content_password">كلمة السر:</string>
+    <string name="parse_result_content_url">الرابط:</string>
+    <string name="parse_result_content_start">ابدأ:</string>
+    <string name="parse_result_content_end">النهايه:</string>
+    <string name="parse_result_content_note">المفكره:</string>
+    <string name="parse_result_content_summary">الموضوع:</string>
+    <string name="parse_action_title_product_search">بحث عن منتجات</string>
+    <string name="parse_action_title_book_search">بحث في الكتب</string>
+    <string name="parse_action_title_web_search">بحث في الويب</string>
+    <string name="parse_action_title_send_sms">إرسال SMS</string>
+    <string name="parse_action_title_send_mms">إرسال MMS</string>
+    <string name="parse_action_title_send_email">إرسال البريد الإلكتروني</string><!-- 根据翻译和开原文字有改动 -->
+    <string name="parse_action_title_nutrient_analyse">التحليل الغذائي</string>
+    <string name="parse_action_title_shop_now">تسوّق الآن</string>
+    <string name="lh_intent_failed">عفوا، تعذر تشغيل التطبيق المطلوب.</string>
+    <string name="parse_action_title_connect_to_network">اتصال بشبكة Wi-Fi</string>
+    <string name="lh_manually_connect_wifi"><![CDATA[نظرًا لقيود النظام، تحتاج الأجهزة التي تعمل بنظام Android 10 والإصدارات الأحدث إلى الاتصال <b>يدويًا</b> بشبكة Wi-Fi]]></string>
+    <string name="lh_choose_wifi">اختر شبكة Wi-Fi للاتصال بها</string>
+    <string name="lh_paste_password">الصق كلمة المرور (تم نسخها تلقائيًا)</string>
+    <string name="lh_wifi_disabled">شبكة Wi-Fi معطلة</string>
+    <string name="lh_wifi_disabled_des">للاتصال بشبكة Wi-Fi، تحتاج إلى تمكينها أولاً.</string>
+    <string name="lh_enable_wifi">تمكين Wi-Fi</string>
+    <string name="lh_tip">تفريف</string>
+    <string name="lh_open_wifi_settings">فتح إعدادات Wi-Fi</string>
+    <string name="lh_required_permission_1">1.إعدادات المفتوحة</string>
+    <string name="lh_required_permission_2">2.أذونات الحنفية</string>
+    <string name="lh_required_permission_turn_on_storage">3.قم بتشغيل التخزين</string>
+    <string name="lh_button_cancel">إلغاء</string>
+
+    <string name="action_copy">نسخ الرابط</string>
+    <string name="copied_to_clipboard">تم النسخ إلى الحافظة</string>
+    <string name="different_engine_more_info">جرّب محركات بحث مختلفة للحصول على المزيد من المعلومات المفيدة!</string>
+    <string name="no_internet_des">لا يوجد اتصال بالإنترنت. يرجى إعادة المحاولة لاحقًا.</string>
+    <string name="x_link_open">تم اكتشاف رابط %s، هل تريد فتحه؟</string>
+
+    <string name="parse_action_view_in_store">عرض في المتجر</string>
+    <string name="parse_action_title_rakuten">Rakuten</string>
+    <string name="parse_action_title_amazon">أمازون</string>
+    <string name="parse_action_title_ebay">eBay</string>
+    <string name="parse_action_title_yahoo">Yahoo!</string>
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+    <!-- ================================================== ParsedLib ================================================== -->
+
+    <string name="loading">تحميل ...</string>
+    <string name="free_space_to_ensure">يرجى تحرير بعض المساحة لضمان عمل التطبيق بشكل صحيح.</string>
+    <string name="free_space_needed">المساحة الخالية المطلوبة: %s (مستحسن)</string>
+    <string name="free_up_space">تحرير المساحة</string>
+    <string name="no_enough_storage">التخزين غير كافي</string>
+    <string name="remaining_space">المساحة المتبقية: %s</string>
+    <string name="click_share_option">1. حدد النص في التطبيقات الأخرى واضغط زر \&#34;مشاركة\&#34;</string>
+    <string name="then_select_generate">2. حدد \&#34;%s\&#34;</string>
+    <string name="use_share">استخدام خيار \&#34;مشاركة\&#34; لإنشاء رمز QR</string>
+    <string name="location">الموقع</string>
+    <string name="save">حفظ</string>
+    <!-- 翻译已确认 -->
+    <string name="start">البداية</string>
+    <!-- 语音提示的意思，跟beep不一致，但是作为标题可以 -->
+    <!-- read的意思，不过跟标题对应了 -->
+    <string name="copy">نسخ</string>
+    <string name="description">الوصف</string>
+    <string name="all_day">طوال اليوم</string>
+    <string name="qr_code_not_found">لم يُعثر على كود QR/باركود</string>
+    <string name="album_permission_hint">إذن معرض الصور مطلوب لقراءة كود QR/ باركود في معرض الصور.</string>
+    <string name="required_permission_turn_on_camera">3.قم بتشغيل الكاميرا</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="camera_permission_des">إذن الكاميرا مطلوب لقراءة كود QR/ رموز الباركود.</string>
+    <string name="storage_permission_save_images">مطلوب إذن التخزين لحفظ الصور.</string>
+    <string name="feedback">الملاحظات</string>
+    <string name="delete_sure">هل أنت متأكد أنك تريد الحذف؟</string>
+    <string name="clear_history">مسح السجل</string>
+    <string name="share">مشاركة</string>
+    <string name="why_need_permissions">لماذا نريد الأذون؟</string>
+    <string name="permission_required">يحتاج الإذن</string>
+    <string name="required_permission_1">1.إعدادات المفتوحة</string>
+    <string name="required_permission_2">2.أذونات الحنفية</string>
+    <string name="required_permission_turn_on_storage">3.قم بتشغيل التخزين</string>
+    <string name="open_settings">إعدادات المفتوحة</string>
+    <string name="td_feedback_email_title">ملاحظات حول %s</string>
+    <string name="qr_code_not_found_hint">تأكد من أن كود QR/الباركود واضح وأنه ضمن حدود الإطار بالكامل</string>
+    <string name="msg_intent_failed">عفوا، تعذر تشغيل التطبيق المطلوب.</string>
+    <string name="tap_again_to_exit">انقر مرة أخرى للخروج</string>
+    <string name="camera_problem_restart">عفوا، حدثت مشكلة في كاميرا جهاز Android. يرجى مراجعة وإعادة تشغيل التطبيق.</string>
+    <string name="good">جيد</string>
+    <string name="not_good">ليس صحيحًا</string>
+    <string name="satisfied_scan_ask">هل أنت راضٍ عن نتائج المسح الضوئي؟</string>
+    <string name="browse_from_gallery">اختيار من المعرض</string>
+    <string name="capture">التقاط صورة</string>
+    <string name="got_it">فهمت</string>
+    <string name="scan_image_title">طريقة أسهل لمسح الصور ضوئيًا من أي مكان:</string>
+    <string name="scan_image_how_to_1">حدد الصورة في التطبيقات الأخرى واضغط على زر \"مشاركة\"</string>
+    <string name="scan_image_how_to_2">حدد \"مسح الصورة ضوئيًا\"</string>
+    <string name="search_for_more_information">اضغط بحث في الويب لمزيد من المعلومات</string>
+    <string name="cannot_connect_to_wifi_faq"><![CDATA[لا يمكن الاتصال بشبكة Wi-Fi؟#\n1. هذا التطبيق $يمكنه قراءة المعلومات من رموز الاستجابة السريعة فقط$$. إذا كنت ترغب في الوصول إلى شبكة Wi-Fi الخاصة بصديقك، يرجى الحصول على معلومات شبكة Wi-Fi منه/منها مباشرةً.\n\n2. تأكد من أنك $داخل منطقة تغطية شبكة Wi-Fi$$، وأن اسم مستخدم شبكة Wi-Fi وكلمة المرور صحيحين.\n\nإذا كنت لا تزال غير قادر على الاتصال، يرجى سؤال مزود رمز الاستجابة السريعة عما إذا كان قد تم تغيير كلمة المرور.\n\n3. إذا تم عرض نتيجة المسح الضوئي كنص، فأنت بحاجة إلى $الاتصال يدويًا بشبكة Wi-Fi$$ في إعدادات شبكة هاتفك باستخدام اسم Wi-Fi وكلمة المرور المتوفرين في النص.]]></string>
+    <string name="code_cannot_be_read_faq"><![CDATA[لا يمكن قراءة الرمز؟#\n1. من أجل الحصول على نتائج مسح ضوئي دقيقة، يرجى التأكد من أن الرمز يفي بالخصائص التالية:\n\t\tأ. التباين الغني وأن يكون $غير ضبابي$$.\n\t\tب. $عدم وجود انعكاسات ضوئية أو ظلال $$ على الرمز.\n\t\tج. $كامل$$، مع عدم وجود أجزاء مفقودة.\n\n2. إذا كنت تستخدم هاتفًا منخفض الجودة، فقد يكون المسح الضوئي صعبًا للغاية أو حتى مستحيلًا بسبب جودة الكاميرا المنخفضة.\n\nيمكنك محاولة التقاط صورة باستخدام تطبيق الكاميرا، ثم فتح تطبيقنا وضغط \"مسح ضوئي من المعرض\" لحل هذه المشكلة.\n\n3. إذا كان لا يزال يعتذّر عليك الحصول على النتيجة عند مسح الرمز الشريطي أو رمز الاستجابة السريعة ضوئيًا، يرجى إرسال بريد رسالة إلينا عبر البريد الإلكتروني  %s الملاحظات  %s وسنحل المشكلة في أقرب وقت ممكن.]]></string>
+    <string name="convert_picture_to_qr_code_faq"><![CDATA[تحويل صورة إلى رمز استجابة سريعة؟#\nسيتم إطلاق الوظيفة قريبًا...]]></string>
+    <string name="have_problem_with_the_link_faq"><![CDATA[لديك مشكلة في الرابط الذي حصلت عليه؟#\n1. لا يمكن لهذا التطبيق تغيير محتوى رمز الاستجابة السريعة، لذلك إذا لم تتمكن من فتح موقع الويب، فمن الأرجح أن هناك مشكلة في $موقع الويب نفسه$$. لسوء الحظ، لا يوجد شيء يمكننا القيام به حيال ذلك.\n\n2. من الممكن أيضًا أن يكون منشئ رمز الاستجابة السريعة قد أدخل $رابطًا خاطئًا $$ أو أن رمز الاستجابة السريعة $انتهت صلاحيته $$، وهذا يتسبب في عدم قدرتك على فتح موقع الويب. إذا أمكن، يمكنك محاولة تأكيد صحة رمز الاستجابة السريعة مع المنشئ.\n\n3. على وجه الخصوص، يجب فتح بعض روابط الويب في ظل ظروف خاصة، على سبيل المثال، يجب فتحها باستخدام $تطبيق معين$$. يرجى اتباع تعليمات مزود رمز الاستجابة السريعة.]]></string>
+    <string name="need_more_information_faq"><![CDATA[تحتاج المزيد من المعلومات؟#\nهناك الكثير من المعلومات وقد لا نتمكن من توفير المعلومات التي تريدها في كل مرة. يمكنك التحقق من المزيد من المعلومات من خلال $بحث في الويب$$.\n\nإذا كان بحث في الويب لا يزال غير قادر على مساعدتك في العثور على المعلومات التي تبحث عنها، فقد يكون السبب هو أن الرمز نفسه يحتوي على معلومات محدودة. يرجى أخذ ذلك في الاعتبار.]]></string>
+    <string name="scanner_not_working">الماسح الضوئي لا يعمل؟</string>
+    <string name="view_faq">عرض الأسئلة الشائعة</string>
+    <string name="qr_link_tips_1">يمكن أن يساعدك هذا التطبيق فقط في قراءة رابط الويب (URL) من رمز الاستجابة السريعة، نحن لا نعرف المحتوى الدقيق لرابط الويب.</string>
+    <string name="qr_link_tips_2">إذا كانت لديك أي أسئلة حول الرابط، يرجى الاتصال بمالك رمز الاستجابة السريعة هذا للحصول على مزيد من المعلومات، شكرًا لك!</string>
+    <string name="tip">تفريف</string>
+    <string name="avoid_reflections"><![CDATA[تجنب <b>انعكاسات</b> الضوء أو <b>الظلال</b> على الرمز]]> </string>
+    <string name="make_phone_face">ا<![CDATA[جعل هاتفك مواجهًا للرمز <b>بدون إمالة</b>]]></string>
+    <string name="point_your_camera">وجّه الكاميرا إلى الرمز لإجراء المسح التلقائي</string>
+    <string name="product_guide_hint">لم يتم إدخال بعض المنتجات في مكتبة المنتجات حتى الآن. يمكنك ضغط بحث في الويب للحصول على معلومات أكثر عن المنتج.</string>
+    <string name="faq">التعليمات</string>
+    <string name="retry">إعادة محاولة</string>
+    <string name="still_have_problems_1">لا تزال لديك مشاكل</string>
+    <string name="web_search">بحث في الويب</string>
+    <string name="amazon_shopping">التسوق على أمازون</string>
+    <string name="generate_qr_code">إنشاء رمز QR</string>
+    <string name="result_bar_code">باركود</string>
+
+    <string name="search">بحث</string>
+    <string name="td_tip">نصيحه</string>
+    <string name="no_thanks_1">لا شكرًا</string>
+    <string name="try_now_button">جرّب الآن</string>
+    <string name="barcode_scan_fail_tip">في حال فشل المسح، يُمكنك تجربة إدخال رقم الباركود يدويًا للبحث.</string>
+    <string name="input_invalid_no_content_tip">يُرجى إدخال الرقم</string>
+
+    <string name="hint_title">العنوان</string>
+    <string name="result_email_address">البريد الإلكتروني</string>
+    <string name="result_tel">الهاتف</string>
+    <string name="enter_your_youtube_channel_id">أدخل معرّف قناة Youtube</string>
+    <string name="enter_youtube_url">أدخل رابط Youtube</string>
+    <string name="saved_to_gallery">تم الحفظ في معرض الصور</string>
+    <string name="toast_text_null">يرجى إدخال المحتوى أولاً</string>
+    <!-- 可能有问题 -->
+    <string name="ok">تم</string>
+    <string name="no_history">لا سجلات</string>
+    <string name="channel_id">معرّف القناة</string>
+    <string name="enter_youtube_video_id">أدخل معرّف فيديو Youtube</string>
+    <string name="video_id">معرّف الفيديو</string>
+
+    <string name="rename">إعادة تسمية</string>
+
+
+    <string name="amazon">أمازون</string>
+    <string name="ebay">eBay</string>
+    <string name="platform_flipkart_gpt">Flipkart</string>
+    <string name="platform_hepsiburada_gpt">Hepsiburada</string>
+    <string name="platform_jiji_gpt">Jiji</string>
+    <string name="platform_jumia_gpt">Jumia</string>
+    <string name="platform_konga_gpt">Konga</string>
+    <string name="platform_lazada_gpt">Lazada</string>
+    <string name="platform_meesho_gpt">Meesho</string>
+    <string name="platform_mercado_libre_gpt">Mercado Libre</string>
+    <string name="platform_miswag_gpt">Miswag</string>
+    <string name="platform_otto_gpt">OTTO</string>
+    <string name="platform_rakuten_gpt">Rakuten</string>
+    <string name="platform_walmart_gpt">Walmart</string>
+    <string name="platform_yahoo_gpt">Yahoo!</string>
+    <string name="shopee">Shopee</string>
+    <string name="tiktok">TikTok</string>
+    <string name="platform_trendyol_gpt">Trendyol</string>
+</resources>
