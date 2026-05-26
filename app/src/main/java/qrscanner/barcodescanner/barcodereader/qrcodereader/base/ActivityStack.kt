@@ -7,9 +7,7 @@ import com.drojian.qrcode.utillib.log.LogHelper.log
 import qrscanner.barcodescanner.barcodereader.qrcodereader.page.MainActivity
 import java.util.Stack
 
-/**
- * Activity 栈管理类，负责监控应用内所有 Activity 的状态
- */
+//Activity栈管理类，负责监控应用内所有Activity的状态
 object ActivityStack {
     //存储Activity类名的栈
     private val stack = Stack<String>()
