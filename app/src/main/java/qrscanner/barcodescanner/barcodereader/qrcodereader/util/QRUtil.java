@@ -13,15 +13,10 @@ import com.google.zxing.client.result.ParsedResultType;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.R;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.page.create.result.CreateType;
 
-/**
- * 二维码/条形码工具类
- * 提供关于类型识别、图标获取、名称解析以及格式判断等通用功能
- */
+//二维码/条形码工具类  ->提供关于类型识别，图标获取，名称解析以及格式判断等通用功能
 public class QRUtil {
 
-    /**
-     * 根据解析格式和扫描结果获取对应的图标资源 ID
-     */
+    //根据解析格式和扫描结果获取对应的图标资源ID
     public static int getResultIcon(ParsedFormat type, ScanResultModel result) {
         if (null == type || null == result) {
             // 默认返回商品条码图标
@@ -42,9 +37,7 @@ public class QRUtil {
 
     }
 
-    /**
-     * 获取扩展类型图标（识别特定的域名或协议，如 Facebook, YouTube）
-     */
+    //获取扩展类型图标(识别特定的域名或协议,如YouTube,日历等)
     private static int getSecondIcon(ParsedFormat type, ScanResultModel result) {
         if (result.getText().toLowerCase().contains("facebook.com") || result.getText().toLowerCase().contains("fb://profile/")) {
             return R.drawable.ic_creat_facebook;
@@ -60,16 +53,12 @@ public class QRUtil {
         }
     }
 
-    /**
-     * 获取二维码种类的名称资源 ID
-     */
+    //获取二维码种类的名称资源ID
     public static int getResultName(ParsedFormat type, ScanResultModel result) {
         if (null == type || null == result) {
             return R.string.result_bar_code;
         }
         switch (type) {
-            case TEL:
-                return R.string.result_tel;
             case URI:
                 // 处理特定域名的显示名称
                 return getSecondName(ParsedResultType.URI, result);
@@ -83,10 +72,7 @@ public class QRUtil {
                 }
         }
     }
-
-    /**
-     * 获取扩展类型名称资源 ID
-     */
+    //获取扩展类型名称资源ID
     private static int getSecondName(ParsedResultType type, ScanResultModel result) {
         if (result.getText().toLowerCase().contains("facebook.com") || result.getText().toLowerCase().contains("fb://profile/")) {
             return R.string.facebook;
@@ -101,22 +87,16 @@ public class QRUtil {
         }
     }
 
-
-    /**
-     * 根据分类文本字符串获取对应的枚举类型
-     */
-    public static CreateType getCategoryByCategoryText(String categoty) {
-        if (categoty.equalsIgnoreCase("Calendar")) {
+    //获取分类文本字符串获取对应的枚举类型
+    public static CreateType getCategoryByCategoryText(String category) {
+        if (category.equalsIgnoreCase("Calendar")) {
             return CreateType.CALENDAR;
-        } else if (categoty.equalsIgnoreCase("Youtube")) {
+        } else if (category.equalsIgnoreCase("Youtube")) {
             return CreateType.YOUTUBE;
         }
         return CreateType.YOUTUBE; // 默认返回 YouTube
     }
-
-    /**
-     * 根据分类文本字符串获取对应的图标
-     */
+    //根据分类文本字符串获取对应的图标
     public static int getIconByCategoryText(String categoty) {
         if (categoty.equalsIgnoreCase("Calendar")) {
             return R.drawable.vector_ic_result_calendar;
@@ -126,9 +106,7 @@ public class QRUtil {
         return R.drawable.vector_ic_result_text;
     }
 
-    /**
-     * 判断扫描结果是否为“广义”的二维码（包括 QR, Data Matrix, Aztec 等二维格式）
-     */
+    //判断扫描结果是否为"广义"的二维码(包括QR,Data Matrix,Aztec等二维码格式)
     public static boolean isQRCode(ScanResultModel result) {
         BarcodeFormat barcodeFormat = ZXingFormatUtil.conversion(result.getCodeFormat());
         if (null == barcodeFormat) {
@@ -145,10 +123,7 @@ public class QRUtil {
         return false;
     }
 
-    /**
-     * 提取 URL 的主域名部分，用于精简显示
-     * 例如将 https://www.google.com/search?q=... 缩短为 https://www.google.com
-     */
+    //提取URL的主域名部分，用于精简显示  ->例如将https://www.google.com/serach?q=... 缩短为https://www.google.com
     public static String getDomainName(@Nullable String url) {
         if (url == null || url.isEmpty()) {
             return "";
@@ -166,12 +141,7 @@ public class QRUtil {
         }
     }
 
-
-    /**
-     * 粗略逻辑：根据输入数字的长度，猜测试图生成的条形码类型
-     * @param content 输入内容
-     * @return 对应的 BarcodeFormat 格式
-     */
+    //粗略逻辑:根据输入数字的长度，猜测师徒生成的条形码类型  ->@param context 输入内容 @retuen 对应的BarCodeFormat格式
     public static BarcodeFormat getBarcodeType(String content) {
         int lengthInput = content.length();
         switch (lengthInput) {
@@ -188,10 +158,7 @@ public class QRUtil {
                 return BarcodeFormat.CODE_128;
         }
     }
-
-    /**
-     * 判断是否为正方形/矩形的二维条码（而非窄长的条形码）
-     */
+    //判断是否为正方形/矩形的二维条码(而非窄长的条形码)
     public static boolean isSquareBarcode(CodeFormat codeFormat) {
         if (codeFormat == null) {
             return false;

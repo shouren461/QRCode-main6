@@ -11,10 +11,8 @@ import qrscanner.barcodescanner.barcodereader.qrcodereader.base.BaseFragment;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.page.create.input.BaseCreateActivity;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.page.create.result.CreateType;
 
-/**
- * “创建”页面的 Fragment
- * 展示不同类型的二维码创建入口列表（如 URL、WiFi、联系人等）
- */
+
+//创建页面的Fragment ->展示不同类型的二维码创建入口列表(如YouTube,日历等)
 public class CreateFragment extends BaseFragment implements CreateItemClickListener {
 
 
@@ -27,10 +25,7 @@ public class CreateFragment extends BaseFragment implements CreateItemClickListe
     protected void initData() {
         // 目前不需要初始化额外数据
     }
-
-    /**
-     * 初始化视图，配置 RecyclerView 列表
-     */
+    //初始化视图，配置RecyclerView列表
     @Override
     protected void initView(View root) {
         RecyclerView recyclerView = root.findViewById(R.id.rcv_creat);
@@ -45,9 +40,7 @@ public class CreateFragment extends BaseFragment implements CreateItemClickListe
         enableInsetsViewTop(root.findViewById(R.id.main));
     }
 
-    /**
-     * 当 Fragment 显示给用户时触发
-     */
+    //当Fragment显示给用户时触发
     @Override
     protected void iAmShowing() {
         super.iAmShowing();
@@ -56,10 +49,7 @@ public class CreateFragment extends BaseFragment implements CreateItemClickListe
             new WindowInsetsControllerCompat(getActivity().getWindow(), getActivity().getWindow().getDecorView()).setAppearanceLightStatusBars(true);
         }
     }
-
-    /**
-     * 列表项点击回调：根据选中的类型跳转到对应的输入页面
-     */
+    //列表项点击回调:根据选中的类型跳到对应的输入页面
     @Override
     public void onCreateItemClick(int position, CreateType type) {
         // 调用统一的启动方法，内部会根据 type 跳转到不同的 Activity

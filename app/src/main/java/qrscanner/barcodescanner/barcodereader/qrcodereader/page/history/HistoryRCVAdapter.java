@@ -26,14 +26,10 @@ import qrscanner.barcodescanner.barcodereader.qrcodereader.data.db.HistoryItem;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.util.QRUtil;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.util.ResultFormatUtil;
 
-
-/**
- * 扫描历史列表的适配器
- * 负责将数据库中的原始扫描记录（HistoryItem）转换为带图标、类型名称和预览内容的视图模型（HistoryItemViewModel）并渲染
- */
+//扫描历史列表的适配器 ->负责将数据库中的原始扫描记录（HistoryItem）转换为
+//                     带图标、类型名称和预览内容的视图模型（HistoryItemViewModel）并渲染
 public class HistoryRCVAdapter extends RecyclerView.Adapter {
-    private LayoutInflater layoutInflater;
-
+    private LayoutInflater layoutInflater; //布局加载器
     private OnItemClickListener listener; // 列表项点击和状态切换的回调
     private Activity activity;
     private int selectModel = HistoryFragment.SELECT_MODEL_NORMAL; // 当前选择模式（普通或多选编辑）
@@ -45,17 +41,13 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
         this.layoutInflater = LayoutInflater.from(context);
     }
 
-    /**
-     * 设置数据源：将数据库实体转换为 UI 专用的 ViewModel
-     */
+    //设置数据源:将数据库实体转换成UI 专用的ViewModel
     public void setData(Activity activity, List<HistoryItem> historyItemList) {
         retrofitData(activity, historyItemList);
         notifyDataSetChanged();
     }
 
-    /**
-     * 切换选择模式（普通模式 vs 编辑模式）
-     */
+    //切换选择模式(普通模式/选择模式)
     public void setSelectModel(int selectModel) {
         if (this.selectModel != selectModel) {
             this.selectModel = selectModel;
@@ -66,10 +58,7 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
             notifyDataSetChanged();
         }
     }
-
-    /**
-     * 全选或全取消逻辑
-     */
+    //全选或取消全选逻辑
     public void selectAll() {
         boolean isAllSelected = true;
         // 先检查是否已经全选
@@ -86,9 +75,7 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
         notifyDataSetChanged();
     }
 
-    /**
-     * 获取当前被选中的项在列表中的位置索引
-     */
+    //获取当前被选中的项在列表中的位置索引
     public List<Integer> getSelectedItemPositionList() {
         List<Integer> selectedItemPositionList = new ArrayList<>();
         if (historyItemViewModelList != null && !historyItemViewModelList.isEmpty()) {
@@ -101,9 +88,7 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
         return selectedItemPositionList;
     }
 
-    /**
-     * 获取当前选中的项总数
-     */
+    //获取当前选中项总数
     public int getSelectedItemCount() {
         if (historyItemViewModelList == null || historyItemViewModelList.isEmpty()) {
             return 0;
@@ -117,9 +102,7 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
         return count;
     }
 
-    /**
-     * 数据加工：将数据库原始 Data 转化为 UI 展示所需的 Model
-     */
+    //数据加工:将数据库原始data 转化为UI展示所需的Model
     private void retrofitData(Activity activity, List<HistoryItem> historyItemList) {
         historyItemViewModelList = new ArrayList<>(historyItemList.size());
 
@@ -160,29 +143,31 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
         if (viewHolder instanceof HistoryViewHolder) {
             final HistoryViewHolder historyViewHolder = (HistoryViewHolder) viewHolder;
 
-            // 长按事件：如果在普通模式下长按，则进入编辑模式并选中当前项
+            //1，长按事件：如果在普通模式下长按，则进入编辑模式并选中当前项
             viewHolder.itemView.setOnLongClickListener(view -> {
                 int itemPosition = historyViewHolder.getAdapterPosition();
                 if (itemPosition < 0) {
                     itemPosition = 0;
                 }
+                //1.1,普通模式下长按:进入编辑模式并选中当前项
                 if (selectModel == HistoryFragment.SELECT_MODEL_NORMAL) {
                     selectModel = HistoryFragment.SELECT_MODEL_SELECTED;
 
                     for (HistoryItemViewModel historyItemViewModel : historyItemViewModelList) {
+                        //1.2,先取消所有选中项的状态
                         historyItemViewModel.isSelected = false;
                     }
                     if (itemPosition < historyItemViewModelList.size()) {
+                        //1.3,选中当前项
                         historyItemViewModelList.get(itemPosition).isSelected = true;
                     }
                     notifyDataSetChanged();
-
-                    // 通知外部 Fragment 更新顶部菜单 UI
+                    //1.4,通知外部Fragment更新顶菜单UI
                     if (listener != null) {
                         listener.onItemSelectModeChanged(HistoryFragment.SELECT_MODEL_SELECTED);
                     }
                 } else {
-                    // 如果已经是编辑模式，长按等同于反选
+                    //如果已经是编辑模式，长按等同于反选
                     if (itemPosition < historyItemViewModelList.size()) {
                         historyItemViewModelList.get(itemPosition).isSelected = !historyItemViewModelList.get(itemPosition).isSelected;
                         notifyItemChanged(itemPosition);
@@ -191,39 +176,40 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
                 return true;
             });
 
-            // 点击事件逻辑
+            //2,,点击事件逻辑
             viewHolder.itemView.setOnClickListener(view -> {
                 int itemPosition = historyViewHolder.getAdapterPosition();
                 if (itemPosition < 0) {
                     itemPosition = 0;
                 }
                 if (selectModel == HistoryFragment.SELECT_MODEL_NORMAL) {
-                    // 普通模式点击：查看详情或跳转结果页
+                    //2.1 普通模式下点击查看详情或者跳转到结果页
                     if (listener != null && itemPosition < historyItemViewModelList.size()) {
                         listener.onItemClick(itemPosition, historyItemViewModelList.get(itemPosition).historyItem);
                     }
                 } else {
-                    // 编辑模式点击：切换勾选状态
+                    //2.2 选择模式下点击:切换候选状态
                     if (itemPosition < historyItemViewModelList.size()) {
                         historyItemViewModelList.get(itemPosition).isSelected = !historyItemViewModelList.get(itemPosition).isSelected;
                         notifyItemChanged(itemPosition);
                     }
                 }
             });
-
+            //3,设置列表项内容
             try {
                 HistoryItemViewModel historyItemViewModel = historyItemViewModelList.get(historyViewHolder.getAdapterPosition());
 
-                // 设置图标、标题和内容
+                //3.1 设置图标、标题和内容
                 historyViewHolder.typeIV.setImageResource(historyItemViewModel.typeIconResId);
                 historyViewHolder.typeNameTV.setText(historyItemViewModel.typeName);
                 historyViewHolder.contentTV.setText(historyItemViewModel.content);
 
-                // 根据当前模式切换右侧图标：普通模式显示“更多/跳转”箭头，编辑模式显示“勾选框”
+                //3.2 根据当前模式切换右侧图标：普通模式显示“更多/跳转”箭头
                 if (selectModel == HistoryFragment.SELECT_MODEL_NORMAL) {
                     historyViewHolder.moreViewIV.setVisibility(View.VISIBLE);
                     historyViewHolder.selectCB.setVisibility(View.GONE);
                 } else {
+                    //，编辑模式显示“勾选框”
                     historyViewHolder.moreViewIV.setVisibility(View.GONE);
                     historyViewHolder.selectCB.setVisibility(View.VISIBLE);
                     historyViewHolder.selectCB.setChecked(historyItemViewModel.isSelected);
@@ -233,16 +219,13 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
             }
         }
     }
-
+    //获取列表项总数
     @Override
     public int getItemCount() {
         return historyItemViewModelList.size();
     }
-
-    /**
-     * ViewHolder：持有列表项中的所有控件引用
-     */
-    class HistoryViewHolder extends RecyclerView.ViewHolder {
+    // ViewHolder:持有列表项中的所有控件引用 -> 用于RecycleView的视图复用
+    static class HistoryViewHolder extends RecyclerView.ViewHolder {
         AppCompatImageView typeIV;     // 类型图标
         AppCompatTextView typeNameTV;  // 类型名称（如：网址、文本）
         AppCompatTextView contentTV;   // 预览内容
@@ -259,17 +242,15 @@ public class HistoryRCVAdapter extends RecyclerView.Adapter {
         }
     }
 
+    //点击事件回调接口  -> 用于与外部Fragment通信
     public interface OnItemClickListener {
         // 当列表切换到多选/普通模式时回调
         void onItemSelectModeChanged(int selectMode);
-
         // 普通模式下的列表项点击回调
         void onItemClick(int position, HistoryItem historyItem);
     }
 
-    /**
-     * UI 专用数据模型：保存 HistoryItem 以及解析后的 UI 展示信息
-     */
+    //UI专用数据模型:保存HistoryItem以及解析后的UI展示信息
     class HistoryItemViewModel {
         HistoryItem historyItem; // 原始数据库数据
         int typeIconResId;      // 类型对应的图标 ID

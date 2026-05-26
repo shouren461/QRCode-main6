@@ -11,118 +11,96 @@ import java.util.Stack
  * Activity 栈管理类，负责监控应用内所有 Activity 的状态
  */
 object ActivityStack {
-    // 存储 Activity 类名的栈
+    //存储Activity类名的栈
     private val stack = Stack<String>()
-    // 存储待执行动作的映射（例如从外部跳转进来时）
+    //存储待执行动作的映射(例如从外跳转进来的)
     private val activityActionMap = mutableMapOf<String, String>()
-    // 存储当前活跃的 Activity 对象引用
-    private val activities = mutableListOf<Activity>()
+    //存储当前活跃的Activity对象引用
+    private val  activities = mutableListOf<Activity>();
 
-    /**
-     * 在 Application 中调用，注册生命周期回调
-     */
-    fun init(application: Application) {
-        application.registerActivityLifecycleCallbacks(activityLifecycleCallbacks)
+    //在Application中调用，注册生命周期回调
+    fun init(application: Application){
+        application.registerActivityLifecycleCallbacks(activityLifecyclesCallbacks)
     }
-
-    private val activityLifecycleCallbacks = object : Application.ActivityLifecycleCallbacks {
-        override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
-            if (fromShare(activity)) {
+    //Activity生命周期状态声明
+    private val  activityLifecyclesCallbacks = object: Application.ActivityLifecycleCallbacks{
+        override fun onActivityCreated(activity: Activity, saveInstanceState: Bundle?) {
+            //如果是分享相关的界面，不计入Activity
+            if (fromShare(activity)){
                 return
             }
-            // 新建 Activity 时入栈
+            //新建Activity时入栈
             stack.push(activity.javaClass.simpleName)
             activities.add(activity)
         }
-
-        override fun onActivityStarted(activity: Activity) {}
-
-        override fun onActivityResumed(activity: Activity) {
-            // Activity 恢复可见时，检查是否有待执行的动作
-            val action = activityActionMap[activity.javaClass.simpleName]
-            handleAction(activity, action)
+        //开启可见期
+        override fun onActivityStarted(activity: Activity) {
         }
-
-        override fun onActivityPaused(activity: Activity) {}
-
-        override fun onActivityStopped(activity: Activity) {}
-
-        override fun onActivitySaveInstanceState(activity: Activity, outState: Bundle) {}
-
+        //开启页面交互
+        override fun onActivityResumed(activity: Activity) {
+            val action = activityActionMap[activity.javaClass.simpleName]
+            if (action != null) {
+                handleAction(activity, action)
+            }
+        }
+        //暂停页面交互
+        override fun onActivityPaused(activity: Activity) {
+        }
+        //关闭可见期释放资源
+        override fun onActivityStopped(activity: Activity) {
+        }
+        //保存已经添加的数据
+        override fun onActivitySaveInstanceState(activity: Activity, outState: Bundle) {
+        }
+        //销毁Activity活动
         override fun onActivityDestroyed(activity: Activity) {
-            // Activity 销毁时出栈
+            //Activity销毁时出栈
             stack.remove(activity.javaClass.simpleName)
             activities.remove(activity)
         }
     }
-
     private fun fromShare(activity: Activity): Boolean {
         return false
     }
-
-    /**
-     * 处理特定 Activity 的动作（如跳转到指定的 Tab）
-     */
-    private fun handleAction(activity: Activity, action: String?) {
-        when (activity) {
+    //处理特定Activity的动作(如跳转到指定的Tab)
+    private fun handleAction(activity: Activity,action: String){
+        when(activity){
             is MainActivity -> {
-                if (action.isNullOrEmpty()) {
+                if (action.isNullOrEmpty()){
                     return
                 }
                 val tabIndex = action.toIntOrNull() ?: -1
-                if (tabIndex != -1) {
+                if (tabIndex != -1){
                     activity.onBottomTabSelect(tabIndex)
                 }
-                // 执行完后移除动作，防止重复执行
+                //执行完之后移除动作，防止重复执行
                 activityActionMap.remove(activity.javaClass.simpleName)
             }
         }
     }
 
-    /**
-     * 检查某个 Activity 是否还在栈中（存活）
-     */
-    fun isAlive(activityName: String): Boolean {
+    //检查某个Activity是否孩还在某个栈中(存活)
+    fun isAlive(activityName: String): Boolean{
         return stack.contains(activityName)
     }
-
-    /**
-     * 检查某个 Activity 是否在栈顶（当前正在显示）
-     */
-    fun isAtTop(activityName: String): Boolean {
-        if (stack.isEmpty()) return false
+    //检查某个Activity是否在栈顶(当前正在显示)
+    fun isAtTop(activityName: String): Boolean{
+        if (stack.isEmpty()){
+            return false
+        }
         val top = stack.last()
         return top == activityName
     }
-
-    /**
-     * 结束除指定列表以外的所有 Activity
-     */
-    fun finishAllActivitiesExclude(excludeActivities: List<String>) {
-        try {
-            activities.filter {
-                !it.isFinishing && !it.isDestroyed && it.javaClass.simpleName !in excludeActivities
-            }.onEach { it.finish() }
-        } catch (e: Exception) {
-            e.printStackTrace()
-            e.log()
-        }
-    }
-    
-    /**
-     * 应用退出时清理数据
-     */
+    //应用退出时清理数据
     @JvmStatic
-    fun onAppExit() {
+    fun onAppExit(){
         activities.clear()
         stack.clear()
         activityActionMap.clear()
     }
-
-    /**
-     * 设置当某个 Activity 恢复时要执行的动作
-     */
-    fun actionWhenResumed(activityName: String, action: String) {
+    //恢复某个Activity恢复时要执行的动作
+    fun actionWhenResumed(activityName: String,action: String){
         activityActionMap[activityName] = action
     }
+
 }

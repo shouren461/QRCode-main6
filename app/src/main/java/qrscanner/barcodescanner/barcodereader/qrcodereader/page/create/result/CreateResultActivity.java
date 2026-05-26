@@ -52,10 +52,8 @@ import qrscanner.barcodescanner.barcodereader.qrcodereader.page.create.CreateCat
 import qrscanner.barcodescanner.barcodereader.qrcodereader.page.create.input.BaseCreateActivity;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.util.AnalyticsHelper;
 
-/**
- * 二维码创建结果展示页面
- * 负责渲染生成的二维码图片、保存到相册、分享以及保存到本地创建历史
- */
+
+//二维码创建结果展示页面 ->负责渲染生成的二维码图片，保存到相册，分享以及保存到本地创建方式
 public class CreateResultActivity extends BaseActivity implements View.OnClickListener {
     private static final String INTENT_EXTRA_RESULT = "intent_key_result";
     private static final String INTENT_EXTRA_FROM = "intent_key_from";
@@ -67,15 +65,11 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
     private TextView mQrShowMsgTv, mQrCategoryTv;
     private Button mSaveBtu, mShareBtu;
     private ConstraintLayout freeOptionCl;
-    private Bitmap qrBitmap;
-    private static CreateResultModel createResultModel;
+    private Bitmap qrBitmap; //二维码位图
+    private static CreateResultModel createResultModel; //二维码结果模型
 
 
-    /**
-     * 启动结果页的静态方法
-     * @param resultModel 包含生成信息的模型对象
-     * @param isFromHistory 标记是否是从历史记录页跳转过来的
-     */
+    //启动结果页的静态方法 ->@param resultModel 包含生成信息的模型对象, @param isFromHistory 标记是否是从历史记录页跳转过来的
     public static void showMe(Activity activity, CreateResultModel resultModel, boolean isFromHistory) {
         createResultModel = resultModel;
         Intent intent = new Intent(activity, CreateResultActivity.class);
@@ -90,17 +84,16 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         return R.layout.activity_create_result;
     }
 
-    /**
-     * 初始化数据，解析结果模型并生成二维码 Bitmap
-     */
+    //初始化数据 ->解析结果模型并生成二维码Bitmap
     @Override
     protected void initData() {
         Intent intent = getIntent();
+        //1,结果模型不为空，获取展示信息
         if (null != createResultModel) {
             qrMsg = createResultModel.getResult();
             showMsg = createResultModel.getShowText();
         }
-        // 如果静态变量为空（如进程重启），尝试从 Intent 中恢复数据
+        //2,如果静态变量为空（如进程重启），尝试从 Intent 中恢复数据
         if (createResultModel == null) {
             String resultModelString = intent.getStringExtra(INTENT_EXTRA_RESULT);
             if (resultModelString != null) {
@@ -111,13 +104,14 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
                 }
             }
         }
+        //3,判断是否来自历史记录界面
         isFromHistory = intent.getBooleanExtra(INTENT_EXTRA_FROM, false);
         if (createResultModel == null) {
             finish();
             return;
         }
         try {
-            // 调用底层库 CreatorHelper 根据模型生成二维码位图
+            //4,调用底层库 CreatorHelper 根据模型生成二维码位图
             qrBitmap = CreatorHelper.getBitmap(createResultModel, new CreatorConfig());
             if (!isFromHistory) {
                 AnalyticsHelper.logKeyCreateFormat(createResultModel.getCreateFormat().name());
@@ -128,15 +122,13 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         findView();
     }
 
-    /**
-     * 初始化视图，设置图片和文本显示
-     */
+    //初始化视图,设置图片和文本显示
     @Override
     protected void initView() {
         if (createResultModel == null) {
             return;
         }
-        // 动态调整二维码图片的大小以适配不同屏幕
+        //2,动态调整二维码图片的大小以适配不同屏幕
         resizeQrSize();
         if (null != BaseCreateActivity.createType) {
             mQrCategoryIv.setImageResource(BaseCreateActivity.createType.getDrawableIcon());
@@ -146,14 +138,12 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         mQrIv.setImageBitmap(qrBitmap);
         mQrIv.setScaleType(ImageView.ScaleType.FIT_XY);
         AnalyticsHelper.logCreateResultTotal("结果页展示数");
-        // 适配沉浸式系统栏边距
+        //3,适配沉浸式系统栏边距
         enableInsetsView(findViewById(R.id.fl_toolbar_container), true, false);
         enableInsetsView(findViewById(R.id.main), false, true);
     }
 
-    /**
-     * 初始化点击事件
-     */
+    //初始化点击事件
     @Override
     protected void initAction() {
         if (createResultModel == null) {
@@ -167,11 +157,11 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
 
     @Override
     protected void onResume() {
-        // 如果不是查看历史且未订阅，展示功能按钮区域
+        //1,如果不是查看历史且未订阅，展示功能按钮区域
         if (!isSubscribe && !isFromHistory) {
             freeOptionCl.setVisibility(View.VISIBLE);
         }
-        // 如果是新生成的二维码，保存到本地历史数据库
+        //2,如果是新生成的二维码，保存到本地历史数据库
         saveHistory();
         super.onResume();
     }
@@ -181,7 +171,7 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         AnalyticsHelper.logCreateResultTotal("点击返回");
         closeMe();
     }
-
+    //设置点击事件
     @Override
     public void onClick(View v) {
         int id = v.getId();
@@ -199,7 +189,7 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
             shareBitmap();
         }
     }
-
+    //初始化绑定视图控件
     private void findView() {
         mBackIv = findViewById(R.id.iv_back);
         mCloseIv = findViewById(R.id.iv_close);
@@ -212,9 +202,7 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         freeOptionCl = findViewById(R.id.layout_create_result_bottom);
     }
 
-    /**
-     * 动态计算二维码容器的大小，确保在屏幕中占据合适的比例（约 70%）
-     */
+    //动态计算二维码容器的大小，确定在屏幕中占据合适的比例(约70%)
     private void resizeQrSize() {
         mQrIv.setAdjustViewBounds(true);
         mCloseIv.setAdjustViewBounds(true);
@@ -230,23 +218,20 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         layoutParams.height = size;
         mQrIv.setLayoutParams(layoutParams);
     }
-
-    /**
-     * 将本次创建的二维码信息保存到本地 SQL 数据库中
-     */
+    //将本次创建的二维码信息保存到本地SQL数据库
     private void saveHistory() {
         if (isFromHistory) {
             return;
         }
-        // 构造 Result 对象并存入数据库
-        Result result = new Result(qrMsg, null, null, BarcodeFormat.valueOf(CreateCategory.getBarcodeFormatByCategory(BaseCreateActivity.createType)));
+        //1,构造 Result 对象并存入数据库
+        Result result = new Result(qrMsg, null, null, BarcodeFormat.QR_CODE);
         CreateHistoryManager createHistoryManager = new CreateHistoryManager(this);
-        createHistoryManager.addCreateHistoryItem(result, qrMsg);
+        //2,传入当前创建的分类名称（如 Youtube、TEXT 等），以便历史列表识别图标和类型
+        String createTypeName = BaseCreateActivity.createType != null ? BaseCreateActivity.createType.name() : "TEXT";
+        createHistoryManager.addCreateHistoryItem(result, showMsg, createTypeName);
     }
 
-    /**
-     * 关闭当前页并通知上一页（输入页）也一并关闭
-     */
+    //关闭当前页并通知上一页(输入页)也一并关闭
     private void closeMe() {
         setResult(RESULT_CODE_CLOSE_CREATE_PAGE);
         this.finish();
@@ -256,20 +241,19 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         this.finish();
     }
 
-    /**
-     * 保存图片到相册，处理 Android 10 (Q) 及以上版本的存储适配
-     */
+    //保存图片到相册，处理 Android 10 (Q) 及以上版本的存储适配
     private void save() {
         try {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-                // Android 10+ 使用 MediaStore API 进行保存（无需申请权限）
+                //1,Android 10+ 使用 MediaStore API 进行保存（无需申请权限）
                 CacheImageUtil.saveBitmap(getContext(), qrBitmap, String.valueOf(System.currentTimeMillis()), "QR Code");
                 toastSaveSuccess();
             } else {
-                // Android 10 以下需要申请 SD 卡写入权限
+                // 2,ndroid 10 以下需要申请 SD 卡写入权限
                 PermissionHelper.with(this).permission(Permission.WRITE_EXTERNAL_STORAGE).request(new OnPermissionCallback() {
                     @Override
                     public void onGranted(List<String> permissions, boolean all) {
+                        //授权成功
                         saveBeforeQ();
                     }
 
@@ -283,11 +267,7 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
             AnalyticsHelper.logException(e);
         }
     }
-
-
-    /**
-     * Android 10 之前的传统保存逻辑：弹出重命名对话框，然后保存到磁盘
-     */
+    //Android 10 之前的传统保存逻辑：弹出重命名对话框，然后保存到磁盘
     @SuppressLint("SetTextI18n")
     private void saveBeforeQ() {
         try {
@@ -299,13 +279,13 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
             final EditText editText = view.findViewById(R.id.et_input);
             final TextView textView = view.findViewById(R.id.tv_file_exit_hint);
 
-            // 获取该类型已保存过的次数，用于自动生成默认文件名（如 YouTube_1）
+            //1,获取该类型已保存过的次数，用于自动生成默认文件名（如 YouTube_1）
             qrSaveTimes = SPUtil.getInstance().get(CreateCategory.PREF + BaseCreateActivity.createType.name(), 0);
             editText.setText(getString(BaseCreateActivity.createType.getStringSrc()) + "_" + (qrSaveTimes + 1));
             final ImageView imageView = view.findViewById(R.id.iv_clear);
             imageView.setOnClickListener(v -> editText.setText(""));
 
-            // 设置初始文件名并检查重名
+            //2,设置初始文件名并检查重名
             File appDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
             File myFile = new File(appDir.getPath() + "/QR Code/");
             if (!myFile.exists()) {
@@ -323,7 +303,7 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
                 isSaveAble = true;
             }
 
-            // 监听输入，实时检查文件名冲突
+            //3,监听输入，实时检查文件名冲突
             editText.addTextChangedListener(new TextWatcher() {
                 @Override
                 public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -377,13 +357,10 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
             AnalyticsHelper.logException(e);
         }
     }
-
-    /**
-     * 将位图持久化到存储空间，并通知相册刷新
-     */
+    //将位图持久化到存储空间，并通知相册刷新
     private void saveBitmap(Bitmap bm, String picName) {
         try {
-            // 首先尝试保存到 Pictures 目录下的 QR Code 文件夹
+            //1,首先尝试保存到 Pictures 目录下的 QR Code 文件夹
             File appDir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
             File myFile = new File(appDir.getPath() + "/QR Code/");
             if (!myFile.exists()) {
@@ -397,7 +374,7 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
                 bm.compress(Bitmap.CompressFormat.JPEG, 100, fos); // 此处虽然文件名叫 PNG，但压缩用了 JPEG
                 fos.flush();
             } catch (Exception e) {
-                // 如果 Pictures 目录不可写（某些特殊机型），降级保存到 SD 卡根目录
+                //2,如果 Pictures 目录不可写（某些特殊机型），降级保存到 SD 卡根目录
                 appDir = Environment.getExternalStorageDirectory();
                 myFile = new File(appDir.getPath() + "/QR Code/");
                 if (!myFile.exists()) {
@@ -422,6 +399,7 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
                     }
                 }
             } finally {
+                //关闭输出流和打印异常信息
                 try {
                     if (fos != null) {
                         fos.close();
@@ -431,11 +409,11 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
                 }
             }
 
-            // 更新该类型的保存次数
+            //3,,更新该类型的保存次数
             qrSaveTimes++;
             SPUtil.getInstance().set(CreateCategory.PREF + BaseCreateActivity.createType.name(), qrSaveTimes);
 
-            // 关键：通知系统扫描新文件，使其立即在相册中可见
+            //4,关键：通知系统扫描新文件，使其立即在相册中可见
             File newFile = file;
             if (file != null && file.length() > 0) {
                 new Thread(() -> MediaScannerConnection.scanFile(getContext(), new String[]{newFile.getAbsolutePath()}, null, (path, uri) -> runOnUiThread(this::toastSaveSuccess))).start();
@@ -445,16 +423,13 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
         }
     }
 
-
-    /**
-     * 分享逻辑：将图片保存到私有目录，生成 content:// URI 并通过 Intent 分享
-     */
+    //分享逻辑:将图片保存到私有目录,生成conetent://URL 并通过Intent分享
     private void shareBitmap() {
         try {
             if (qrBitmap == null) {
                 return;
             }
-            // 保存到应用的私有文件目录，安全性更高
+            //1,存到应用的私有文件目录，安全性更高
             File appDir = getContext().getFilesDir();
             File myFile = new File(appDir.getPath());
             if (!myFile.exists()) {
@@ -464,12 +439,14 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
             final File file = new File(myFile, fileName);
             FileOutputStream fos = null;
             try {
+                //2,利用输出流实现创建分享图片到本地
                 fos = new FileOutputStream(file);
                 qrBitmap.compress(Bitmap.CompressFormat.PNG, 100, fos);
                 fos.flush();
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {
+                //关闭流
                 try {
                     if (fos != null) {
                         fos.close();
@@ -479,17 +456,17 @@ public class CreateResultActivity extends BaseActivity implements View.OnClickLi
                 }
             }
 
-            // 构建分享 Intent
+            //3,构建分享 Intent
             Intent share_intent = new Intent();
             share_intent.setAction(Intent.ACTION_SEND);
             share_intent.setType("image/*");
-            // 授权接收方应用临时读取该 URI 的权限
+            //4,授权接收方应用临时读取该 URI 的权限
             share_intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
-            // 通过 FileProvider 获取安全 URI
+            //5,通过 FileProvider 获取安全 URI
             share_intent.putExtra(Intent.EXTRA_STREAM, AppFileProvider.getUriFromFile(getContext(), file));
-            // 附带一段推荐下载应用的文本
+            //6,附带一段推荐下载应用的文本
             share_intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.qr_share_text_1, "https://play.google.com/store/apps/details?id=qrscanner.barcodescanner.barcodereader.qrcodereader"));
-            // 弹出系统分享选择器
+            //7,弹出系统分享选择器
             share_intent = Intent.createChooser(share_intent, getResources().getString(R.string.button_share));
             startActivity(share_intent);
         } catch (Exception e) {

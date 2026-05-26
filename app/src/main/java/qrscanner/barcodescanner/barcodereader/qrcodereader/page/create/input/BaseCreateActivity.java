@@ -17,10 +17,7 @@ import qrscanner.barcodescanner.barcodereader.qrcodereader.page.create.result.Cr
 import qrscanner.barcodescanner.barcodereader.qrcodereader.page.create.result.CreateType;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.util.AnalyticsHelper;
 
-/**
- * 所有创建二维码输入页面的基类
- * 封装了通用的 Activity 启动逻辑、输入检查、以及结果显示逻辑
- */
+//所有的创建二维码页面的基类 ->封装了通用的Activity启动逻辑，输入检查，以及结果展示逻辑
 public abstract class BaseCreateActivity extends BaseActivity {
     // 标记当前输入是否合法，是否可以点击“生成”按钮
     protected boolean isCreatable = false;
@@ -40,7 +37,7 @@ public abstract class BaseCreateActivity extends BaseActivity {
 
     @Override
     protected abstract void initAction();
-
+    //Activity退出结果页 逻辑
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -50,16 +47,12 @@ public abstract class BaseCreateActivity extends BaseActivity {
         }
     }
 
-    /**
-     * 当用户点击生成但输入为空时，弹出提示
-     */
+    //当用户点击生成但输入为空时,弹出提示
     protected void showInputNullToast() {
         ToastUtil.show(getContext(), R.layout.layout_wifi_toast_failed, getResources().getString(R.string.toast_text_null));
     }
 
-    /**
-     * 从多个字符串参数中寻找第一个非空的内容，用于列表展示标题
-     */
+    //从多个字符串参数中寻找第一个非空的内容，用于列表展示标题
     protected String getDisplayContent(String... value) {
         for (int i = 0; i < value.length; i++) {
             if (!value[i].trim().isEmpty()) {
@@ -69,10 +62,7 @@ public abstract class BaseCreateActivity extends BaseActivity {
         return "";
     }
 
-    /**
-     * 生成结果并跳转到结果展示页面
-     * @param isHistory 标记是否是查看历史记录
-     */
+    //生成结果并跳转到结果展示界面 @param isHistory 标记是否查看历史记录
     protected void showResult(boolean isHistory) {
         // 对结果模型进行格式化（将输入字段组合成二维码协议格式）
         baseResultModel.formatResult();
@@ -80,9 +70,7 @@ public abstract class BaseCreateActivity extends BaseActivity {
         CreateResultActivity.showMe(this, baseResultModel, isHistory);
     }
 
-    /**
-     * 统一的入口方法：根据类型跳转到具体的创建 Activity
-     */
+    //统一的入口方法:根据类型跳转到具体的创建Activity
     public static void startBase(Context context, CreateType type) {
         createType = type;
         switch (type) {

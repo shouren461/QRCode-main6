@@ -27,6 +27,7 @@ public class HistoryItem {
     private final Result result; // ZXing 的原始识别结果对象（包含文本、格式、时间等）
     private final String display; // 经过格式化处理后的显示文本
     private final String details; // 额外的详细信息（如解析后的结构化数据）
+    private final String createType; // 创建类型（如 Youtube、TEXT 等，用于创建历史记录）
 
     private boolean isSelect; // UI 标记：记录当前项在多选删除模式下是否被选中
 
@@ -34,15 +35,23 @@ public class HistoryItem {
         this.result = result;
         this.display = display;
         this.details = details;
+        this.createType = null;
+    }
+    
+    // 带创建类型的构造函数
+    public HistoryItem(Result result, String display, String details, String createType) {
+        this.result = result;
+        this.display = display;
+        this.details = details;
+        this.createType = createType;
     }
 
-    /**
-     * 占位符构造函数，用于特殊布局显示（如广告占位或空状态）
-     */
+    //占位构造函数，用于特殊布局显示(如广告占位或空状态)
     public HistoryItem(boolean isFake) {
         this.result = null;
         this.display = null;
         this.details = null;
+        this.createType = null;
     }
 
     public String getDisplay() {
@@ -55,6 +64,10 @@ public class HistoryItem {
 
     public String getDetails() {
         return details;
+    }
+
+    public String getCreateType() {
+        return createType;
     }
 
     public boolean isSelect() {

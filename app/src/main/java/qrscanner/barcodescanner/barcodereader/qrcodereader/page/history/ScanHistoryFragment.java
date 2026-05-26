@@ -15,10 +15,7 @@ import qrscanner.barcodescanner.barcodereader.qrcodereader.base.BaseFragment;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.data.db.HistoryItem;
 import qrscanner.barcodescanner.barcodereader.qrcodereader.data.db.HistoryManager;
 
-/**
- * “扫描历史”列表页面的 Fragment
- * 负责从数据库加载已扫描的条码记录并展示在 RecyclerView 中
- */
+//“扫描历史”列表页面的 Fragment ->负责从数据库加载已扫描的条码记录并展示在 RecyclerView 中
 public class ScanHistoryFragment extends BaseFragment implements HistoryRCVAdapter.OnItemClickListener {
     private Group noHistoryGroup; // 无数据时显示的“空状态”视图组
     private RecyclerView historyRCV; // 历史记录列表控件
@@ -48,19 +45,14 @@ public class ScanHistoryFragment extends BaseFragment implements HistoryRCVAdapt
         historyRCV.setAdapter(historyRCVAdapter);
         historyRCV.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
     }
-
-    /**
-     * 每次回到页面时刷新数据，确保删除或新增后列表是最新的
-     */
+    //每次回到页面时刷新数据，确保删除或新增后列表是最新的
     @Override
     public void onResume() {
         super.onResume();
         reloadData();
     }
 
-    /**
-     * 刷新列表数据的核心逻辑
-     */
+    //刷新列表数据的核心逻辑
     private void reloadData() {
         // 从数据库读取最新数据
         List<HistoryItem> maybeNewDataList = HistoryManager.buildHistoryItems(getActivity());
@@ -84,20 +76,18 @@ public class ScanHistoryFragment extends BaseFragment implements HistoryRCVAdapt
             historyRCV.setVisibility(View.GONE);
             noHistoryGroup.setVisibility(View.VISIBLE);
         } else {
+            //有数据:展示列表，隐藏空视图
             historyRCVAdapter.setData(getActivity(), scanHistoryItemList);
             historyRCV.setVisibility(View.VISIBLE);
             noHistoryGroup.setVisibility(View.GONE);
         }
-
         // 通知父 Activity 记录总数的变化，以便更新顶部删除按钮状态
         if (selectedModeChangeListener != null && scanHistoryItemList != null) {
             selectedModeChangeListener.onScanHistoryItemCountChanged(scanHistoryItemList.size());
         }
     }
 
-    /**
-     * 当列表项的长按/多选状态改变时回调
-     */
+    //当列表项的长按/多选状态改变时回调
     @Override
     public void onItemSelectModeChanged(int selectMode) {
         if (selectedModeChangeListener != null) {
@@ -107,23 +97,18 @@ public class ScanHistoryFragment extends BaseFragment implements HistoryRCVAdapt
 
     @Override
     public void onItemClick(int position, HistoryItem historyItem) {
-        // 此处原逻辑为查看详情，目前已根据需求移除
+        // 此处原逻辑为查看详情
     }
 
     //由父容器 HistoryFragment 调用的公共方法
-
-    /**
-     * 执行全选操作
-     */
+    //执行全选操作
     public void selectAll() {
         if (historyRCVAdapter != null) {
             historyRCVAdapter.selectAll();
         }
     }
 
-    /**
-     * 获取当前被勾选的项目数量
-     */
+    //获取当前被勾选的项目数量
     public int getSelectedItemCount() {
         if (historyRCVAdapter == null) {
             return 0;
@@ -131,9 +116,7 @@ public class ScanHistoryFragment extends BaseFragment implements HistoryRCVAdapt
         return historyRCVAdapter.getSelectedItemCount();
     }
 
-    /**
-     * 删除选中的项目并刷新 UI
-     */
+    //删除选中的项目并刷新UI
     public void deleteHistoryItem() {
         if (historyRCVAdapter == null || scanHistoryItemList == null || scanHistoryItemList.isEmpty()) {
             return;
@@ -144,19 +127,13 @@ public class ScanHistoryFragment extends BaseFragment implements HistoryRCVAdapt
             reloadData(); // 重新加载以刷新列表
         }
     }
-
-    /**
-     * 切换普通/编辑模式
-     */
+    //切换普通模式/选择模式
     public void changeSelectModel(int selectMode) {
         if (historyRCVAdapter != null) {
             historyRCVAdapter.setSelectModel(selectMode);
         }
     }
-
-    /**
-     * 设置状态变化监听器
-     */
+    //设置状态变化监听器
     public void setSelectStateListener(OnScanSelectedModeChangeListener selectedModeChangeListener) {
         this.selectedModeChangeListener = selectedModeChangeListener;
     }
